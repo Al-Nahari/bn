@@ -24,9 +24,6 @@ export default function Header() {
           : 'bg-white shadow-sm py-4'
       }`}
     >
-      <div className="bg-red-500 text-white p-4">
-  هل يظهر اللون؟
-</div>
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
