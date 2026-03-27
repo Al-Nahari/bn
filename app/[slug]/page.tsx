@@ -91,6 +91,48 @@ export default function Page({ params }: { params: { slug: string } }) {
           </div>
         </section>
 
+        {/* Gallery Section */}
+        {service.gallery && service.gallery.length > 0 && (
+          <section className="py-16 bg-white">
+            <div className="container mx-auto px-4">
+              <div className="max-w-6xl mx-auto">
+                <h2 className="text-3xl font-bold text-foreground mb-4 text-center">
+                  أعمالنا
+                </h2>
+                <p className="text-secondary text-lg mb-12 text-center max-w-2xl mx-auto">
+                  مجموعة من أعمالنا المميزة في مجال {service.title}
+                </p>
+                
+                <div className="grid md:grid-cols-2 gap-8">
+                  {service.gallery.map((item, index) => (
+                    <div
+                      key={index}
+                      className="group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300"
+                    >
+                      {/* Image */}
+                      <div className="relative h-64 overflow-hidden bg-muted">
+                        <img
+                          src={item.image}
+                          alt={`${service.title} - عمل ${index + 1}`}
+                          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                      </div>
+                      
+                      {/* Description */}
+                      <div className="p-6">
+                        <p className="text-foreground text-lg leading-relaxed">
+                          {item.description}
+                        </p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </section>
+        )}
+
         {/* CTA Section */}
         <section className="py-16 bg-muted">
           <div className="container mx-auto px-4">

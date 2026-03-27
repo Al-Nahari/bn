@@ -17,6 +17,24 @@ export const services = [
     ],
     image: "/img/HI-Mobile-Awning-300x120-cm-Grey-467267-0._w500_p1_.webp",
     slug: "mazallat-sayarat-riyadh",
+    gallery: [
+      {
+        image: "/img/WhatsApp-Image-2024-02-13-at-11.58.59-AM-1.webp",
+        description: "مظلة سيارات قماشية عالية الجودة"
+      },
+      {
+        image: "/img/WhatsApp-Image-2024-02-13-at-11.58.59-AM-1-1024x1024.webp",
+        description: "تركيب مظلات سيارات في الرياض"
+      },
+      {
+        image: "/img/WhatsApp-Image-2023-01-18-at-10.27.40-AM-1-jpeg.webp",
+        description: "مظلات سيارات متينة ومقاومة"
+      },
+      {
+        image: "/img/WhatsApp-Image-2024-02-13-at-11.58.59-AM-1-768x768.webp",
+        description: "تصميمات عصرية لمظلات السيارات"
+      }
+    ]
   },
   {
     id: "mazallat-hadid-riyadh",
@@ -35,6 +53,24 @@ export const services = [
     ],
     image: "/img/sawater-hadid1.webp",
     slug: "mazallat-hadid-riyadh",
+    gallery: [
+      {
+        image: "/img/sawater-hadid1.webp",
+        description: "مظلة حديدية بمساحة كبيرة"
+      },
+      {
+        image: "/img/sawater-hadid5.webp",
+        description: "تركيب مظلات حديدية للمساحات التجارية"
+      },
+      {
+        image: "/img/sawater-hadid12.webp",
+        description: "هيكل حديدي مجلفن عالي الجودة"
+      },
+      {
+        image: "/img/sawater-hadid16.webp",
+        description: "مظلات حديدية للمباني الصناعية"
+      }
+    ]
   },
   {
     id: "mazallat-madaris-riyadh",
@@ -53,6 +89,24 @@ export const services = [
     ],
     image: "/img/mzlat-makhruti.jpg",
     slug: "mazallat-madaris-riyadh",
+    gallery: [
+      {
+        image: "/img/mzlat-makhruti.jpg",
+        description: "مظلة مدرسية كبيرة للساحة"
+      },
+      {
+        image: "/img/WhatsApp-Image-2024-02-13-at-11.58.59-AM-1.webp",
+        description: "مظلات مدارس آمنة للطلاب"
+      },
+      {
+        image: "/img/WhatsApp-Image-2024-02-13-at-11.58.59-AM-1-1024x1024.webp",
+        description: "تركيب مظلات للمدارس والجامعات"
+      },
+      {
+        image: "/img/WhatsApp-Image-2023-01-18-at-10.27.40-AM-1-jpeg.webp",
+        description: "مظلات مناطق اللعب في المدارس"
+      }
+    ]
   },
   {
     id: "mazallat-masabi-riyadh",
@@ -71,6 +125,24 @@ export const services = [
     ],
     image: "/img/swim11.webp",
     slug: "mazallat-masabi-riyadh",
+    gallery: [
+      {
+        image: "/img/swim11.webp",
+        description: "مظلة مسابح بتهوية ممتازة"
+      },
+      {
+        image: "/img/swim15.jpg",
+        description: "مظلات مسابح خاصة"
+      },
+      {
+        image: "/img/WhatsApp-Image-2024-02-13-at-11.58.59-AM-1.webp",
+        description: "مظلة مسابح عائلية"
+      },
+      {
+        image: "/img/WhatsApp-Image-2024-02-13-at-11.58.59-AM-1-1024x1024.webp",
+        description: "تصميم جذاب لمظلات المسابح"
+      }
+    ]
   },
   {
     id: "mazallat-fanadeq-riyadh",
@@ -89,6 +161,24 @@ export const services = [
     ],
     image: "/img/HI-Mobile-Awning-300x120-cm-Grey-467267-0._w500_p1_.webp",
     slug: "mazallat-fanadeq-riyadh",
+    gallery: [
+      {
+        image: "/img/HI-Mobile-Awning-300x120-cm-Grey-467267-0._w500_p1_.webp",
+        description: "مظلة فندقية فاخرة"
+      },
+      {
+        image: "/img/WhatsApp-Image-2024-02-13-at-11.58.59-AM-1.webp",
+        description: "مظلات مواقف سيارات الفنادق"
+      },
+      {
+        image: "/img/WhatsApp-Image-2024-02-13-at-11.58.59-AM-1-1024x1024.webp",
+        description: "مداخل الفنادق بمظلات أنيقة"
+      },
+      {
+        image: "/img/WhatsApp-Image-2023-01-18-at-10.27.40-AM-1-jpeg.webp",
+        description: "مناطق ترفيهية مغطاة بالفنادق"
+      }
+    ]
   },
   {
     id: "mazallat-mataem-riyadh",
@@ -107,6 +197,24 @@ export const services = [
     ],
     image: "/img/mzlat-makhruti.jpg",
     slug: "mazallat-mataem-riyadh",
+    gallery: [
+      {
+        image: "/img/mzlat-makhruti.jpg",
+        description: "مظلة مطعم خارجية أنيقة"
+      },
+      {
+        image: "/img/WhatsApp-Image-2024-02-13-at-11.58.59-AM-1.webp",
+        description: "مساحات خارجية مغطاة للمطاعم"
+      },
+      {
+        image: "/img/WhatsApp-Image-2024-02-13-at-11.58.59-AM-1-1024x1024.webp",
+        description: "مظلات شرفات المطاعم"
+      },
+      {
+        image: "/img/WhatsApp-Image-2023-01-18-at-10.27.40-AM-1-jpeg.webp",
+        description: "باحات المطاعم المظللة"
+      }
+    ]
   },
   {
     id: "mazallat-manazel-riyadh",
@@ -125,6 +233,24 @@ export const services = [
     ],
     image: "/img/mzlat-makhruti.jpg",
     slug: "mazallat-manazel-riyadh",
+    gallery: [
+      {
+        image: "/img/mzlat-makhruti.jpg",
+        description: "مظلة حديقة منزلية جميلة"
+      },
+      {
+        image: "/img/WhatsApp-Image-2024-02-13-at-11.58.59-AM-1.webp",
+        description: "مظلات شرفات للمنازل"
+      },
+      {
+        image: "/img/WhatsApp-Image-2024-02-13-at-11.58.59-AM-1-1024x1024.webp",
+        description: "مداخل منازل مغطاة"
+      },
+      {
+        image: "/img/WhatsApp-Image-2023-01-18-at-10.27.40-AM-1-jpeg.webp",
+        description: "مظلات حدائق منزلية"
+      }
+    ]
   },
   
   // ============ سواتر (Shades) ============
@@ -145,6 +271,24 @@ export const services = [
     ],
     image: "/img/sawater-hadid1.webp",
     slug: "sawatr-riyadh",
+    gallery: [
+      {
+        image: "/img/sawater-hadid1.webp",
+        description: "سواتر حديدية للمنازل"
+      },
+      {
+        image: "/img/sawater-hadid5.webp",
+        description: "سواتر PVC عالية الجودة"
+      },
+      {
+        image: "/img/sawater-hadid12.webp",
+        description: "سواتر قماش متينة"
+      },
+      {
+        image: "/img/sawater-hadid16.webp",
+        description: "سواتر ألمنيوم للمباني"
+      }
+    ]
   },
   {
     id: "sawatr-hadid-riyadh",
@@ -163,6 +307,24 @@ export const services = [
     ],
     image: "/img/sawater-hadid5.webp",
     slug: "sawatr-hadid-riyadh",
+    gallery: [
+      {
+        image: "/img/sawater-hadid5.webp",
+        description: "سواتر حديدية للمساحات الكبيرة"
+      },
+      {
+        image: "/img/sawater-hadid1.webp",
+        description: "هيكل حديدي مجلفن"
+      },
+      {
+        image: "/img/sawater-hadid12.webp",
+        description: "سواتر حديدية للمستودعات"
+      },
+      {
+        image: "/img/sawater-hadid16.webp",
+        description: "تركيب سواتر حديدية تجارية"
+      }
+    ]
   },
   {
     id: "sawatr-pvc-riyadh",
@@ -181,6 +343,24 @@ export const services = [
     ],
     image: "/img/sawater-hadid12.webp",
     slug: "sawatr-pvc-riyadh",
+    gallery: [
+      {
+        image: "/img/sawater-hadid12.webp",
+        description: "سواتر PVC بيضاء عصرية"
+      },
+      {
+        image: "/img/sawater-hadid1.webp",
+        description: "سواتر PVC للمساحات السكنية"
+      },
+      {
+        image: "/img/sawater-hadid5.webp",
+        description: "ألوان متعددة من سواتر PVC"
+      },
+      {
+        image: "/img/sawater-hadid16.webp",
+        description: "سواتر PVC سهلة التنظيف"
+      }
+    ]
   },
   {
     id: "sawatr-qumash-riyadh",
@@ -199,6 +379,24 @@ export const services = [
     ],
     image: "/img/sawater-hadid16.webp",
     slug: "sawatr-qumash-riyadh",
+    gallery: [
+      {
+        image: "/img/sawater-hadid16.webp",
+        description: "سواتر قماش بتهوية ممتازة"
+      },
+      {
+        image: "/img/sawater-hadid1.webp",
+        description: "سواتر قماش للمساحات السكنية"
+      },
+      {
+        image: "/img/sawater-hadid5.webp",
+        description: "سواتر قماش مرنة وجميلة"
+      },
+      {
+        image: "/img/sawater-hadid12.webp",
+        description: "تركيب سواتر قماش سريع"
+      }
+    ]
   },
   {
     id: "sawatr-aluminum-riyadh",
@@ -217,6 +415,24 @@ export const services = [
     ],
     image: "/img/sawater-hadid1.webp",
     slug: "sawatr-aluminum-riyadh",
+    gallery: [
+      {
+        image: "/img/sawater-hadid1.webp",
+        description: "سواتر ألمنيوم عصرية"
+      },
+      {
+        image: "/img/sawater-hadid5.webp",
+        description: "سواتر ألمنيوم خفيفة ومتينة"
+      },
+      {
+        image: "/img/sawater-hadid12.webp",
+        description: "تركيب سواتر ألمنيوم"
+      },
+      {
+        image: "/img/sawater-hadid16.webp",
+        description: "سواتر ألمنيوم للمباني السكنية"
+      }
+    ]
   },
   {
     id: "sawatr-khashab-riyadh",
@@ -235,6 +451,24 @@ export const services = [
     ],
     image: "/img/sawater-hadid5.webp",
     slug: "sawatr-khashab-riyadh",
+    gallery: [
+      {
+        image: "/img/sawater-hadid5.webp",
+        description: "سواتر خشبية طبيعية"
+      },
+      {
+        image: "/img/sawater-hadid1.webp",
+        description: "سواتر خشبية للمنازل"
+      },
+      {
+        image: "/img/sawater-hadid12.webp",
+        description: "خشب معالج ومقاوم"
+      },
+      {
+        image: "/img/sawater-hadid16.webp",
+        description: "سواتر خشبية للحدائق"
+      }
+    ]
   },
  
 ];

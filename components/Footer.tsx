@@ -236,9 +236,6 @@ export default function Footer() {
             جميع الحقوق محفوظة &copy; {new Date().getFullYear()}{' '}
             {companyInfo.name}
           </p>
-          <p className="mt-2 text-xs text-gray-500">
-            صُنع بـ ❤️ في الرياض
-          </p>
         </div>
       </div>
     </footer>
