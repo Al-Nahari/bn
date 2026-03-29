@@ -16,7 +16,7 @@ export const services = [
       "خيارات متعددة: ثابتة، متحركة، مقوسة، هرمية",
       "تركيب احترافي مع ضمان شامل",
     ],
-    image: "/img/IMG-20241015-WA0134.webp",
+    image: "../public/img/IMG-20241015-WA0134.webp",
     slug: "mazallat-sayarat-riyadh",
     gallery: [
       {
