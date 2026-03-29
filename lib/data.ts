@@ -16,7 +16,7 @@ export const services = [
       "خيارات متعددة: ثابتة، متحركة، مقوسة، هرمية",
       "تركيب احترافي مع ضمان شامل",
     ],
-    image: "../public/img/IMG-20241015-WA0134.webp",
+    image: "/img/IMG-20241015-WA0134.webp",
     slug: "mazallat-sayarat-riyadh",
     gallery: [
       {
@@ -90,7 +90,7 @@ export const services = [
       "خامات عالية الجودة",
       "تركيب احترافي مع ضمان",
     ],
-    image: "../img/mzlat-makhruti.jpg",
+    image: "/img/mzlat-makhruti.jpg",
     slug: "mazallat-haramiya-riyadh",
     gallery: [
       {
