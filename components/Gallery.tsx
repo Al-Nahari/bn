@@ -9,7 +9,7 @@ export default function Gallery() {
         <Image
           key={i}
           src={img}
-          alt="سواتر ومظلات الرياض"
+          alt="مظلات وسواتر الرياض"
           width={500}
           height={500}
           className="rounded"

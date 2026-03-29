@@ -20,12 +20,12 @@ export default function Hero() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
               <span className="relative inline-flex rounded-full h-3 w-3 bg-primary"></span>
             </span>
-            أفضل شركة سواتر ومظلات في الرياض
+            أفضل شركة مظلات وسواتر في الرياض
           </div>
 
           {/* Main Heading */}
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-primary via-purple-500 to-primary">
-            سواتر ومظلات
+            مظلات وسواتر
             <span className="block mt-2 bg-clip-text text-transparent bg-gradient-to-r from-primary-dark to-primary">الرياض</span>
           </h1>
 

@@ -15,7 +15,7 @@ export const services = [
       "سهولة التركيب والفك",
       "خيارات متعددة من الألوان والأحجام",
     ],
-    image: "/img/HI-Mobile-Awning-300x120-cm-Grey-467267-0._w500_p1_.webp",
+    image: "/img/IMG-20241015-WA0134.webp",
     slug: "mazallat-sayarat-riyadh",
     gallery: [
       {
@@ -474,7 +474,7 @@ export const services = [
 ];
 
 export const companyInfo = {
-  name: "سواتر ومظلات الرياض",
+  name: "مظلات وسواتر الرياض",
   tagline: "خبرة وجودة في عالم السواتر والمظلات",
   phone: "0500000000",
   whatsapp: "966500000000",
