@@ -25,12 +25,12 @@ export default function Page({ params }: { params: { slug: string } }) {
     return (
       <>
         <Header />
-        <main className="min-h-screen flex items-center justify-center">
+        <main className="min-h-screen flex items-center justify-center bg-gradient-desert">
           <div className="text-center">
             <h1 className="text-2xl font-bold text-foreground mb-4">
               الخدمة غير موجودة
             </h1>
-            <p className="text-secondary">
+            <p className="text-muted-foreground">
               عذراً، الخدمة المطلوبة غير متوفرة حالياً.
             </p>
           </div>
@@ -113,11 +113,11 @@ export default function Page({ params }: { params: { slug: string } }) {
                 {service.features.map((feature, index) => (
                   <div
                     key={index}
-                    className="flex items-start gap-4 p-4 bg-muted rounded-xl"
+                    className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-md border border-coffee-medium/10 hover:border-coffee-medium/30 transition-all"
                   >
-                    <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
+                    <div className="w-10 h-10 bg-success/20 rounded-full flex items-center justify-center flex-shrink-0">
                       <svg
-                        className="w-6 h-6 text-green-500"
+                        className="w-6 h-6 text-success"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
