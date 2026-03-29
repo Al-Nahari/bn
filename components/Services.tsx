@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { services } from '@/lib/data';
 
 export default function Services() {
@@ -31,24 +32,16 @@ export default function Services() {
               {/* Gradient Top Border */}
               <div className="h-2 bg-gradient-to-r from-coffee-light via-coffee-medium to-coffee-dark" />
 
-              {/* Service Icon Area */}
-              <div className="h-48 bg-gradient-to-br from-coffee-medium/5 via-sand-medium/10 to-sand-light/20 flex items-center justify-center relative overflow-hidden">
-                <div className="absolute inset-0 bg-grid-white/[0.02] bg-[length:20px_20px]" />
-                <div className="relative w-24 h-24 bg-gradient-to-br from-coffee-medium to-coffee-dark rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
-                  <svg
-                    className="w-12 h-12 text-white"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={1.5}
-                      d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
-                    />
-                  </svg>
-                </div>
+              {/* Service Image Area */}
+              <div className="relative h-48 overflow-hidden bg-gradient-to-br from-coffee-medium/5 via-sand-medium/10 to-sand-light/20">
+                <Image
+                  src={service.image}
+                  alt={service.title}
+                  fill
+                  className="object-cover group-hover:scale-110 transition-transform duration-500"
+                  sizes="(max-width: 768px) 100vw, 25vw"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </div>
 
               {/* Service Content */}
