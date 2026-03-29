@@ -3,9 +3,9 @@
 :root {
   --background: #ffffff;
   --foreground: #0f172a;
-  --primary: #0ea5e9;
-  --primary-dark: #0284c7;
-  --primary-light: #38bdf8;
+  --primary: #f59e0b;
+  --primary-dark: #d97706;
+  --primary-light: #fbbf24;
   --secondary: #64748b;
   --accent: #f59e0b;
   --accent-dark: #d97706;
@@ -16,6 +16,13 @@
   --error: #ef4444;
   --card-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --card-shadow-hover: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --sun-yellow: #fbbf24;
+  --sand-beige: #f1e6d1;
+  --dark-brown: #8b4513;
+  --light-brown: #d2691e;
+  --sun-gradient: linear-gradient(135deg, #fbbf24 0%, #d97706 100%);
+  --sand-gradient: linear-gradient(135deg, #f1e6d1 0%, #d4c4a1 100%);
+  --brown-gradient: linear-gradient(135deg, #8b4513 0%, #5a3a24 100%);
 }
 @layer utilities {
   .bg-gradient-primary {
