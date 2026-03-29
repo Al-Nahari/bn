@@ -81,7 +81,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/"
-                  className="text-sand-medium hover:text-coffee-light transition-colors flex items-center gap-2 group"
+                  className="text-white/80 hover:text-white transition-colors flex items-center gap-2 group"
                 >
                   <span className="w-1 h-1 bg-coffee-light rounded-full group-hover:w-2 group-hover:h-2 transition-all" />
                   الرئيسية
@@ -90,7 +90,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="#services"
-                  className="text-sand-medium hover:text-coffee-light transition-colors flex items-center gap-2 group"
+                  className="text-white/80 hover:text-white transition-colors flex items-center gap-2 group"
                 >
                   <span className="w-1 h-1 bg-coffee-light rounded-full group-hover:w-2 group-hover:h-2 transition-all" />
                   خدماتنا
@@ -99,7 +99,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="#features"
-                  className="text-sand-medium hover:text-coffee-light transition-colors flex items-center gap-2 group"
+                  className="text-white/80 hover:text-white transition-colors flex items-center gap-2 group"
                 >
                   <span className="w-1 h-1 bg-coffee-light rounded-full group-hover:w-2 group-hover:h-2 transition-all" />
                   مميزاتنا
@@ -108,7 +108,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="#testimonials"
-                  className="text-sand-medium hover:text-coffee-light transition-colors flex items-center gap-2 group"
+                  className="text-white/80 hover:text-white transition-colors flex items-center gap-2 group"
                 >
                   <span className="w-1 h-1 bg-coffee-light rounded-full group-hover:w-2 group-hover:h-2 transition-all" />
                   آراء العملاء
@@ -117,7 +117,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="#contact"
-                  className="text-sand-medium hover:text-coffee-light transition-colors flex items-center gap-2 group"
+                  className="text-white/80 hover:text-white transition-colors flex items-center gap-2 group"
                 >
                   <span className="w-1 h-1 bg-coffee-light rounded-full group-hover:w-2 group-hover:h-2 transition-all" />
                   اتصل بنا
@@ -134,7 +134,7 @@ export default function Footer() {
                 <li key={service.id}>
                   <Link
                     href={`/${service.slug}`}
-                    className="text-sand-medium hover:text-coffee-light transition-colors flex items-center gap-2 group"
+                    className="text-white/80 hover:text-white transition-colors flex items-center gap-2 group"
                   >
                     <span className="w-1 h-1 bg-coffee-light rounded-full group-hover:w-2 group-hover:h-2 transition-all" />
                     {service.title}
@@ -151,7 +151,7 @@ export default function Footer() {
               <li>
                 <a
                   href={`tel:${companyInfo.phone}`}
-                  className="flex items-center gap-3 text-sand-medium hover:text-coffee-light transition-colors group"
+                  className="flex items-center gap-3 text-white/80 hover:text-white transition-colors group"
                 >
                   <div className="w-10 h-10 bg-coffee-medium/30 rounded-lg flex items-center justify-center group-hover:bg-coffee-light transition-colors">
                     <svg
@@ -170,11 +170,11 @@ export default function Footer() {
                   href={`https://wa.me/${companyInfo.whatsapp}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-3 text-sand-medium hover:text-green-400 transition-colors group"
+                  className="flex items-center gap-3 text-white/80 hover:text-white transition-colors group"
                 >
                   <div className="w-10 h-10 bg-green-600/30 rounded-lg flex items-center justify-center group-hover:bg-green-600 transition-colors">
                     <svg
-                      className="w-5 h-5 text-green-500 group-hover:text-white"
+                      className="w-5 h-5 text-green-400 group-hover:text-white"
                       fill="currentColor"
                       viewBox="0 0 20 20"
                     >
@@ -187,7 +187,7 @@ export default function Footer() {
               <li>
                 <a
                   href={`mailto:${companyInfo.email}`}
-                  className="flex items-center gap-3 text-sand-medium hover:text-coffee-light transition-colors group"
+                  className="flex items-center gap-3 text-white/80 hover:text-white transition-colors group"
                 >
                   <div className="w-10 h-10 bg-coffee-medium/30 rounded-lg flex items-center justify-center group-hover:bg-coffee-light transition-colors">
                     <svg
@@ -208,7 +208,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <div className="flex items-center gap-3 text-sand-medium">
+                <div className="flex items-center gap-3 text-white/80">
                   <div className="w-10 h-10 bg-coffee-medium/30 rounded-lg flex items-center justify-center">
                     <svg
                       className="w-5 h-5 text-coffee-light"
