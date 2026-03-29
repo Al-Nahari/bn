@@ -136,7 +136,7 @@ export default function GalleryLightbox({ images, title }: GalleryLightboxProps)
 
           {/* Image Container */}
           <div
-            className="relative max-w-5xl max-h-[90vh] w-full"
+            className="relative w-full h-[90vh] max-w-6xl"
             onClick={(e) => e.stopPropagation()}
           >
             {selectedIndex !== null && (
