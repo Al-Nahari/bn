@@ -34,7 +34,7 @@ export default function Footer() {
                 <span className="text-sm text-coffee-light">{companyInfo.tagline}</span>
               </div>
             </div>
-            <p className="text-sand-medium mb-6 leading-relaxed">
+            <p className="text-white/90 mb-6 leading-relaxed">
               نحن نقدم أفضل خدمات تركيب السواتر والمظلات في الرياض بجودة عالية وأسعار مناسبة. خبرة طويلة وضمان شامل على جميع الأعمال.
             </p>
             <div className="flex gap-3">
