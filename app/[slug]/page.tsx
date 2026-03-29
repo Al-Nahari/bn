@@ -1,6 +1,7 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { services } from '@/lib/data';
+import GalleryLightbox from '@/components/GalleryLightbox';
 
 export async function generateStaticParams() {
   return services.map((service) => ({ slug: service.slug }));
@@ -103,31 +104,7 @@ export default function Page({ params }: { params: { slug: string } }) {
                   مجموعة من أعمالنا المميزة في مجال {service.title}
                 </p>
                 
-                <div className="grid md:grid-cols-2 gap-8">
-                  {service.gallery.map((item, index) => (
-                    <div
-                      key={index}
-                      className="group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300"
-                    >
-                      {/* Image */}
-                      <div className="relative h-64 overflow-hidden bg-muted">
-                        <img
-                          src={item.image}
-                          alt={`${service.title} - عمل ${index + 1}`}
-                          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                        />
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                      </div>
-                      
-                      {/* Description */}
-                      <div className="p-6">
-                        <p className="text-foreground text-lg leading-relaxed">
-                          {item.description}
-                        </p>
-                      </div>
-                    </div>
-                  ))}
-                </div>
+                <GalleryLightbox images={service.gallery} title={service.title} />
               </div>
             </div>
           </section>
