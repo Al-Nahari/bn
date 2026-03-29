@@ -21,7 +21,7 @@ export default function Header() {
       className={`sticky top-0 z-50 transition-all duration-500 ${
         isScrolled
           ? 'bg-white/95 backdrop-blur-md shadow-lg py-2'
-          : 'bg-white shadow-sm py-4'
+          : 'bg-white/90 backdrop-blur-sm shadow-sm py-4'
       }`}
     >
       <div className="container mx-auto px-4">
@@ -32,7 +32,7 @@ export default function Header() {
             className="flex items-center gap-3 group"
             onClick={() => setIsMenuOpen(false)}
           >
-            <div className="relative w-12 h-12 bg-gradient-to-br from-primary to-primary-dark rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:scale-105">
+            <div className="relative w-12 h-12 bg-gradient-primary rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:scale-105">
               <span className="text-white font-bold text-2xl">س</span>
             </div>
             <div className="flex flex-col">
@@ -52,35 +52,35 @@ export default function Header() {
               className="text-foreground hover:text-primary transition-colors font-medium relative group"
             >
               الرئيسية
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full" />
+              <span className="absolute -bottom-1 right-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full" />
             </Link>
             <Link
               href="#services"
               className="text-foreground hover:text-primary transition-colors font-medium relative group"
             >
               خدماتنا
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full" />
+              <span className="absolute -bottom-1 right-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full" />
             </Link>
             <Link
               href="#features"
               className="text-foreground hover:text-primary transition-colors font-medium relative group"
             >
               مميزاتنا
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full" />
+              <span className="absolute -bottom-1 right-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full" />
             </Link>
             <Link
               href="#testimonials"
               className="text-foreground hover:text-primary transition-colors font-medium relative group"
             >
               آراء العملاء
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full" />
+              <span className="absolute -bottom-1 right-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full" />
             </Link>
             <Link
               href="#contact"
               className="text-foreground hover:text-primary transition-colors font-medium relative group"
             >
               اتصل بنا
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full" />
+              <span className="absolute -bottom-1 right-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full" />
             </Link>
           </nav>
 
@@ -88,7 +88,7 @@ export default function Header() {
           <div className="hidden md:flex items-center gap-3">
             <a
               href={`tel:${companyInfo.phone}`}
-              className="flex items-center gap-2 bg-gradient-to-r from-primary to-primary-dark text-white px-5 py-2.5 rounded-xl hover:shadow-lg transition-all duration-300 hover:-translate-y-0.5"
+              className="flex items-center gap-2 bg-gradient-primary text-white px-5 py-2.5 rounded-xl hover:shadow-lg transition-all duration-300 hover:-translate-y-0.5"
             >
               <svg
                 className="w-5 h-5"
@@ -103,7 +103,7 @@ export default function Header() {
               href={`https://wa.me/${companyInfo.whatsapp}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 bg-gradient-to-r from-green-500 to-green-600 text-white px-5 py-2.5 rounded-xl hover:shadow-lg transition-all duration-300 hover:-translate-y-0.5"
+              className="flex items-center gap-2 bg-gradient-to-r from-green-600 to-green-700 text-white px-5 py-2.5 rounded-xl hover:shadow-lg transition-all duration-300 hover:-translate-y-0.5"
             >
               <svg
                 className="w-5 h-5"

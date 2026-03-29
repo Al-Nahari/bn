@@ -5,12 +5,12 @@ import { services } from '@/lib/data';
 
 export default function Services() {
   return (
-    <section id="services" className="py-16 md:py-24 bg-gradient-to-b from-white to-muted">
+    <section id="services" className="py-16 md:py-24 bg-gradient-desert">
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-16">
           <div className="inline-block mb-4">
-            <span className="text-primary font-semibold text-sm uppercase tracking-wider">خدماتنا المتميزة</span>
+            <span className="text-coffee-medium font-semibold text-sm uppercase tracking-wider">خدماتنا المتميزة</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
             ما نقدمه لكم
@@ -29,12 +29,12 @@ export default function Services() {
               style={{ animationDelay: `${index * 100}ms` }}
             >
               {/* Gradient Top Border */}
-              <div className="h-2 bg-gradient-to-r from-primary via-primary-light to-primary-dark" />
+              <div className="h-2 bg-gradient-to-r from-coffee-light via-coffee-medium to-coffee-dark" />
 
               {/* Service Icon Area */}
-              <div className="h-48 bg-gradient-to-br from-primary/5 via-blue-50 to-indigo-50 flex items-center justify-center relative overflow-hidden">
+              <div className="h-48 bg-gradient-to-br from-coffee-medium/5 via-sand-medium/10 to-sand-light/20 flex items-center justify-center relative overflow-hidden">
                 <div className="absolute inset-0 bg-grid-white/[0.02] bg-[length:20px_20px]" />
-                <div className="relative w-24 h-24 bg-gradient-to-br from-primary to-primary-dark rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
+                <div className="relative w-24 h-24 bg-gradient-to-br from-coffee-medium to-coffee-dark rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
                   <svg
                     className="w-12 h-12 text-white"
                     fill="none"
@@ -53,7 +53,7 @@ export default function Services() {
 
               {/* Service Content */}
               <div className="p-6">
-                <h3 className="text-xl font-bold text-foreground mb-3 group-hover:text-primary transition-colors">
+                <h3 className="text-xl font-bold text-foreground mb-3 group-hover:text-coffee-medium transition-colors">
                   {service.title}
                 </h3>
                 <p className="text-muted-foreground text-sm mb-6 leading-relaxed">
@@ -64,9 +64,9 @@ export default function Services() {
                 <ul className="space-y-3 mb-8">
                   {service.features.slice(0, 3).map((feature, idx) => (
                     <li key={idx} className="flex items-start gap-3">
-                      <div className="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                      <div className="w-6 h-6 bg-success/20 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
                         <svg
-                          className="w-4 h-4 text-green-600"
+                          className="w-4 h-4 text-success"
                           fill="none"
                           stroke="currentColor"
                           viewBox="0 0 24 24"
@@ -87,7 +87,7 @@ export default function Services() {
                 {/* CTA */}
                 <Link
                   href={`/${service.slug}`}
-                  className="block w-full text-center bg-gradient-to-r from-primary/10 to-primary/5 text-primary py-4 rounded-xl font-semibold hover:from-primary hover:to-primary-dark hover:text-white transition-all duration-300 border border-primary/20 hover:border-transparent"
+                  className="block w-full text-center bg-gradient-to-r from-coffee-medium/10 to-coffee-medium/5 text-coffee-medium py-4 rounded-xl font-semibold hover:from-coffee-medium hover:to-coffee-dark hover:text-white transition-all duration-300 border border-coffee-medium/20 hover:border-transparent"
                 >
                   عرض التفاصيل
                 </Link>

@@ -4,29 +4,38 @@ import { companyInfo } from '@/lib/data';
 
 export default function Hero() {
   return (
-    <section className="relative bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 py-16 md:py-24 overflow-hidden">
+    <section className="relative bg-gradient-desert py-16 md:py-24 overflow-hidden">
+      {/* Decorative Pattern Background */}
+      <div className="absolute inset-0 opacity-5">
+        <div className="absolute inset-0" style={{
+          backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%238b4513' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+        }} />
+      </div>
+
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-20 left-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl animate-pulse-slow" />
-        <div className="absolute bottom-20 right-10 w-96 h-96 bg-purple-400/10 rounded-full blur-3xl animate-pulse-slow" style={{ animationDelay: '1s' }} />
-        <div className="absolute top-1/2 left-1/4 w-64 h-64 bg-pink-400/5 rounded-full blur-3xl animate-pulse-slow" style={{ animationDelay: '2s' }} />
+        <div className="absolute top-20 right-20 w-96 h-96 bg-coffee-medium/5 rounded-full blur-3xl animate-pulse-slow" />
+        <div className="absolute bottom-20 left-20 w-96 h-96 bg-coffee-light/10 rounded-full blur-3xl animate-pulse-slow" style={{ animationDelay: '1s' }} />
+        <div className="absolute top-1/3 left-1/3 w-64 h-64 bg-secondary/5 rounded-full blur-3xl animate-pulse-slow" style={{ animationDelay: '2s' }} />
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-5xl mx-auto text-center animate-fade-in-up">
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm text-primary border border-primary/20 px-6 py-3 rounded-full text-sm font-semibold mb-8 shadow-lg">
+          <div className="inline-flex items-center gap-2 bg-white/90 backdrop-blur-sm text-primary border-2 border-primary/30 px-6 py-3 rounded-full text-sm font-semibold mb-8 shadow-md">
             <span className="relative flex h-3 w-3">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
               <span className="relative inline-flex rounded-full h-3 w-3 bg-primary"></span>
             </span>
-            أفضل شركة مظلات وسواتر في الرياض
+            خبراء السواتر والمظلات في الرياض
           </div>
 
           {/* Main Heading */}
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-primary via-purple-500 to-primary">
-            مظلات وسواتر
-            <span className="block mt-2 bg-clip-text text-transparent bg-gradient-to-r from-primary-dark to-primary">الرياض</span>
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight mb-6">
+            <span className="block bg-clip-text text-transparent bg-gradient-to-r from-coffee-dark via-coffee-medium to-coffee-light">
+              مظلات وسواتر
+            </span>
+            <span className="block mt-2 text-coffee-dark">الرياض</span>
           </h1>
 
           {/* Subtitle */}
@@ -56,7 +65,7 @@ export default function Hero() {
               href={`https://wa.me/${companyInfo.whatsapp}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="group w-full sm:w-auto flex items-center justify-center gap-3 bg-gradient-to-r from-green-500 to-green-600 text-white px-10 py-5 rounded-2xl text-lg font-bold hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300 shadow-lg"
+              className="group w-full sm:w-auto flex items-center justify-center gap-3 bg-gradient-to-r from-green-600 to-green-700 text-white px-10 py-5 rounded-2xl text-lg font-bold hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300 shadow-lg"
             >
               <svg
                 className="w-6 h-6 group-hover:scale-110 transition-transform"
@@ -79,9 +88,9 @@ export default function Hero() {
             ].map((stat, index) => (
               <div
                 key={index}
-                className="bg-white/60 backdrop-blur-sm border border-white/20 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+                className="bg-white/80 backdrop-blur-sm border-2 border-primary/10 p-6 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
               >
-                <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-primary to-primary-dark bg-clip-text text-transparent mb-2">
+                <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-coffee-medium to-coffee-dark bg-clip-text text-transparent mb-2">
                   {stat.value}
                 </div>
                 <div className="text-sm md:text-base text-muted-foreground font-medium">

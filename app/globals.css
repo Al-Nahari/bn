@@ -1,33 +1,66 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #0f172a;
-  --primary: #f59e0b;
-  --primary-dark: #d97706;
-  --primary-light: #fbbf24;
-  --secondary: #64748b;
-  --accent: #f59e0b;
-  --accent-dark: #d97706;
-  --muted: #f8fafc;
-  --muted-foreground: #475569;
-  --border: #e2e8f0;
-  --success: #10b981;
-  --error: #ef4444;
-  --card-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  --card-shadow-hover: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
-  --sun-yellow: #fbbf24;
-  --sand-beige: #f1e6d1;
-  --dark-brown: #8b4513;
-  --light-brown: #d2691e;
-  --sun-gradient: linear-gradient(135deg, #fbbf24 0%, #d97706 100%);
-  --sand-gradient: linear-gradient(135deg, #f1e6d1 0%, #d4c4a1 100%);
-  --brown-gradient: linear-gradient(135deg, #8b4513 0%, #5a3a24 100%);
+  /* Coffee & Desert & Road Color Palette */
+  --background: #faf8f5;
+  --foreground: #2d2416;
+  --primary: #8b4513;
+  --primary-dark: #654321;
+  --primary-light: #a0522d;
+  --secondary: #6b8e23;
+  --accent: #d2691e;
+  --accent-dark: #b8860b;
+  --muted: #f5ebe0;
+  --muted-foreground: #6b5b4f;
+  --border: #d4c4a8;
+  --success: #556b2f;
+  --error: #cd5c5c;
+  --card-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.08), 0 2px 4px -2px rgb(0 0 0 / 0.06);
+  --card-shadow-hover: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.08);
+  
+  /* Desert & Sand Tones */
+  --sand-light: #fdf6e3;
+  --sand-medium: #f5ebe0;
+  --sand-dark: #e8d5c4;
+  
+  /* Coffee Tones */
+  --coffee-light: #c4a77d;
+  --coffee-medium: #8b4513;
+  --coffee-dark: #654321;
+  --coffee-espresso: #3e2723;
+  
+  /* Road & Earth Tones */
+  --earth-tan: #d2b48c;
+  --earth-brown: #8b7355;
+  --road-gray: #6b6b6b;
+  
+  /* Gradients */
+  --coffee-gradient: linear-gradient(135deg, #a0522d 0%, #8b4513 50%, #654321 100%);
+  --desert-gradient: linear-gradient(135deg, #fdf6e3 0%, #f5ebe0 50%, #e8d5c4 100%);
+  --earth-gradient: linear-gradient(135deg, #d2b48c 0%, #8b7355 100%);
+  --hero-gradient: linear-gradient(135deg, #fdf6e3 0%, #f5ebe0 100%);
 }
 @layer utilities {
   .bg-gradient-primary {
-    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+    background: var(--coffee-gradient);
   }
+  
+  .bg-gradient-desert {
+    background: var(--desert-gradient);
+  }
+  
+  .bg-gradient-earth {
+    background: var(--earth-gradient);
+  }
+  
+  .bg-coffee-light { background-color: var(--coffee-light); }
+  .bg-coffee-medium { background-color: var(--coffee-medium); }
+  .bg-coffee-dark { background-color: var(--coffee-dark); }
+  .bg-coffee-espresso { background-color: var(--coffee-espresso); }
+  
+  .text-coffee { color: var(--coffee-medium); }
+  .border-coffee { border-color: var(--coffee-medium); }
+  .ring-coffee { ring-color: var(--coffee-medium); }
 }
 @theme inline {
   --color-background: var(--background);
@@ -142,15 +175,88 @@ html {
 
 /* Button styles */
 .btn-primary {
-  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
-  @apply text-white px-6 py-3 rounded-xl font-semibold 
-         shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 
+  background: var(--coffee-gradient);
+  @apply text-white px-6 py-3 rounded-xl font-semibold
+         shadow-lg hover:shadow-xl transform hover:-translate-y-0.5
          transition-all duration-300;
 }
 
 .btn-secondary {
   @apply bg-white text-primary border-2 border-primary px-6 py-3 rounded-xl font-semibold
          hover:bg-primary hover:text-white transition-all duration-300;
+}
+
+/* Floating Contact Button */
+.floating-contact {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  animation: slideInUp 0.5s ease-out;
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.floating-contact-btn {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 25px -5px rgb(0 0 0 / 0.2), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+}
+
+.floating-contact-btn:hover {
+  transform: scale(1.1) rotate(-5deg);
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.2), 0 10px 10px -5px rgb(0 0 0 / 0.1);
+}
+
+.floating-contact-btn svg {
+  width: 28px;
+  height: 28px;
+}
+
+.floating-contact-btn.whatsapp {
+  background: linear-gradient(135deg, #25d366 0%, #128c7e 100%);
+  color: white;
+}
+
+.floating-contact-btn.phone {
+  background: var(--coffee-gradient);
+  color: white;
+}
+
+.floating-contact-btn .tooltip {
+  position: absolute;
+  right: 70px;
+  background: var(--coffee-dark);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.floating-contact-btn:hover .tooltip {
+  opacity: 1;
 }
 
 /* Input focus styles */

@@ -3,6 +3,7 @@ import Footer from '@/components/Footer';
 import { services, companyInfo } from '@/lib/data';
 import GalleryLightbox from '@/components/GalleryLightbox';
 import Image from 'next/image';
+import ContactButton from '@/components/Contact';
 
 export async function generateStaticParams() {
   return services.map((service) => ({ slug: service.slug }));
@@ -44,7 +45,7 @@ export default function Page({ params }: { params: { slug: string } }) {
       <Header />
       <main className="pt-4">
         {/* Hero Section for Service */}
-        <section className="bg-gradient-to-br from-primary/5 to-primary/10 py-16">
+        <section className="bg-gradient-desert py-16">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -52,13 +53,13 @@ export default function Page({ params }: { params: { slug: string } }) {
                   <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
                     {service.title}
                   </h1>
-                  <p className="text-xl text-secondary mb-8 leading-relaxed">
+                  <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
                     {service.fullDescription}
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <a
                       href={`tel:${companyInfo.phone}`}
-                      className="w-full sm:w-auto flex items-center justify-center gap-2 bg-primary text-white px-8 py-4 rounded-xl text-lg font-semibold hover:bg-primary-dark transition-colors shadow-lg"
+                      className="w-full sm:w-auto flex items-center justify-center gap-2 bg-gradient-primary text-white px-8 py-4 rounded-xl text-lg font-semibold hover:shadow-xl transition-all duration-300 shadow-lg"
                     >
                       <svg
                         className="w-6 h-6"
@@ -73,7 +74,7 @@ export default function Page({ params }: { params: { slug: string } }) {
                       href={`https://wa.me/${companyInfo.whatsapp}`}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="w-full sm:w-auto flex items-center justify-center gap-2 bg-green-500 text-white px-8 py-4 rounded-xl text-lg font-semibold hover:bg-green-600 transition-colors shadow-lg"
+                      className="w-full sm:w-auto flex items-center justify-center gap-2 bg-gradient-to-r from-green-600 to-green-700 text-white px-8 py-4 rounded-xl text-lg font-semibold hover:shadow-xl transition-all duration-300 shadow-lg"
                     >
                       <svg
                         className="w-6 h-6"
@@ -102,7 +103,7 @@ export default function Page({ params }: { params: { slug: string } }) {
         </section>
 
         {/* Features Section */}
-        <section className="py-16 bg-white">
+        <section className="py-16 bg-gradient-desert">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h2 className="text-3xl font-bold text-foreground mb-8 text-center">
@@ -139,13 +140,13 @@ export default function Page({ params }: { params: { slug: string } }) {
 
         {/* Gallery Section */}
         {service.gallery && service.gallery.length > 0 && (
-          <section className="py-16 bg-white">
+          <section className="py-16 bg-gradient-desert">
             <div className="container mx-auto px-4">
               <div className="max-w-6xl mx-auto">
                 <h2 className="text-3xl font-bold text-foreground mb-4 text-center">
                   أعمالنا
                 </h2>
-                <p className="text-secondary text-lg mb-12 text-center max-w-2xl mx-auto">
+                <p className="text-muted-foreground text-lg mb-12 text-center max-w-2xl mx-auto">
                   مجموعة من أعمالنا المميزة في مجال {service.title}
                 </p>
                 
@@ -156,6 +157,7 @@ export default function Page({ params }: { params: { slug: string } }) {
         )}
       </main>
       <Footer />
+      <ContactButton />
     </>
   );
 }

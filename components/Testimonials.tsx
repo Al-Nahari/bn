@@ -4,12 +4,12 @@ import { testimonials } from '@/lib/data';
 
 export default function Testimonials() {
   return (
-    <section id="testimonials" className="py-16 md:py-24 bg-gradient-to-b from-white to-muted">
+    <section id="testimonials" className="py-16 md:py-24 bg-gradient-desert">
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-16">
           <div className="inline-block mb-4">
-            <span className="text-primary font-semibold text-sm uppercase tracking-wider">آراء العملاء</span>
+            <span className="text-coffee-medium font-semibold text-sm uppercase tracking-wider">آراء العملاء</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
             ماذا يقول عملاؤنا
@@ -24,11 +24,11 @@ export default function Testimonials() {
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="group relative bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border-2 border-transparent hover:border-primary/10"
+              className="group relative bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border-2 border-transparent hover:border-coffee-medium/20"
             >
               {/* Quote Icon */}
-              <div className="absolute top-6 right-6 w-12 h-12 bg-primary/5 rounded-full flex items-center justify-center opacity-50">
-                <svg className="w-6 h-6 text-primary" fill="currentColor" viewBox="0 0 20 20">
+              <div className="absolute top-6 right-6 w-12 h-12 bg-coffee-medium/10 rounded-full flex items-center justify-center opacity-50">
+                <svg className="w-6 h-6 text-coffee-medium" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M6 30c-1.1 0-2-.9-2-2V16c0-1.1.9-2 2-2s2 .9 2 2v12c0 1.1-.9 2-2 2zm12 0c-1.1 0-2-.9-2-2V16c0-1.1.9-2 2-2s2 .9 2 2v12c0 1.1-.9 2-2 2zM6 14c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2s2 .9 2 2v6c0 1.1-.9 2-2 2zm12 0c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2s2 .9 2 2v6c0 1.1-.9 2-2 2z" />
                 </svg>
               </div>
@@ -38,7 +38,7 @@ export default function Testimonials() {
                 {[...Array(testimonial.rating)].map((_, i) => (
                   <svg
                     key={i}
-                    className="w-5 h-5 text-yellow-400 drop-shadow-sm"
+                    className="w-5 h-5 text-yellow-500 drop-shadow-sm"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                   >
@@ -53,8 +53,8 @@ export default function Testimonials() {
               </p>
 
               {/* Author */}
-              <div className="flex items-center gap-4 pt-6 border-t-2 border-dashed border-primary/20">
-                <div className="w-14 h-14 bg-gradient-to-br from-primary to-primary-dark rounded-full flex items-center justify-center shadow-lg">
+              <div className="flex items-center gap-4 pt-6 border-t-2 border-dashed border-coffee-medium/20">
+                <div className="w-14 h-14 bg-gradient-to-br from-coffee-medium to-coffee-dark rounded-full flex items-center justify-center shadow-lg">
                   <span className="text-white font-bold text-xl">
                     {testimonial.name.charAt(0)}
                   </span>
@@ -63,7 +63,7 @@ export default function Testimonials() {
                   <p className="font-bold text-foreground text-lg">
                     {testimonial.name}
                   </p>
-                  <p className="text-sm text-primary font-medium">
+                  <p className="text-sm text-coffee-medium font-medium">
                     {testimonial.location}
                   </p>
                 </div>

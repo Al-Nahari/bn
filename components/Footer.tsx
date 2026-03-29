@@ -5,11 +5,18 @@ import { companyInfo, services } from '@/lib/data';
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-b from-slate-900 to-slate-950 text-white py-16 relative overflow-hidden">
-      {/* Decorative Elements */}
+    <footer className="bg-gradient-to-b from-coffee-espresso to-coffee-dark text-white py-16 relative overflow-hidden">
+      {/* Decorative Pattern Background */}
       <div className="absolute inset-0 opacity-5">
-        <div className="absolute top-0 left-0 w-96 h-96 bg-primary rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2" />
-        <div className="absolute bottom-0 right-0 w-96 h-96 bg-purple-500 rounded-full blur-3xl translate-x-1/2 translate-y-1/2" />
+        <div className="absolute inset-0" style={{
+          backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23f5ebe0' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+        }} />
+      </div>
+
+      {/* Decorative Elements */}
+      <div className="absolute inset-0 opacity-10">
+        <div className="absolute top-0 left-0 w-96 h-96 bg-coffee-light rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2" />
+        <div className="absolute bottom-0 right-0 w-96 h-96 bg-sand-medium rounded-full blur-3xl translate-x-1/2 translate-y-1/2" />
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
@@ -17,17 +24,17 @@ export default function Footer() {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-14 h-14 bg-gradient-to-br from-primary to-primary-dark rounded-2xl flex items-center justify-center shadow-lg">
+              <div className="w-14 h-14 bg-gradient-primary rounded-2xl flex items-center justify-center shadow-lg">
                 <span className="text-white font-bold text-2xl">س</span>
               </div>
               <div>
                 <span className="font-bold text-2xl text-white block">
                   {companyInfo.name}
                 </span>
-                <span className="text-sm text-primary">{companyInfo.tagline}</span>
+                <span className="text-sm text-coffee-light">{companyInfo.tagline}</span>
               </div>
             </div>
-            <p className="text-gray-300 mb-6 leading-relaxed">
+            <p className="text-sand-medium mb-6 leading-relaxed">
               نحن نقدم أفضل خدمات تركيب السواتر والمظلات في الرياض بجودة عالية وأسعار مناسبة. خبرة طويلة وضمان شامل على جميع الأعمال.
             </p>
             <div className="flex gap-3">
@@ -35,7 +42,7 @@ export default function Footer() {
                 href={companyInfo.social.instagram}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-11 h-11 bg-white/10 rounded-xl flex items-center justify-center hover:bg-primary transition-all duration-300 hover:scale-110"
+                className="w-11 h-11 bg-white/10 rounded-xl flex items-center justify-center hover:bg-coffee-light transition-all duration-300 hover:scale-110"
                 aria-label="Instagram"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
@@ -46,7 +53,7 @@ export default function Footer() {
                 href={companyInfo.social.twitter}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-11 h-11 bg-white/10 rounded-xl flex items-center justify-center hover:bg-primary transition-all duration-300 hover:scale-110"
+                className="w-11 h-11 bg-white/10 rounded-xl flex items-center justify-center hover:bg-coffee-light transition-all duration-300 hover:scale-110"
                 aria-label="Twitter"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
@@ -57,7 +64,7 @@ export default function Footer() {
                 href={companyInfo.social.facebook}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-11 h-11 bg-white/10 rounded-xl flex items-center justify-center hover:bg-primary transition-all duration-300 hover:scale-110"
+                className="w-11 h-11 bg-white/10 rounded-xl flex items-center justify-center hover:bg-coffee-light transition-all duration-300 hover:scale-110"
                 aria-label="Facebook"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
@@ -74,45 +81,45 @@ export default function Footer() {
               <li>
                 <Link
                   href="/"
-                  className="text-gray-300 hover:text-primary transition-colors flex items-center gap-2 group"
+                  className="text-sand-medium hover:text-coffee-light transition-colors flex items-center gap-2 group"
                 >
-                  <span className="w-1 h-1 bg-primary rounded-full group-hover:w-2 group-hover:h-2 transition-all" />
+                  <span className="w-1 h-1 bg-coffee-light rounded-full group-hover:w-2 group-hover:h-2 transition-all" />
                   الرئيسية
                 </Link>
               </li>
               <li>
                 <Link
                   href="#services"
-                  className="text-gray-300 hover:text-primary transition-colors flex items-center gap-2 group"
+                  className="text-sand-medium hover:text-coffee-light transition-colors flex items-center gap-2 group"
                 >
-                  <span className="w-1 h-1 bg-primary rounded-full group-hover:w-2 group-hover:h-2 transition-all" />
+                  <span className="w-1 h-1 bg-coffee-light rounded-full group-hover:w-2 group-hover:h-2 transition-all" />
                   خدماتنا
                 </Link>
               </li>
               <li>
                 <Link
                   href="#features"
-                  className="text-gray-300 hover:text-primary transition-colors flex items-center gap-2 group"
+                  className="text-sand-medium hover:text-coffee-light transition-colors flex items-center gap-2 group"
                 >
-                  <span className="w-1 h-1 bg-primary rounded-full group-hover:w-2 group-hover:h-2 transition-all" />
+                  <span className="w-1 h-1 bg-coffee-light rounded-full group-hover:w-2 group-hover:h-2 transition-all" />
                   مميزاتنا
                 </Link>
               </li>
               <li>
                 <Link
                   href="#testimonials"
-                  className="text-gray-300 hover:text-primary transition-colors flex items-center gap-2 group"
+                  className="text-sand-medium hover:text-coffee-light transition-colors flex items-center gap-2 group"
                 >
-                  <span className="w-1 h-1 bg-primary rounded-full group-hover:w-2 group-hover:h-2 transition-all" />
+                  <span className="w-1 h-1 bg-coffee-light rounded-full group-hover:w-2 group-hover:h-2 transition-all" />
                   آراء العملاء
                 </Link>
               </li>
               <li>
                 <Link
                   href="#contact"
-                  className="text-gray-300 hover:text-primary transition-colors flex items-center gap-2 group"
+                  className="text-sand-medium hover:text-coffee-light transition-colors flex items-center gap-2 group"
                 >
-                  <span className="w-1 h-1 bg-primary rounded-full group-hover:w-2 group-hover:h-2 transition-all" />
+                  <span className="w-1 h-1 bg-coffee-light rounded-full group-hover:w-2 group-hover:h-2 transition-all" />
                   اتصل بنا
                 </Link>
               </li>
@@ -123,13 +130,13 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-bold mb-6 text-white">خدماتنا</h4>
             <ul className="space-y-3">
-              {services.map((service) => (
+              {services.slice(0, 6).map((service) => (
                 <li key={service.id}>
                   <Link
                     href={`/${service.slug}`}
-                    className="text-gray-300 hover:text-primary transition-colors flex items-center gap-2 group"
+                    className="text-sand-medium hover:text-coffee-light transition-colors flex items-center gap-2 group"
                   >
-                    <span className="w-1 h-1 bg-primary rounded-full group-hover:w-2 group-hover:h-2 transition-all" />
+                    <span className="w-1 h-1 bg-coffee-light rounded-full group-hover:w-2 group-hover:h-2 transition-all" />
                     {service.title}
                   </Link>
                 </li>
@@ -144,11 +151,11 @@ export default function Footer() {
               <li>
                 <a
                   href={`tel:${companyInfo.phone}`}
-                  className="flex items-center gap-3 text-gray-300 hover:text-primary transition-colors group"
+                  className="flex items-center gap-3 text-sand-medium hover:text-coffee-light transition-colors group"
                 >
-                  <div className="w-10 h-10 bg-primary/20 rounded-lg flex items-center justify-center group-hover:bg-primary transition-colors">
+                  <div className="w-10 h-10 bg-coffee-medium/30 rounded-lg flex items-center justify-center group-hover:bg-coffee-light transition-colors">
                     <svg
-                      className="w-5 h-5 text-primary group-hover:text-white"
+                      className="w-5 h-5 text-coffee-light group-hover:text-white"
                       fill="currentColor"
                       viewBox="0 0 20 20"
                     >
@@ -163,9 +170,9 @@ export default function Footer() {
                   href={`https://wa.me/${companyInfo.whatsapp}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-3 text-gray-300 hover:text-green-400 transition-colors group"
+                  className="flex items-center gap-3 text-sand-medium hover:text-green-400 transition-colors group"
                 >
-                  <div className="w-10 h-10 bg-green-500/20 rounded-lg flex items-center justify-center group-hover:bg-green-500 transition-colors">
+                  <div className="w-10 h-10 bg-green-600/30 rounded-lg flex items-center justify-center group-hover:bg-green-600 transition-colors">
                     <svg
                       className="w-5 h-5 text-green-500 group-hover:text-white"
                       fill="currentColor"
@@ -180,11 +187,11 @@ export default function Footer() {
               <li>
                 <a
                   href={`mailto:${companyInfo.email}`}
-                  className="flex items-center gap-3 text-gray-300 hover:text-primary transition-colors group"
+                  className="flex items-center gap-3 text-sand-medium hover:text-coffee-light transition-colors group"
                 >
-                  <div className="w-10 h-10 bg-primary/20 rounded-lg flex items-center justify-center group-hover:bg-primary transition-colors">
+                  <div className="w-10 h-10 bg-coffee-medium/30 rounded-lg flex items-center justify-center group-hover:bg-coffee-light transition-colors">
                     <svg
-                      className="w-5 h-5 text-primary group-hover:text-white"
+                      className="w-5 h-5 text-coffee-light group-hover:text-white"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -201,10 +208,10 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <div className="flex items-center gap-3 text-gray-300">
-                  <div className="w-10 h-10 bg-primary/20 rounded-lg flex items-center justify-center">
+                <div className="flex items-center gap-3 text-sand-medium">
+                  <div className="w-10 h-10 bg-coffee-medium/30 rounded-lg flex items-center justify-center">
                     <svg
-                      className="w-5 h-5 text-primary"
+                      className="w-5 h-5 text-coffee-light"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -231,7 +238,7 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400 text-sm">
+        <div className="border-t border-coffee-dark/30 mt-12 pt-8 text-center text-sand-medium text-sm">
           <p>
             جميع الحقوق محفوظة &copy; {new Date().getFullYear()}{' '}
             {companyInfo.name}
