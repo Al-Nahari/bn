@@ -87,7 +87,7 @@ export default function Services() {
                 {/* CTA */}
                 <Link
                   href={`/${service.slug}`}
-                  className="block w-full text-center bg-gradient-to-r from-coffee-medium/10 to-coffee-medium/5 text-coffee-medium py-4 rounded-xl font-semibold hover:from-coffee-medium hover:to-coffee-dark hover:text-white transition-all duration-300 border border-coffee-medium/20 hover:border-transparent"
+                  className="block w-full text-center bg-gradient-to-r from-coffee-medium/10 to-coffee-medium/5 text-coffee-dark py-4 rounded-xl font-semibold hover:from-coffee-medium hover:to-coffee-dark hover:text-white transition-all duration-300 border border-coffee-medium/20 hover:border-transparent"
                 >
                   عرض التفاصيل
                 </Link>
