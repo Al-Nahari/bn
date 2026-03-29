@@ -5,6 +5,6 @@ export function generateSchema(title: string, description: string) {
     name: title,
     description: description,
     areaServed: "Riyadh",
-    telephone: "+966500000000",
+    telephone: "+966535214820",
   };
 }
