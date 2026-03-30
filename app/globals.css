@@ -113,26 +113,6 @@
   .ring-primary-light { ring-color: var(--primary-light); }
   .ring-primary-dark { ring-color: var(--primary-dark); }
   .ring-secondary { ring-color: var(--secondary); }
-  
-  /* Background opacity variants */
-  .bg-coffee-medium\/5 { background-color: rgba(139, 69, 19, 0.05); }
-  .bg-coffee-medium\/10 { background-color: rgba(139, 69, 19, 0.1); }
-  .bg-coffee-medium\/20 { background-color: rgba(139, 69, 19, 0.2); }
-  .bg-coffee-dark\/5 { background-color: rgba(101, 67, 33, 0.05); }
-  .bg-coffee-dark\/10 { background-color: rgba(101, 67, 33, 0.1); }
-  .bg-coffee-dark\/20 { background-color: rgba(101, 67, 33, 0.2); }
-  .bg-coffee-light\/5 { background-color: rgba(160, 82, 45, 0.05); }
-  .bg-coffee-light\/10 { background-color: rgba(160, 82, 45, 0.1); }
-  .bg-coffee-light\/20 { background-color: rgba(160, 82, 45, 0.2); }
-  .bg-white\/10 { background-color: rgba(255, 255, 255, 0.1); }
-  .bg-white\/20 { background-color: rgba(255, 255, 255, 0.2); }
-  .bg-white\/80 { background-color: rgba(255, 255, 255, 0.8); }
-  .bg-white\/90 { background-color: rgba(255, 255, 255, 0.9); }
-  .bg-black\/10 { background-color: rgba(0, 0, 0, 0.1); }
-  .bg-black\/20 { background-color: rgba(0, 0, 0, 0.2); }
-  .bg-black\/50 { background-color: rgba(0, 0, 0, 0.5); }
-  .bg-black\/80 { background-color: rgba(0, 0, 0, 0.8); }
-  .bg-black\/95 { background-color: rgba(0, 0, 0, 0.95); }
 }
 @theme inline {
   --color-background: var(--background);
