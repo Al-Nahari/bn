@@ -128,6 +128,23 @@
   --color-border: var(--border);
   --color-success: var(--success);
   --color-error: var(--error);
+  
+  /* Coffee color family */
+  --color-coffee-light: var(--coffee-light);
+  --color-coffee-medium: var(--coffee-medium);
+  --color-coffee-dark: var(--coffee-dark);
+  --color-coffee-espresso: var(--coffee-espresso);
+  
+  /* Sand color family */
+  --color-sand-light: var(--sand-light);
+  --color-sand-medium: var(--sand-medium);
+  --color-sand-dark: var(--sand-dark);
+  
+  /* Earth color family */
+  --color-earth-tan: var(--earth-tan);
+  --color-earth-brown: var(--earth-brown);
+  --color-road-gray: var(--road-gray);
+  
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
