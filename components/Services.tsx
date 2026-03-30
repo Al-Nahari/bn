@@ -6,16 +6,7 @@ import { services } from '@/lib/data';
 import GalleryLightbox from './GalleryLightbox';
 
 // Service type icons mapping
-const serviceIcons: Record<string, string> = {
-  'mazallat': '🏠',
-  'sawatr': '🛡️',
-  'jalsat': '🪑',
-  'tansiq': '🌿',
-  'ghoraf': '🏢',
-  'asatih': '🏠',
-  'qaramid': '🏛️',
-  'hanajer': '📦',
-};
+const serviceIcons: Record<string, string> = {};
 
 export default function Services() {
   const [selectedService, setSelectedService] = useState<typeof services[0] | null>(null);
