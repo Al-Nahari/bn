@@ -83,7 +83,7 @@ export default function Hero() {
             {[
               { value: '10+', label: 'سنوات خبرة' },
               { value: '500+', label: 'مشروع منجز' },
-              { value: '100%', label: 'رضا العملاء' },
+              { value: '99%', label: 'رضا العملاء' },
               { value: 'ضمان', label: 'على جميع الأعمال' },
             ].map((stat, index) => (
               <div
