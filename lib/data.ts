@@ -53,23 +53,23 @@ export const services = [
       "مناسبة لجميع المساحات",
       "تركيب محترف مع ضمان على النظام الميكانيكي",
     ],
-    image: "/img/mzlat-makhruti.jpg",
+    image: "/img/5606899d7b1f3244cd0c6904badee081.webp",
     slug: "mazallat-mutaharrika-riyadh",
     gallery: [
       {
-        image: "/img/mzlat-makhruti.jpg",
+        image: "/img/af66bb100803377971f33e37e7edf65f.jpg",
         description: "مظلة متحركة بجودة عالية"
       },
       {
-        image: "/img/WhatsApp-Image-2024-02-13-at-11.58.59-AM-1.webp",
+        image: "/img/5606899d7b1f3244cd0c6904badee081-Copy.jpg",
         description: "مظلات متحركة للمنازل"
       },
       {
-        image: "/img/WhatsApp-Image-2024-02-13-at-11.58.59-AM-1-1024x1024.webp",
+        image: "/img/c69dcc386fc126e0a9eb690ce531fe8c.jpg",
         description: "نظام متحرك سهل الاستخدام"
       },
       {
-        image: "/img/WhatsApp-Image-2023-01-18-at-10.27.40-AM-1-jpeg.webp",
+        image: "/img/c69dcc386fc126e0a9eb690ce531fe8c.jpg",
         description: "مظلات متحركة للمساحات الخارجية"
       }
     ]
