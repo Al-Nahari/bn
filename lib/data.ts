@@ -69,7 +69,7 @@ export const services = [
         description: "نظام متحرك سهل الاستخدام"
       },
       {
-        image: "/img/c69dcc386fc126e0a9eb690ce531fe8c.jpg",
+        image: "/img/cf0e17e3c4960b85091ef25e7bab737b.jpg",
         description: "مظلات متحركة للمساحات الخارجية"
       }
     ]
@@ -94,19 +94,19 @@ export const services = [
     slug: "mazallat-haramiya-riyadh",
     gallery: [
       {
-        image: "/img/mzlat-makhruti.jpg",
+        image: "/img/مظلات-هرمية8.webp",
         description: "مظلة هرمية بتصميم جذاب"
       },
       {
-        image: "/img/WhatsApp-Image-2024-02-13-at-11.58.59-AM-1.webp",
+        image: "/img/999251593963955.webp",
         description: "مظلات هرمية للمواقف"
       },
       {
-        image: "/img/WhatsApp-Image-2024-02-13-at-11.58.59-AM-1-1024x1024.webp",
+        image: "/img/WhatsApp-Image-2023-02-10-at-7.52.08-PM-540x470-1.jpeg",
         description: "تصميم هرمي عملي وجميل"
       },
       {
-        image: "/img/WhatsApp-Image-2023-01-18-at-10.27.40-AM-1-jpeg.webp",
+        image: "/img/WhatsApp-Image-2024-02-13-at-11.58.59-AM-1.webp",
         description: "مظلات هرمية للمساحات الخارجية"
       }
     ]
