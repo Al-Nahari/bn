@@ -427,19 +427,19 @@ export const services = [
       "مناسبة للحدائق والشرفات",
       "تركيب احترافي مع ضمان",
     ],
-    image: "/img/IMG-20241015-WA0131.jpg",
+    image: "/img/مظلات-الرياض-211-768x768.webp",
     slug: "jalsat-borjolat-riyadh",
     gallery: [
       {
-        image: "/img/IMG-20241015-WA0131.jpg",
+        image: "/img/صورة-واتساب-بتاريخ-2024-04-16-في-19.34.40_e1ad3737.jpg",
         description: "جلسة برجولات في الحديقة"
       },
       {
-        image: "/img/IMG-20241015-WA0132.jpg00.jpg",
+        image: "/img/صورة-واتساب-بتاريخ-2024-04-16-في-19.34.43_67611b32.jpg",
         description: "برجولة للمساحات الخارجية"
       },
       {
-        image: "/img/IMG-20241015-WA0133.jpg",
+        image: "/img/صورة-واتساب-بتاريخ-1446-08-04-في-02.39.53_5c454d3e.jpg",
         description: "تصميم برجولات عصري"
       },
       {
