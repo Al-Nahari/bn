@@ -25,7 +25,7 @@ export default function Services() {
   // Get service category from ID
   const getServiceCategory = (serviceId: string) => {
     const category = serviceId.split('-')[0];
-    return serviceIcons[category] || '🔧';
+    return serviceIcons[category];
   };
 
   return (
