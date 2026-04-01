@@ -575,23 +575,23 @@ export const services = [
       "أبواب وأقفال آمنة",
       "تركيب سريع وضمان",
     ],
-    image: "/img/IMG-20241015-WA0124.webp",
+    image: "/img/صورة-واتساب-بتاريخ-2024-05-19-في-00.16.31_5c027df0.jpg",
     slug: "hanajer-w-mastoudat-riyadh",
     gallery: [
       {
-        image: "/img/IMG-20241015-WA0124.webp",
+        image: "/img/صورة-واتساب-بتاريخ-2024-05-19-في-00.16.31_174df99d.jpg",
         description: "هناجر ومستودعات صناعية"
       },
       {
-        image: "/img/IMG-20241015-WA0123.jpg",
+        image: "/img/صورة-واتساب-بتاريخ-2024-05-19-في-00.16.31_721d5990.jpg",
         description: "مستودعات تجارية كبيرة"
       },
       {
-        image: "/img/IMG-20241015-WA0122.jpg",
+        image: "/img/صورة-واتساب-بتاريخ-2024-05-19-في-00.16.31_7a6b7e67.jpg",
         description: "تصميم هناجر عملي"
       },
       {
-        image: "/img/IMG-20241015-WA0121.webp",
+        image: "/img/صورة-واتساب-بتاريخ-2024-05-19-في-00.16.31_454088f0.jpg",
         description: "هناجر للمواد والمعدات"
       }
     ]
