@@ -205,19 +205,19 @@ export const services = [
     slug: "mazallat-madaris-riyadh",
     gallery: [
       {
-        image: "/img/mzlat-makhruti.jpg",
+        image: "/img/267526dbe7f36424431784d9720b045d.jpg",
         description: "مظلة مدرسية كبيرة للساحة"
       },
       {
-        image: "/img/WhatsApp-Image-2024-02-13-at-11.58.59-AM-1.webp",
+        image: "/img/صورة-واتساب-بتاريخ-1446-08-04-في-02.34.52_d2e52b2f.jpg",
         description: "مظلات مدارس آمنة للطلاب"
       },
       {
-        image: "/img/WhatsApp-Image-2024-02-13-at-11.58.59-AM-1-1024x1024.webp",
+        image: "/img/91f5425588a1a54759af9203fd9f52c4-1.jpg",
         description: "تركيب مظلات للمدارس والجامعات"
       },
       {
-        image: "/img/WhatsApp-Image-2023-01-18-at-10.27.40-AM-1-jpeg.webp",
+        image: "/img/صورة-واتساب-بتاريخ-1446-08-04-في-02.34.52_414e092d.jpg",
         description: "مظلات مناطق اللعب في المدارس"
       }
     ]
@@ -246,15 +246,15 @@ export const services = [
         description: "مظلة مسابح بتهوية ممتازة"
       },
       {
-        image: "/img/swim15.jpg",
+        image: "/img/LISA0728.jpg",
         description: "مظلات مسابح خاصة"
       },
       {
-        image: "/img/WhatsApp-Image-2024-02-13-at-11.58.59-AM-1.webp",
+        image: "/img/740631576394998.jpg",
         description: "مظلة مسابح عائلية"
       },
       {
-        image: "/img/WhatsApp-Image-2024-02-13-at-11.58.59-AM-1-1024x1024.webp",
+        image: "/img/1710887268_0.jpg",
         description: "تصميم جذاب لمظلات المسابح"
       }
     ]
