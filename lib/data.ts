@@ -20,19 +20,19 @@ export const services = [
     slug: "mazallat-sayarat-riyadh",
     gallery: [
       {
-        image: "/img/WhatsApp-Image-2024-02-13-at-11.58.59-AM-1.webp",
+        image: "/img/IMG-20241015-WA0119.webp",
         description: "مظلة سيارات قماشية عالية الجودة"
       },
       {
-        image: "/img/WhatsApp-Image-2024-02-13-at-11.58.59-AM-1-1024x1024.webp",
+        image: "/img/IMG-20241015-WA0121.webp",
         description: "تركيب مظلات سيارات في الرياض"
       },
       {
-        image: "/img/WhatsApp-Image-2023-01-18-at-10.27.40-AM-1-jpeg.webp",
+        image: "/img/IMG-20241015-WA0116.webp",
         description: "مظلات سيارات متينة ومقاومة"
       },
       {
-        image: "/img/WhatsApp-Image-2024-02-13-at-11.58.59-AM-1-768x768.webp",
+        image: "/img/IMG-20241015-WA0118.webp",
         description: "تصميمات عصرية لمظلات السيارات"
       }
     ]
