@@ -260,43 +260,7 @@ export const services = [
     ]
   },
   // ============ سواتر (Shades/Screens) ============
-  {
-    id: "sawatr-riyadh",
-    title: "سواتر بالرياض",
-    shortTitle: "جميع أنواع السواتر",
-    description:
-      "جميع أنواع السواتر بالرياض - تركيب احترافي بجودة عالية",
-    fullDescription:
-      "نقدم في مظلات و سواتر الرياض خدمات تركيب السواتر بكافة أنواعها بالرياض باحترافية عالية. نقدم حلول متكاملة للمنازل والشركات والفيلات، حيث نستخدم مواد عالية الجودة مقاومة للعوامل الجوية مع ضمان شامل. سواء كنت تبحث عن الخصوصية أو الحماية من الشمس أو الفصل بين المساحات، لدينا الحل الأمثل لك.",
-    features: [
-      "تشكيلة واسعة من أنواع السواتر",
-      "مواد عالية الجودة ومتينة",
-      "تصميمات عصرية تناسب جميع المباني",
-      "تركيب احترافي من فريق متخصص",
-      "ضمان شامل على جميع الأعمال",
-      "استشارات مجانية لاختيار الأنسب",
-    ],
-    image: "/img/sawater-hadid1.webp",
-    slug: "sawatr-riyadh",
-    gallery: [
-      {
-        image: "/img/sawater-hadid1.webp",
-        description: "سواتر حديدية للمنازل"
-      },
-      {
-        image: "/img/sawater-hadid5.webp",
-        description: "سواتر PVC عالية الجودة"
-      },
-      {
-        image: "/img/sawater-hadid12.webp",
-        description: "سواتر قماش متينة"
-      },
-      {
-        image: "/img/sawater-hadid16.webp",
-        description: "سواتر ألمنيوم للمباني"
-      }
-    ]
-  },
+  
   {
     id: "sawatr-hadid-riyadh",
     title: "سواتر حديد بالرياض",
@@ -313,24 +277,24 @@ export const services = [
       "متانة طويلة الأمد",
       "تركيب محكم مع ضمان",
     ],
-    image: "/img/sawater-hadid5.webp",
+    image: "/img/4f748b5d36a9c23e1cdc889b85bed03e.webp",
     slug: "sawatr-hadid-riyadh",
     gallery: [
       {
-        image: "/img/sawater-hadid5.webp",
+        image: "/img/سواتر-الرياض4.jpg",
         description: "سواتر حديدية للمساحات الكبيرة"
       },
       {
-        image: "/img/sawater-hadid1.webp",
+        image: "/img/سواتر-الرياض-3.jpg",
         description: "هيكل حديدي مجلفن عالي الجودة"
       },
       {
-        image: "/img/sawater-hadid12.webp",
+        image: "/img/سواتر-الرياض2.jpg",
         description: "سواتر حديدية للمستودعات"
       },
       {
-        image: "/img/sawater-hadid16.webp",
-        description: "تركيب سواتر حديدية تجارية"
+        image: "/img/4f748b5d36a9c23e1cdc889b85bed03e-1.jpg",
+        description: "تركيب سواتر حديدية"
       }
     ]
   },
@@ -350,23 +314,23 @@ export const services = [
       "سهولة التركيب",
       "ضمان على الجودة والتصميم",
     ],
-    image: "/img/sawater-hadid12.webp",
+    image: "/img/63fd064350626-450px-1.jpg",
     slug: "sawatr-laser-riyadh",
     gallery: [
       {
-        image: "/img/sawater-hadid12.webp",
+        image: "/img/61db0da7922e5cf9a86022fb6d1547d2.jpg",
         description: "سواتر ليزر بتصميم دقيق"
       },
       {
-        image: "/img/sawater-hadid1.webp",
+        image: "/img/362fada2d327b99993f1ff606eb1e562.jpg",
         description: "تصاميم ليزر معقدة"
       },
       {
-        image: "/img/sawater-hadid5.webp",
+        image: "/img/6f9e92c0d572ed620052611948f067e9.jpg",
         description: "سواتر ليزر للمساحات السكنية"
       },
       {
-        image: "/img/sawater-hadid16.webp",
+        image: "/img/a86fa84b05ed9211f53cfe203b98095a.jpg",
         description: "تقنية الليزر المتقدمة"
       }
     ]
@@ -387,23 +351,23 @@ export const services = [
       "تصاميم وألوان متعددة",
       "سهولة التنظيف والصيانة",
     ],
-    image: "/img/sawater-hadid16.webp",
+    image: "/img/3a6939e156d88e4c7849338419798a7a.jpg",
     slug: "sawatr-qumash-riyadh",
     gallery: [
       {
-        image: "/img/sawater-hadid16.webp",
+        image: "/img/609.jpg",
         description: "سواتر قماش بتهوية ممتازة"
       },
       {
-        image: "/img/sawater-hadid1.webp",
+        image: "/img/ecefad0934967edb957601a9cc6304e3.jpg",
         description: "سواتر قماش للمساحات السكنية"
       },
       {
-        image: "/img/sawater-hadid5.webp",
+        image: "/img/932511579435772.jpg",
         description: "سواتر قماش مرنة وجميلة"
       },
       {
-        image: "/img/sawater-hadid12.webp",
+        image: "/img/2cc89b1ff8c7596dac3d0ba3d34aaaf3.jpg",
         description: "تركيب سواتر قماش سريع"
       }
     ]
@@ -424,23 +388,23 @@ export const services = [
       "تكلفة مناسبة",
       "تركيب سريع وسهل",
     ],
-    image: "/img/sawater-hadid12.webp",
+    image: "/img/170.jpg",
     slug: "sawatr-plastic-riyadh",
     gallery: [
       {
-        image: "/img/sawater-hadid12.webp",
+        image: "/img/99b2184fde90230b1bf6b7be4e265144.jpg",
         description: "سواتر بلاستيك بيضاء عصرية"
       },
       {
-        image: "/img/sawater-hadid1.webp",
+        image: "/img/سواتر-خشب1.jpg",
         description: "سواتر بلاستيك للمساحات السكنية"
       },
       {
-        image: "/img/sawater-hadid5.webp",
+        image: "/img/سواتر-حديد2.jpg",
         description: "ألوان متعددة من سواتر بلاستيك"
       },
       {
-        image: "/img/sawater-hadid16.webp",
+        image: "/img/image_downloader_1683568253450-640x470-1.jpg",
         description: "سواتر بلاستيك سهلة التنظيف"
       }
     ]
