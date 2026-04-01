@@ -201,7 +201,7 @@ export const services = [
       "سهولة الصيانة والتنظيف",
       "ضمان على التركيب والمواد",
     ],
-    image: "/img/mzlat-makhruti.jpg",
+    image: "/img/a817afc4a52cbb4c75125762001cb225.jpg",
     slug: "mazallat-madaris-riyadh",
     gallery: [
       {
