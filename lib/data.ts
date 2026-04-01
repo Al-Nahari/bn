@@ -127,23 +127,23 @@ export const services = [
       "سهولة الصيانة والتنظيف",
       "ضمان على الهيكل والتركيب",
     ],
-    image: "/img/mzlat-makhruti.jpg",
+    image: "/img/صورة-واتساب-بتاريخ-2025-08-21-في-19.02.09_0af17a22-300x300.webp",
     slug: "mazallat-shad-inshai-riyadh",
     gallery: [
       {
-        image: "/img/mzlat-makhruti.jpg",
+        image: "/img/IMG-20241015-WA0125.webp",
         description: "مظلة شد إنشائي بمساحة كبيرة"
       },
       {
-        image: "/img/WhatsApp-Image-2024-02-13-at-11.58.59-AM-1.webp",
+        image: "/img/صورة-واتساب-بتاريخ-2025-04-18-في-23.49.34_608197f4.jpg",
         description: "تصميم شد إنشائي بدون عوائق"
       },
       {
-        image: "/img/WhatsApp-Image-2024-02-13-at-11.58.59-AM-1-1024x1024.webp",
+        image: "/img/صورة-واتساب-بتاريخ-2024-06-18-في-21.14.34_6a2801c1.jpg",
         description: "مظلات شد إنشائي للمساحات الواسعة"
       },
       {
-        image: "/img/WhatsApp-Image-2023-01-18-at-10.27.40-AM-1-jpeg.webp",
+        image: "/img/صورة-واتساب-بتاريخ-2024-06-18-في-21.14.33_2897d0e5.jpg",
         description: "تقنية الشد الإنشائي المتقدمة"
       }
     ]
@@ -164,23 +164,23 @@ export const services = [
       "خامات عالية الجودة",
       "تركيب احترافي مع ضمان",
     ],
-    image: "/img/mzlat-makhruti.jpg",
+    image: "/img/صورة-واتساب-بتاريخ-2024-04-15-في-21.10.32_2203df25.webp",
     slug: "mazallat-maqousa-riyadh",
     gallery: [
       {
-        image: "/img/mzlat-makhruti.jpg",
+        image: "/img/IMG-20241015-WA0116.webp",
         description: "مظلة مقوسة بتصميم أنيق"
       },
       {
-        image: "/img/WhatsApp-Image-2024-02-13-at-11.58.59-AM-1.webp",
+        image: "/img/صورة-واتساب-بتاريخ-2025-04-18-في-23.09.12_d549c4f6.jpg",
         description: "مظلات مقوسة للمنازل"
       },
       {
-        image: "/img/WhatsApp-Image-2024-02-13-at-11.58.59-AM-1-1024x1024.webp",
+        image: "/img/صورة-واتساب-بتاريخ-2025-04-18-في-23.09.13_3ea9e584.jpg",
         description: "تصميم مقوس للمساحات الخارجية"
       },
       {
-        image: "/img/WhatsApp-Image-2023-01-18-at-10.27.40-AM-1-jpeg.webp",
+        image: "/img/صورة-واتساب-بتاريخ-2024-09-19-في-00.56.18_d2da9f3a.jpg",
         description: "مظلات مقوسة للمباني التجارية"
       }
     ]
