@@ -22,11 +22,7 @@ export default function Services() {
     document.body.style.overflow = 'auto';
   };
 
-  // Get service category from ID
-  const getServiceCategory = (serviceId: string) => {
-    const category = serviceId.split('-')[0];
-    return serviceIcons[category];
-  };
+ 
 
   return (
     <section id="services" className="py-20 md:py-32 bg-gradient-desert relative overflow-hidden">
@@ -69,10 +65,6 @@ export default function Services() {
                 <div className="absolute inset-0 bg-white/30 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700" />
               </div>
 
-              {/* Service Icon Badge */}
-              <div className="absolute top-16 right-4 z-20 w-14 h-14 bg-white/95 backdrop-blur-sm rounded-2xl shadow-lg flex items-center justify-center text-2xl group-hover:scale-110 transition-transform duration-300">
-                {getServiceCategory(service.id)}
-              </div>
 
               {/* Service Image Area - Enhanced */}
               <div className="relative h-56 overflow-hidden bg-gradient-to-br from-coffee-medium/5 via-sand-medium/10 to-sand-light/20">
