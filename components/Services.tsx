@@ -8,30 +8,7 @@ import GalleryLightbox from './GalleryLightbox';
 
 
 export default function Services() {
-  const [selectedService, setSelectedService] = useState<typeof services[0] | null>(null);
   const [hoveredCard, setHoveredCard] = useState<string | null>(null);
-
-  useEffect(() => {
-    if (selectedService !== null) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = 'auto';
-    }
-
-    return () => {
-      document.body.style.overflow = 'auto';
-    };
-  }, [selectedService]);
-
-  const openModal = (service: typeof services[0]) => {
-    setSelectedService(service);
-  };
-
-  const closeModal = () => {
-    setSelectedService(null);
-  };
-
- 
 
   return (
     <section id="services" className="py-20 md:py-32 bg-gradient-desert relative overflow-hidden">
@@ -130,24 +107,24 @@ export default function Services() {
                   ))}
                 </div>
 
-                {/* CTA Button - Enhanced */}
-                <button
-                  onClick={() => openModal(service)}
-                  className="w-full relative overflow-hidden bg-gradient-to-r from-coffee-medium to-coffee-dark text-white py-4 rounded-xl font-bold hover:shadow-xl transition-all duration-300 group/btn"
+                {/* CTA Link - Direct Navigation */}
+                <Link
+                  href={`/${service.slug}`}
+                  className="w-full relative overflow-hidden bg-gradient-to-r from-coffee-medium to-coffee-dark text-white py-4 rounded-xl font-bold hover:shadow-xl transition-all duration-300 group/btn text-center block"
                 >
                   <span className="relative z-10 flex items-center justify-center gap-2">
                     عرض التفاصيل
-                    <svg 
-                      className="w-5 h-5 group-hover/btn:translate-x-1 transition-transform" 
-                      fill="none" 
-                      stroke="currentColor" 
+                    <svg
+                      className="w-5 h-5 group-hover/btn:translate-x-1 transition-transform"
+                      fill="none"
+                      stroke="currentColor"
                       viewBox="0 0 24 24"
                     >
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                     </svg>
                   </span>
                   <div className="absolute inset-0 bg-gradient-to-r from-coffee-dark to-coffee-medium translate-x-[-100%] group-hover/btn:translate-x-0 transition-transform duration-500" />
-                </button>
+                </Link>
               </div>
 
               {/* Hover Glow Effect */}
@@ -269,10 +246,9 @@ export default function Services() {
                   title={selectedService.title}
                 />
               </section>
-            )}
-          </div>
-        </div>
       )}
+        </div>
+      </div>
     </section>
   );
 }
