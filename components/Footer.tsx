@@ -130,7 +130,7 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-bold mb-6 text-white">خدماتنا</h4>
             <ul className="space-y-3">
-              {services.slice(0, 6).map((service) => (
+              {services.map((service) => (
                 <li key={service.id}>
                   <Link
                     href={`/${service.slug}`}
