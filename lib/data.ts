@@ -601,7 +601,7 @@ export const services = [
 export const companyInfo = {
   name: "مظلات و سواتر الرياض",
   tagline: "لسنا الوحيدون... ولكننا الأفضل بلا منازع",
-  phone: "535214820",
+  phone: "0535214820",
   whatsapp: "966535214820",
   email: "info@kays.sa",
   address: "الرياض، المملكة العربية السعودية",
