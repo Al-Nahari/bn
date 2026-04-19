@@ -5,8 +5,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { services } from '@/lib/data';
 
-
-
 export default function Services() {
   const [hoveredCard, setHoveredCard] = useState<string | null>(null);
 
@@ -39,7 +37,7 @@ export default function Services() {
             <div
               key={service.id}
               className="group relative bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-3 card-hover flex flex-col"
-              style={{ 
+              style={{
                 animationDelay: `${index * 100}ms`,
                 transform: hoveredCard === service.id ? 'translateY(-12px)' : 'translateY(0)'
               }}
@@ -50,7 +48,6 @@ export default function Services() {
               <div className="h-3 bg-gradient-to-r from-coffee-light via-coffee-medium to-coffee-dark relative overflow-hidden">
                 <div className="absolute inset-0 bg-white/30 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700" />
               </div>
-
 
               {/* Service Image Area - Enhanced */}
               <div className="relative h-56 overflow-hidden bg-gradient-to-br from-coffee-medium/5 via-sand-medium/10 to-sand-light/20">
@@ -63,7 +60,7 @@ export default function Services() {
                 />
                 {/* Overlay Gradient */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-30 group-hover:opacity-50 transition-opacity duration-500" />
-                
+
                 {/* Category Label on Image */}
                 <div className="absolute top-4 left-4">
                   <span className="bg-white/90 backdrop-blur-sm text-coffee-dark text-xs font-bold px-4 py-2 rounded-full shadow-md">
@@ -128,7 +125,7 @@ export default function Services() {
               </div>
 
               {/* Hover Glow Effect */}
-              <div className="absolute inset-0 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" 
+              <div className="absolute inset-0 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"
                 style={{
                   background: 'radial-gradient(circle at var(--mouse-x, 50%) var(--mouse-y, 50%), rgba(139, 90, 43, 0.1) 0%, transparent 50%)'
                 }}
