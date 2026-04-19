@@ -603,12 +603,12 @@ export const companyInfo = {
   tagline: "لسنا الوحيدون... ولكننا الأفضل بلا منازع",
   phone: "0535214820",
   whatsapp: "966535214820",
-  email: "info@kays.sa",
+  email: "nahari771735416@gmail.com",
   address: "الرياض، المملكة العربية السعودية",
   workingHours: "السبت - الخميس: 8 ص - 8 م",
   social: {
-    instagram: "https://instagram.com/mazalat89?igshid=MzNlNGNkZWQ4Mg==",
-    twitter: "https://twitter.com/mazalat89?t=fchZ0YeB0X_bLsyXOt4Fig&s=09",
+    instagram: "#",
+    twitter: "#",
     facebook: "#",
   },
 };
