@@ -6,21 +6,29 @@ import Image from 'next/image';
 import ContactButton from '@/components/Contact';
 
 export async function generateStaticParams() {
-  return services.map((service) => ({ slug: service.slug }));
+  const slugs = services.map((service) => ({ slug: service.slug }));
+  console.log('Generated static params:', slugs);
+  return slugs;
 }
 
-export async function generateMetadata({ params }: { params: { slug: string } }) {
-  const service = services.find((s) => s.slug === params.slug);
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const service = services.find((s) => s.slug === slug);
 
   return {
-    title: service?.title || 'خدمات السواتر والمظلات',
-    description: service?.description || 'خدمات تركيب السواتر والمظلات في الرياض',
+    title: service?.title ?? 'خدمات السواتر والمظلات',
+    description: service?.description ?? 'خدمات تركيب السواتر والمظلات في الرياض',
   };
 }
 
-export default function Page({ params }: { params: { slug: string } }) {
-  const service = services.find((s) => s.slug === params.slug);
+export default async function Page({ params }: { params: Promise<{ slug: string }> }) {
+  // Await params to get the actual slug
+  const { slug } = await params;
 
+  // Find the service
+  const service = services.find((s) => s.slug === slug);
+
+  // If service not found, show error
   if (!service) {
     return (
       <>
