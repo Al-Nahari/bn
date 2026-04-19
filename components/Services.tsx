@@ -1,25 +1,34 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { services } from '@/lib/data';
 import GalleryLightbox from './GalleryLightbox';
 
-// Service type icons mapping
-const serviceIcons: Record<string, string> = {};
+
 
 export default function Services() {
   const [selectedService, setSelectedService] = useState<typeof services[0] | null>(null);
   const [hoveredCard, setHoveredCard] = useState<string | null>(null);
 
+  useEffect(() => {
+    if (selectedService !== null) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'auto';
+    }
+
+    return () => {
+      document.body.style.overflow = 'auto';
+    };
+  }, [selectedService]);
+
   const openModal = (service: typeof services[0]) => {
     setSelectedService(service);
-    document.body.style.overflow = 'hidden';
   };
 
   const closeModal = () => {
     setSelectedService(null);
-    document.body.style.overflow = 'auto';
   };
 
  

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Image from 'next/image';
 
 interface GalleryItem {
@@ -16,14 +16,24 @@ interface GalleryLightboxProps {
 export default function GalleryLightbox({ images, title }: GalleryLightboxProps) {
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
 
+  useEffect(() => {
+    if (selectedIndex !== null) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'auto';
+    }
+
+    return () => {
+      document.body.style.overflow = 'auto';
+    };
+  }, [selectedIndex]);
+
   const openLightbox = (index: number) => {
     setSelectedIndex(index);
-    document.body.style.overflow = 'hidden';
   };
 
   const closeLightbox = () => {
     setSelectedIndex(null);
-    document.body.style.overflow = 'auto';
   };
 
   const goToPrevious = () => {

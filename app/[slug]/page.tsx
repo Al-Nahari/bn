@@ -2,7 +2,6 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { services, companyInfo } from '@/lib/data';
 import ServiceDetailsClient from '@/components/ServiceDetailsClient';
-import GalleryLightbox from '@/components/GalleryLightbox';
 import Image from 'next/image';
 import ContactButton from '@/components/Contact';
 

@@ -607,8 +607,8 @@ export const companyInfo = {
   address: "الرياض، المملكة العربية السعودية",
   workingHours: "السبت - الخميس: 8 ص - 8 م",
   social: {
-    instagram: "#",
-    twitter: "#",
+    instagram: "https://instagram.com/mazalat89?igshid=MzNlNGNkZWQ4Mg==",
+    twitter: "https://twitter.com/mazalat89?t=fchZ0YeB0X_bLsyXOt4Fig&s=09",
     facebook: "#",
   },
 };
