@@ -1,9 +1,17 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { services, companyInfo } from '@/lib/data';
-import GalleryLightbox from '@/components/GalleryLightbox';
+import dynamic from 'next/dynamic';
 import Image from 'next/image';
 import ContactButton from '@/components/Contact';
+
+// Dynamically import GalleryLightbox with code splitting
+const GalleryLightbox = dynamic(() => import('@/components/GalleryLightbox'), {
+  ssr: false,
+  loading: () => (
+    <div className="h-96 bg-sand-light/20 rounded-xl animate-pulse" />
+  ),
+});
 
 export async function generateStaticParams() {
   const slugs = services.map((service) => ({ slug: service.slug }));
@@ -112,6 +120,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
                     fill
                     className="object-cover"
                     sizes="(max-width: 768px) 100vw, 50vw"
+                    quality={75}
                     priority
                   />
                 </div>

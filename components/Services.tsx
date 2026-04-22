@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { services } from '@/lib/data';
+import { services } from '@/lib/services-summary';
 
 export default function Services() {
   const [hoveredCard, setHoveredCard] = useState<string | null>(null);
@@ -57,6 +57,7 @@ export default function Services() {
                     fill
                     className="object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+                    quality={75}
                     priority={index === 0}
                   />
                 {/* Overlay Gradient */}

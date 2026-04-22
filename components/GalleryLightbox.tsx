@@ -65,14 +65,15 @@ export default function GalleryLightbox({ images, title }: GalleryLightboxProps)
              onClick={() => openLightbox(index)}
            >
              {/* Image */}
-             <div className="relative h-64 overflow-hidden bg-sand-light">
-               <Image
-                 src={item.image}
-                 alt={`${title} - عمل ${index + 1}`}
-                 fill
-                 className="object-cover group-hover:scale-110 transition-transform duration-500"
-                 sizes="(max-width: 768px) 100vw, 50vw"
-               />
+              <div className="relative h-64 overflow-hidden bg-sand-light">
+                <Image
+                  src={item.image}
+                  alt={`${title} - عمل ${index + 1}`}
+                  fill
+                  className="object-cover group-hover:scale-110 transition-transform duration-500"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  quality={75}
+                />
                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                
                {/* Click indicator */}
@@ -195,6 +196,7 @@ export default function GalleryLightbox({ images, title }: GalleryLightboxProps)
                     fill
                     className="object-cover"
                     sizes="64px"
+                    quality={70}
                   />
                 </button>
               ))}

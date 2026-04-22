@@ -1,7 +1,8 @@
 'use client';
 
 import Link from 'next/link';
-import { companyInfo, services } from '@/lib/data';
+import { companyInfo } from '@/lib/data';
+import { services as footerServices } from '@/lib/services-summary';
 
 export default function Footer() {
   return (
@@ -130,13 +131,13 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold mb-6 text-white">خدماتنا</h3>
             <ul className="space-y-3">
-              {services.map((service) => (
+              {footerServices.map((service) => (
                 <li key={service.id}>
                   <Link
                     href={`/${service.slug}`}
                     className="text-white/80 hover:text-white transition-colors flex items-center gap-2 group"
                   >
-                    <span className="w-1 h-1 bg-coffee-light rounded-full group-hover:w-2 group-hover:h-2 transition-all" />
+                    <span className="w-1 h-1 bg-sand-medium rounded-full group-hover:w-2 group-hover:h-2 transition-all" />
                     {service.title}
                   </Link>
                 </li>
