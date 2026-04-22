@@ -76,7 +76,7 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-lg font-bold mb-6 text-white">روابط سريعة</h4>
+            <h3 className="text-lg font-bold mb-6 text-white">روابط سريعة</h3>
             <ul className="space-y-3">
               <li>
                 <Link
@@ -128,7 +128,7 @@ export default function Footer() {
 
           {/* Services */}
           <div>
-            <h4 className="text-lg font-bold mb-6 text-white">خدماتنا</h4>
+            <h3 className="text-lg font-bold mb-6 text-white">خدماتنا</h3>
             <ul className="space-y-3">
               {services.map((service) => (
                 <li key={service.id}>
@@ -146,7 +146,7 @@ export default function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h4 className="text-lg font-bold mb-6 text-white">معلومات التواصل</h4>
+            <h3 className="text-lg font-bold mb-6 text-white">معلومات التواصل</h3>
             <ul className="space-y-4">
               <li>
                 <a

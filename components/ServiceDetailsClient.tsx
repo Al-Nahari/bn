@@ -1,7 +1,15 @@
 "use client";
 
 import { useState } from 'react';
-import GalleryLightbox from './GalleryLightbox';
+import dynamic from 'next/dynamic';
+
+// Dynamically import GalleryLightbox with code splitting
+const GalleryLightbox = dynamic(() => import('./GalleryLightbox'), {
+  ssr: false,
+  loading: () => (
+    <div className="h-96 bg-sand-light/20 rounded-xl animate-pulse" />
+  ),
+});
 
 interface Service {
   id: string;

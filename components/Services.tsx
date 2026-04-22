@@ -50,14 +50,15 @@ export default function Services() {
               </div>
 
               {/* Service Image Area - Enhanced */}
-              <div className="relative h-56 overflow-hidden bg-gradient-to-br from-coffee-medium/5 via-sand-medium/10 to-sand-light/20">
-                <Image
-                  src={service.image}
-                  alt={service.title}
-                  fill
-                  className="object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
-                />
+                <div className="relative h-56 overflow-hidden bg-gradient-to-br from-coffee-medium/5 via-sand-medium/10 to-sand-light/20">
+                  <Image
+                    src={service.image}
+                    alt={service.title}
+                    fill
+                    className="object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+                    priority={index === 0}
+                  />
                 {/* Overlay Gradient */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-30 group-hover:opacity-50 transition-opacity duration-500" />
 
@@ -79,7 +80,7 @@ export default function Services() {
                 </p>
 
                 {/* Features List - Enhanced */}
-                <div className="space-y-3 mb-6">
+                <ul className="space-y-3 mb-6">
                   {service.features.slice(0, 3).map((feature, idx) => (
                     <li key={idx} className="flex items-start gap-3 group/item">
                       <div className="w-6 h-6 bg-gradient-to-br from-success/20 to-success/10 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5 group-hover/item:bg-success/30 transition-colors">
@@ -102,7 +103,7 @@ export default function Services() {
                       </span>
                     </li>
                   ))}
-                </div>
+                </ul>
 
                 {/* CTA Link - Direct Navigation */}
                 <Link
