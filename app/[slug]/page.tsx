@@ -1,17 +1,9 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { services, companyInfo } from '@/lib/data';
-import dynamic from 'next/dynamic';
 import Image from 'next/image';
 import ContactButton from '@/components/Contact';
-
-// Dynamically import GalleryLightbox with code splitting
-const GalleryLightbox = dynamic(() => import('@/components/GalleryLightbox'), {
-  ssr: false,
-  loading: () => (
-    <div className="h-96 bg-sand-light/20 rounded-xl animate-pulse" />
-  ),
-});
+import GalleryLightbox from '@/components/GalleryLightbox';
 
 export async function generateStaticParams() {
   const slugs = services.map((service) => ({ slug: service.slug }));
@@ -178,6 +170,37 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
                 </p>
 
                 <GalleryLightbox images={service.gallery} title={service.title} />
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* FAQ Section */}
+        {service.faq && service.faq.length > 0 && (
+          <section className="py-16 bg-white">
+            <div className="container mx-auto px-4">
+              <div className="max-w-4xl mx-auto">
+                <h2 className="text-3xl font-bold text-foreground mb-8 text-center">
+                  الأسئلة الشائعة
+                </h2>
+                <div className="space-y-4">
+                  {service.faq.map((item, index) => (
+                    <details
+                      key={index}
+                      className="group border border-coffee-medium/20 rounded-xl p-6 hover:border-coffee-medium/40 transition-all"
+                    >
+                      <summary className="flex cursor-pointer items-center justify-between font-semibold text-foreground">
+                        {item.question}
+                        <span className="ml-2 transform group-open:rotate-180 transition-transform">
+                          ▼
+                        </span>
+                      </summary>
+                      <p className="mt-4 text-muted-foreground leading-relaxed">
+                        {item.answer}
+                      </p>
+                    </details>
+                  ))}
+                </div>
               </div>
             </div>
           </section>
