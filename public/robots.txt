@@ -1,21 +1,15 @@
 User-agent: *
-Allow: /
 
-# منع صفحات النظام أو الخاصة
+# منع الصفحات الحساسة
 Disallow: /api/
-Disallow: /_next/
 Disallow: /admin/
 Disallow: /dashboard/
 Disallow: /login/
 Disallow: /register/
 
-# منع ملفات مؤقتة أو غير مهمة
+# منع الملفات المؤقتة
 Disallow: /tmp/
 Disallow: /private/
 
-# السماح بالملفات المهمة
-Allow: /public/
-Allow: /images/
-
-# ربط خريطة الموقع
+# خريطة الموقع
 Sitemap: https://mazalat-riyadh.com/sitemap.xml
