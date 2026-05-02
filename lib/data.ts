@@ -1072,7 +1072,7 @@ export const testimonials = [
 ];
 
 // ============================================================================
-export const generateServicesByRegion = (region) => {
+export const generateServicesByRegion = (region: string) => {
   return services.filter((service) =>
     service.regions.includes(region)
   );
