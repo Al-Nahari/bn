@@ -1078,7 +1078,7 @@ export const generateServicesByRegion = (region: string) => {
   );
 };
 
-export const generateRelatedServices = (serviceId) => {
+export const generateRelatedServices = (serviceId: string) => {
   const service = services.find((s) => s.id === serviceId);
   if (!service || !service.relatedServices) return [];
   return service.relatedServices
