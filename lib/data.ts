@@ -1086,7 +1086,7 @@ export const generateRelatedServices = (serviceId: string) => {
     .filter(Boolean);
 };
 
-export const getServiceBySlug = (slug) => {
+export const getServiceBySlug = (slug: string) => {
   return services.find((service) => service.slug === slug);
 };
 
