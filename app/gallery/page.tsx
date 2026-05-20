@@ -5,7 +5,7 @@ import ContactButton from '@/components/Contact';
 import GalleryBrowser from '@/components/GalleryBrowser';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import JsonLd from '@/components/JsonLd';
-import { getAllNewPhotoImages, newPhotoTypes } from '@/lib/newphoto-gallery';
+import { getAllGalleryImages, getAllGalleryTypes } from '@/lib/gallery';
 import {
   breadcrumbSchema,
   buildPageMetadata,
@@ -26,8 +26,8 @@ export const metadata: Metadata = buildPageMetadata({
 });
 
 export default function GalleryPage() {
-  const images = getAllNewPhotoImages();
-  const types = [...newPhotoTypes];
+  const images = getAllGalleryImages();
+  const types = getAllGalleryTypes();
 
   return (
     <>

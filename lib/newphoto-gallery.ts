@@ -11,48 +11,48 @@ export const newPhotoGallery: (GalleryImage & { slug: string; filename: string }
   {
     "filename": "PicsArt_05-10-03.20.51.jpg",
     "image": "/newphoto/PicsArt_05-10-03.20.51.jpg",
-    "description": "PicsArt_05-10-03 20 51",
-    "alt": "أعمال متنوعة في الرياض — مشروع منفذ",
+    "description": "PicsArt_05 10 03 20 51",
+    "alt": "تركيب PicsArt_05 10 03 20 51 في الرياض — أعمال متنوعة",
     "type": "أعمال متنوعة",
     "slug": "jalsat-borjolat-riyadh"
   },
   {
     "filename": "PicsArt_05-10-03.31.21.jpg",
     "image": "/newphoto/PicsArt_05-10-03.31.21.jpg",
-    "description": "PicsArt_05-10-03 31 21",
-    "alt": "أعمال متنوعة في الرياض — مشروع منفذ",
+    "description": "PicsArt_05 10 03 31 21",
+    "alt": "تركيب PicsArt_05 10 03 31 21 في الرياض — أعمال متنوعة",
     "type": "أعمال متنوعة",
     "slug": "jalsat-borjolat-riyadh"
   },
   {
     "filename": "PicsArt_05-10-03.31.51.jpg",
     "image": "/newphoto/PicsArt_05-10-03.31.51.jpg",
-    "description": "PicsArt_05-10-03 31 51",
-    "alt": "أعمال متنوعة في الرياض — مشروع منفذ",
+    "description": "PicsArt_05 10 03 31 51",
+    "alt": "تركيب PicsArt_05 10 03 31 51 في الرياض — أعمال متنوعة",
     "type": "أعمال متنوعة",
     "slug": "jalsat-borjolat-riyadh"
   },
   {
     "filename": "PicsArt_05-10-03.34.13.jpg",
     "image": "/newphoto/PicsArt_05-10-03.34.13.jpg",
-    "description": "PicsArt_05-10-03 34 13",
-    "alt": "أعمال متنوعة في الرياض — مشروع منفذ",
+    "description": "PicsArt_05 10 03 34 13",
+    "alt": "تركيب PicsArt_05 10 03 34 13 في الرياض — أعمال متنوعة",
     "type": "أعمال متنوعة",
     "slug": "jalsat-borjolat-riyadh"
   },
   {
     "filename": "PicsArt_05-10-03.37.11.jpg",
     "image": "/newphoto/PicsArt_05-10-03.37.11.jpg",
-    "description": "PicsArt_05-10-03 37 11",
-    "alt": "أعمال متنوعة في الرياض — مشروع منفذ",
+    "description": "PicsArt_05 10 03 37 11",
+    "alt": "تركيب PicsArt_05 10 03 37 11 في الرياض — أعمال متنوعة",
     "type": "أعمال متنوعة",
     "slug": "jalsat-borjolat-riyadh"
   },
   {
     "filename": "PicsArt_05-10-03.38.10.jpg",
     "image": "/newphoto/PicsArt_05-10-03.38.10.jpg",
-    "description": "PicsArt_05-10-03 38 10",
-    "alt": "أعمال متنوعة في الرياض — مشروع منفذ",
+    "description": "PicsArt_05 10 03 38 10",
+    "alt": "تركيب PicsArt_05 10 03 38 10 في الرياض — أعمال متنوعة",
     "type": "أعمال متنوعة",
     "slug": "jalsat-borjolat-riyadh"
   },
@@ -182,7 +182,7 @@ export const newPhotoGallery: (GalleryImage & { slug: string; filename: string }
     "description": "جلسات خارجيه على اسطح المنزل",
     "alt": "تركيب جلسات خارجيه على اسطح المنزل في الرياض — جلسات خارجية",
     "type": "جلسات خارجية",
-    "slug": "jalsat-borjolat-riyadh"
+    "slug": "asatih-sandwich-panel-riyadh"
   },
   {
     "filename": "جلسات خارجيه.jpg",

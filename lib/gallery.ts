@@ -1,4 +1,5 @@
-import { getNewPhotoImagesBySlug } from './newphoto-gallery';
+import { getAllImgImages, getImgImagesBySlug } from './img-gallery';
+import { getAllNewPhotoImages, getNewPhotoImagesBySlug } from './newphoto-gallery';
 
 export interface GalleryImage {
   image: string;
@@ -15,22 +16,44 @@ function imageKey(image: string): string {
   }
 }
 
-/** دمج صور المعرض الأصلية مع الصور الجديدة من public/newphoto */
-export function mergeServiceGallery(
-  slug: string,
-  existing: GalleryImage[] = []
-): GalleryImage[] {
-  const newPhotos = getNewPhotoImagesBySlug(slug);
-  const seen = new Set(existing.map((item) => imageKey(item.image)));
-
-  const merged = [...existing];
-  for (const photo of newPhotos) {
+function appendUnique(
+  merged: GalleryImage[],
+  seen: Set<string>,
+  photos: GalleryImage[]
+) {
+  for (const photo of photos) {
     const key = imageKey(photo.image);
     if (!seen.has(key)) {
       seen.add(key);
       merged.push(photo);
     }
   }
+}
 
+/** دمج صور data.ts + public/newphoto + public/img */
+export function mergeServiceGallery(
+  slug: string,
+  existing: GalleryImage[] = []
+): GalleryImage[] {
+  const seen = new Set(existing.map((item) => imageKey(item.image)));
+  const merged = [...existing];
+  appendUnique(merged, seen, getNewPhotoImagesBySlug(slug));
+  appendUnique(merged, seen, getImgImagesBySlug(slug));
   return merged;
+}
+
+export function getAllGalleryImages(): GalleryImage[] {
+  const seen = new Set<string>();
+  const merged: GalleryImage[] = [];
+  appendUnique(merged, seen, getAllNewPhotoImages());
+  appendUnique(merged, seen, getAllImgImages());
+  return merged;
+}
+
+export function getAllGalleryTypes(): string[] {
+  const types = new Set<string>();
+  for (const img of getAllGalleryImages()) {
+    if (img.type) types.add(img.type);
+  }
+  return [...types].sort();
 }
