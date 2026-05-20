@@ -67,21 +67,21 @@ export default function Header() {
               <span className="absolute -bottom-1 right-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full" />
             </Link>
             <Link
-              href="#services"
+              href="/#services"
               className="text-foreground hover:text-primary transition-colors font-medium relative group"
             >
               خدماتنا
               <span className="absolute -bottom-1 right-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full" />
             </Link>
             <Link
-              href="#features"
+              href="/#features"
               className="text-foreground hover:text-primary transition-colors font-medium relative group"
             >
               مميزاتنا
               <span className="absolute -bottom-1 right-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full" />
             </Link>
             <Link
-              href="#testimonials"
+              href="/#testimonials"
               className="text-foreground hover:text-primary transition-colors font-medium relative group"
             >
               آراء العملاء
@@ -95,7 +95,7 @@ export default function Header() {
               <span className="absolute -bottom-1 right-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full" />
             </Link>
             <Link
-              href="#contact"
+              href="/#contact"
               className="text-foreground hover:text-primary transition-colors font-medium relative group"
             >
               اتصل بنا
@@ -139,7 +139,8 @@ export default function Header() {
           <button
             className="md:hidden p-2 rounded-lg hover:bg-muted transition-colors"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            aria-label="Toggle menu"
+            aria-label={isMenuOpen ? 'إغلاق القائمة' : 'فتح القائمة'}
+            aria-expanded={isMenuOpen}
           >
             <svg
               className="w-6 h-6"
@@ -178,21 +179,21 @@ export default function Header() {
                 الرئيسية
               </Link>
               <Link
-                href="#services"
+                href="/#services"
                 className="text-foreground hover:text-primary transition-colors font-medium py-3 px-4 rounded-lg hover:bg-muted"
                 onClick={() => setIsMenuOpen(false)}
               >
                 خدماتنا
               </Link>
               <Link
-                href="#features"
+                href="/#features"
                 className="text-foreground hover:text-primary transition-colors font-medium py-3 px-4 rounded-lg hover:bg-muted"
                 onClick={() => setIsMenuOpen(false)}
               >
                 مميزاتنا
               </Link>
               <Link
-                href="#testimonials"
+                href="/#testimonials"
                 className="text-foreground hover:text-primary transition-colors font-medium py-3 px-4 rounded-lg hover:bg-muted"
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -206,7 +207,7 @@ export default function Header() {
                 معرض الأعمال
               </Link>
               <Link
-                href="#contact"
+                href="/#contact"
                 className="text-foreground hover:text-primary transition-colors font-medium py-3 px-4 rounded-lg hover:bg-muted"
                 onClick={() => setIsMenuOpen(false)}
               >

@@ -1,181 +1,131 @@
-'use client';
-
 import Link from 'next/link';
 import { services, companyInfo } from '@/lib/data';
 
 export default function Footer() {
-  // تجميع الخدمات
-  const canopies = services.filter(s => s.id.includes('mazallat'));
-  const shades = services.filter(s => s.id.includes('sawatr'));
-  const additional = services.filter(s => 
-    !s.id.includes('mazallat') && !s.id.includes('sawatr')
+  const canopies = services.filter((s) => s.id.includes('mazallat'));
+  const shades = services.filter((s) => s.id.includes('sawatr'));
+  const additional = services.filter(
+    (s) => !s.id.includes('mazallat') && !s.id.includes('sawatr')
   );
 
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-gray-900 text-gray-100 py-16">
+    <footer className="bg-coffee-espresso text-sand-light py-16">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12">
-          
-          {/* معلومات الشركة */}
-          <div>
-            <h3 className="text-xl font-bold mb-4 text-white">
-              {companyInfo.name}
-            </h3>
-            <p className="text-gray-400 mb-4 text-sm leading-relaxed">
-              {companyInfo.tagline}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 mb-12">
+          <div className="lg:col-span-1">
+            <h3 className="text-xl font-bold mb-4 text-white">{companyInfo.name}</h3>
+            <p className="text-sand-medium/90 mb-4 text-sm leading-relaxed">
+              {companyInfo.seoDescription}
             </p>
-            <div className="space-y-2 text-sm">
-              <p className="text-gray-400">
-                <span className="font-semibold">📍</span> {companyInfo.address}
-              </p>
-              <p className="text-gray-400">
-                <span className="font-semibold">📞</span> 
-                <a href={`tel:${companyInfo.phone}`} className="hover:text-white transition">
+            <address className="not-italic space-y-2 text-sm text-sand-medium/80">
+              <p>{companyInfo.address}</p>
+              <p>
+                <a href={`tel:${companyInfo.phone}`} className="hover:text-white transition-colors">
                   {companyInfo.phone}
                 </a>
               </p>
-              <p className="text-gray-400">
-                <span className="font-semibold">📧</span>
-                <a href={`mailto:${companyInfo.email}`} className="hover:text-white transition">
+              <p>
+                <a href={`mailto:${companyInfo.email}`} className="hover:text-white transition-colors">
                   {companyInfo.email}
                 </a>
               </p>
-              <p className="text-gray-400">
-                <span className="font-semibold">⏰</span> {companyInfo.workingHours}
-              </p>
-            </div>
+              <p>{companyInfo.workingHours}</p>
+            </address>
           </div>
 
-          {/* مظلات السيارات */}
           <div>
-            <h4 className="text-lg font-bold mb-6 text-white border-b-2 border-coffee-medium pb-2">
-              مظلات السيارات
+            <h4 className="text-lg font-bold mb-5 text-white border-b border-coffee-medium/50 pb-2">
+              مظلات
             </h4>
-            <ul className="space-y-3">
+            <ul className="space-y-2.5">
               {canopies.map((service) => (
                 <li key={service.id}>
-                  <Link 
+                  <Link
                     href={`/${service.slug}`}
-                    className="text-gray-400 hover:text-coffee-medium transition-colors duration-200 
-                             text-sm inline-flex items-center group"
+                    className="text-sand-medium/80 hover:text-coffee-light transition-colors text-sm"
                   >
-                    <span className="group-hover:translate-x-1 transition-transform">
-                      {service.shortTitle}
-                    </span>
+                    {service.shortTitle}
                   </Link>
                 </li>
               ))}
             </ul>
           </div>
 
-          {/* السواتر */}
           <div>
-            <h4 className="text-lg font-bold mb-6 text-white border-b-2 border-coffee-medium pb-2">
-              السواتر والأسوار
+            <h4 className="text-lg font-bold mb-5 text-white border-b border-coffee-medium/50 pb-2">
+              سواتر
             </h4>
-            <ul className="space-y-3">
+            <ul className="space-y-2.5">
               {shades.map((service) => (
                 <li key={service.id}>
-                  <Link 
+                  <Link
                     href={`/${service.slug}`}
-                    className="text-gray-400 hover:text-coffee-medium transition-colors duration-200 
-                             text-sm inline-flex items-center group"
+                    className="text-sand-medium/80 hover:text-coffee-light transition-colors text-sm"
                   >
-                    <span className="group-hover:translate-x-1 transition-transform">
-                      {service.shortTitle}
-                    </span>
+                    {service.shortTitle}
                   </Link>
                 </li>
               ))}
             </ul>
           </div>
 
-          {/* الخدمات الإضافية */}
           <div>
-            <h4 className="text-lg font-bold mb-6 text-white border-b-2 border-coffee-medium pb-2">
+            <h4 className="text-lg font-bold mb-5 text-white border-b border-coffee-medium/50 pb-2">
               خدمات أخرى
             </h4>
-            <ul className="space-y-3">
+            <ul className="space-y-2.5">
               {additional.slice(0, 6).map((service) => (
                 <li key={service.id}>
-                  <Link 
+                  <Link
                     href={`/${service.slug}`}
-                    className="text-gray-400 hover:text-coffee-medium transition-colors duration-200 
-                             text-sm inline-flex items-center group"
+                    className="text-sand-medium/80 hover:text-coffee-light transition-colors text-sm"
                   >
-                    <span className="group-hover:translate-x-1 transition-transform">
-                      {service.shortTitle}
-                    </span>
+                    {service.shortTitle}
                   </Link>
                 </li>
               ))}
             </ul>
           </div>
 
-          {/* الروابط السريعة */}
           <div>
-            <h4 className="text-lg font-bold mb-6 text-white border-b-2 border-coffee-medium pb-2">
+            <h4 className="text-lg font-bold mb-5 text-white border-b border-coffee-medium/50 pb-2">
               روابط سريعة
             </h4>
-            <ul className="space-y-3">
+            <ul className="space-y-2.5">
               <li>
-                <Link 
-                  href="/"
-                  className="text-gray-400 hover:text-coffee-medium transition-colors text-sm"
-                >
+                <Link href="/" className="text-sand-medium/80 hover:text-coffee-light transition-colors text-sm">
                   الرئيسية
                 </Link>
               </li>
               <li>
-                <Link 
-                  href="#all-services"
-                  className="text-gray-400 hover:text-coffee-medium transition-colors text-sm"
-                >
+                <Link href="/#services" className="text-sand-medium/80 hover:text-coffee-light transition-colors text-sm">
                   جميع الخدمات
                 </Link>
               </li>
               <li>
-                <Link 
-                  href="/sitemap"
-                  className="text-gray-400 hover:text-coffee-medium transition-colors text-sm"
-                >
-                  خريطة الموقع
+                <Link href="/gallery" className="text-sand-medium/80 hover:text-coffee-light transition-colors text-sm">
+                  معرض الأعمال
                 </Link>
               </li>
               <li>
-                <a 
-                  href={`tel:${companyInfo.phone}`}
-                  className="text-gray-400 hover:text-coffee-medium transition-colors text-sm"
-                >
-                  اتصل بنا
+                <a href="/sitemap.xml" className="text-sand-medium/80 hover:text-coffee-light transition-colors text-sm">
+                  خريطة الموقع
                 </a>
               </li>
               <li>
-                <a 
-                  href={`https://wa.me/${companyInfo.whatsapp}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-coffee-medium transition-colors text-sm"
-                >
-                  الواتساب
-                </a>
+                <Link href="/#contact" className="text-sand-medium/80 hover:text-coffee-light transition-colors text-sm">
+                  اتصل بنا
+                </Link>
               </li>
             </ul>
           </div>
         </div>
 
-        {/* الفاصل */}
-        <div className="border-t border-gray-800 pt-8 mb-8">
-          <div className="text-center text-gray-500 text-sm">
-            <p>
-              © {currentYear} مظلات و سواتر الرياض. جميع الحقوق محفوظة.
-            </p>
-            <p className="mt-2">
-              تصميم وتطوير متخصص | جميع الخدمات متاحة في الرياض والمملكة العربية السعودية
-            </p>
-          </div>
+        <div className="border-t border-white/10 pt-8 text-center text-sm text-sand-medium/70">
+          <p>© {currentYear} {companyInfo.name}. جميع الحقوق محفوظة.</p>
+          <p className="mt-2">تركيب مظلات وسواتر في الرياض وجميع أحياء المنطقة</p>
         </div>
       </div>
     </footer>

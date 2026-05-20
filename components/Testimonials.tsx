@@ -4,7 +4,7 @@ import { testimonials } from '@/lib/data';
 
 export default function Testimonials() {
   return (
-    <section id="testimonials" className="py-16 md:py-24 bg-gradient-desert">
+    <section id="testimonials" className="py-16 md:py-24 bg-gradient-desert scroll-mt-24">
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-16">

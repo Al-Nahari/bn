@@ -9,7 +9,7 @@ export default function Services() {
   const [hoveredCard, setHoveredCard] = useState<string | null>(null);
 
   return (
-    <section id="services" className="py-20 md:py-32 bg-gradient-desert relative overflow-hidden">
+    <section id="services" className="py-20 md:py-28 bg-gradient-desert relative overflow-hidden scroll-mt-24">
       {/* Background Decorative Elements */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-20 left-10 w-72 h-72 bg-coffee-medium rounded-full blur-3xl" />
@@ -32,7 +32,7 @@ export default function Services() {
         </div>
 
         {/* Services Grid - Enhanced */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <div
               key={service.id}

@@ -1,35 +1,36 @@
+import type { Metadata } from 'next';
+import { Noto_Sans_Arabic } from 'next/font/google';
 import { companyInfo } from '@/lib/data';
+import JsonLd from '@/components/JsonLd';
+import { buildPageMetadata, localBusinessSchema } from '@/lib/seo';
+import { SITE_URL } from '@/lib/site';
 import './globals.css';
-export const metadata = {
-  title: {
-    default: companyInfo.name,
-    template: `%s | ${companyInfo.name}`,
-  },
-  description: companyInfo.tagline,
-  keywords: [
-    'سواتر الرياض',
-    'مظلات الرياض',
-    'سواتر حديد',
-    'مظلات سيارات',
-    'تركيب سواتر',
-    'تركيب مظلات',
-    'مظلات وسواتر',
-    'الرياض',
-  ],
-  authors: [{ name: companyInfo.name }],
-  creator: companyInfo.name,
-  openGraph: {
-    type: 'website',
-    locale: 'ar_SA',
-    url: 'https://sawatr-riyad-sa.com',
-    title: companyInfo.name,
-    description: companyInfo.tagline,
-    siteName: companyInfo.name,
-  },
-  robots: {
-    index: true,
-    follow: true,
-  },
+
+const notoArabic = Noto_Sans_Arabic({
+  subsets: ['arabic'],
+  weight: ['400', '500', '600', '700'],
+  display: 'swap',
+  variable: '--font-arabic',
+});
+
+export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
+  ...buildPageMetadata({
+    title: `${companyInfo.name} | تركيب مظلات وسواتر في الرياض`,
+    description: companyInfo.seoDescription,
+    path: '/',
+    keywords: [
+      'مظلات الرياض',
+      'سواتر الرياض',
+      'تركيب مظلات',
+      'تركيب سواتر',
+      'مظلات سيارات الرياض',
+      'سواتر حديد',
+      'سواتر ليزر',
+      'برجولات الرياض',
+      'ساندويش بنل الرياض',
+    ],
+  }),
 };
 
 export default function RootLayout({
@@ -38,8 +39,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="ar" dir="rtl">
-      <body className="bg-white text-foreground antialiased font-sans">
+    <html lang="ar" dir="rtl" className={notoArabic.variable}>
+      <body className="bg-background text-foreground antialiased font-sans pb-28 md:pb-8">
+        <JsonLd data={localBusinessSchema()} />
         {children}
       </body>
     </html>

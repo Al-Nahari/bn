@@ -83,17 +83,25 @@ function getSlug(name) {
   return 'mazallat-sayarat-riyadh';
 }
 
+function buildAlt(label, type) {
+  if (/picsart/i.test(label)) {
+    return `${type} في الرياض — مشروع منفذ`;
+  }
+  return `تركيب ${label} في الرياض — ${type}`;
+}
+
 const items = files.map((filename) => {
   const base = filename.replace(/\.[^.]+$/, '');
   const label = normalize(base);
   const type = parseType(label);
   const slug = getSlug(label);
   const image = `/newphoto/${encodeURIComponent(filename)}`;
+  const description = label.length > 3 ? label : type;
   return {
     filename,
     image,
-    description: label,
-    alt: `${label} - ${type} في الرياض`,
+    description,
+    alt: buildAlt(description, type),
     type,
     slug,
   };

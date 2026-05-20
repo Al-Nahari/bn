@@ -40,9 +40,8 @@ export default function Hero() {
 
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto mb-10 leading-relaxed">
-            خبراء في تركيب جميع أنواع السواتر والمظلات بأفضل الخامات وأسعار مناسبة
-            <br className="hidden md:block" />
-            نضمن لكم جودة عالية وضمان شامل على جميع الأعمال
+            تركيب مظلات سيارات، سواتر حديد وليزر، برجولات، وساندويش بنل في الرياض —
+            خامات ممتازة، أسعار شفافة، وضمان على التركيب.
           </p>
 
           {/* CTA Buttons */}

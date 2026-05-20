@@ -1,15 +1,7 @@
 User-agent: *
+Allow: /
 
-# منع الصفحات الحساسة
 Disallow: /api/
 Disallow: /admin/
-Disallow: /dashboard/
-Disallow: /login/
-Disallow: /register/
 
-# منع الملفات المؤقتة
-Disallow: /tmp/
-Disallow: /private/
-
-# خريطة الموقع
-Sitemap: https://mazalat-riyadh.com/sitemap.xml
+Sitemap: https://sawatr-riyad-sa.com/sitemap.xml
