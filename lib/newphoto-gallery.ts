@@ -89,22 +89,6 @@ export const newPhotoGallery: (GalleryImage & { slug: string; filename: string }
     "slug": "mazallat-maqousa-riyadh"
   },
   {
-    "filename": "تضليل ممرات...jpg",
-    "image": "/newphoto/%D8%AA%D8%B6%D9%84%D9%8A%D9%84%20%D9%85%D9%85%D8%B1%D8%A7%D8%AA...jpg",
-    "description": "تضليل ممرات",
-    "alt": "تركيب تضليل ممرات في الرياض — مظلات ممرات",
-    "type": "مظلات ممرات",
-    "slug": "mazallat-maqousa-riyadh"
-  },
-  {
-    "filename": "تضليل ممرات.jpg",
-    "image": "/newphoto/%D8%AA%D8%B6%D9%84%D9%8A%D9%84%20%D9%85%D9%85%D8%B1%D8%A7%D8%AA.jpg",
-    "description": "تضليل ممرات",
-    "alt": "تركيب تضليل ممرات في الرياض — مظلات ممرات",
-    "type": "مظلات ممرات",
-    "slug": "mazallat-maqousa-riyadh"
-  },
-  {
     "filename": "تنسيق جلسات حدائق.jpg",
     "image": "/newphoto/%D8%AA%D9%86%D8%B3%D9%8A%D9%82%20%D8%AC%D9%84%D8%B3%D8%A7%D8%AA%20%D8%AD%D8%AF%D8%A7%D8%A6%D9%82.jpg",
     "description": "تنسيق جلسات حدائق",
@@ -209,14 +193,6 @@ export const newPhotoGallery: (GalleryImage & { slug: string; filename: string }
     "slug": "jalsat-borjolat-riyadh"
   },
   {
-    "filename": "جلسه خارجيه.jpg",
-    "image": "/newphoto/%D8%AC%D9%84%D8%B3%D9%87%20%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D9%87.jpg",
-    "description": "جلسه خارجيه",
-    "alt": "تركيب جلسه خارجيه في الرياض — جلسات خارجية",
-    "type": "جلسات خارجية",
-    "slug": "jalsat-borjolat-riyadh"
-  },
-  {
     "filename": "ساتر حديد تغطيه كامله.jpg",
     "image": "/newphoto/%D8%B3%D8%A7%D8%AA%D8%B1%20%D8%AD%D8%AF%D9%8A%D8%AF%20%D8%AA%D8%BA%D8%B7%D9%8A%D9%87%20%D9%83%D8%A7%D9%85%D9%84%D9%87.jpg",
     "description": "ساتر حديد تغطيه كامله",
@@ -281,30 +257,6 @@ export const newPhotoGallery: (GalleryImage & { slug: string; filename: string }
     "slug": "sawatr-laser-riyadh"
   },
   {
-    "filename": "سواتر ليزر..jpg",
-    "image": "/newphoto/%D8%B3%D9%88%D8%A7%D8%AA%D8%B1%20%D9%84%D9%8A%D8%B2%D8%B1..jpg",
-    "description": "سواتر ليزر",
-    "alt": "تركيب سواتر ليزر في الرياض — سواتر ليزر",
-    "type": "سواتر ليزر",
-    "slug": "sawatr-laser-riyadh"
-  },
-  {
-    "filename": "سواتر ليزر.jpg",
-    "image": "/newphoto/%D8%B3%D9%88%D8%A7%D8%AA%D8%B1%20%D9%84%D9%8A%D8%B2%D8%B1.jpg",
-    "description": "سواتر ليزر",
-    "alt": "تركيب سواتر ليزر في الرياض — سواتر ليزر",
-    "type": "سواتر ليزر",
-    "slug": "sawatr-laser-riyadh"
-  },
-  {
-    "filename": "سواتر.jpg",
-    "image": "/newphoto/%D8%B3%D9%88%D8%A7%D8%AA%D8%B1.jpg",
-    "description": "سواتر",
-    "alt": "تركيب سواتر في الرياض — سواتر",
-    "type": "سواتر",
-    "slug": "sawatr-hadid-riyadh"
-  },
-  {
     "filename": "غرف خارجه سندوش بنل.jpg",
     "image": "/newphoto/%D8%BA%D8%B1%D9%81%20%D8%AE%D8%A7%D8%B1%D8%AC%D9%87%20%D8%B3%D9%86%D8%AF%D9%88%D8%B4%20%D8%A8%D9%86%D9%84.jpg",
     "description": "غرف خارجية ساندويش بنل",
@@ -353,34 +305,10 @@ export const newPhotoGallery: (GalleryImage & { slug: string; filename: string }
     "slug": "mazallat-sayarat-riyadh"
   },
   {
-    "filename": "مضلات سيارات .jpg",
-    "image": "/newphoto/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA%20.jpg",
-    "description": "مظلات سيارات",
-    "alt": "تركيب مظلات سيارات في الرياض — مظلات سيارات",
-    "type": "مظلات سيارات",
-    "slug": "mazallat-sayarat-riyadh"
-  },
-  {
     "filename": "مضلات سيارات جميله..jpg",
     "image": "/newphoto/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA%20%D8%AC%D9%85%D9%8A%D9%84%D9%87..jpg",
     "description": "مظلات سيارات جميله",
     "alt": "تركيب مظلات سيارات جميله في الرياض — مظلات سيارات",
-    "type": "مظلات سيارات",
-    "slug": "mazallat-sayarat-riyadh"
-  },
-  {
-    "filename": "مضلات سيارات جميله.jpg",
-    "image": "/newphoto/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA%20%D8%AC%D9%85%D9%8A%D9%84%D9%87.jpg",
-    "description": "مظلات سيارات جميله",
-    "alt": "تركيب مظلات سيارات جميله في الرياض — مظلات سيارات",
-    "type": "مظلات سيارات",
-    "slug": "mazallat-sayarat-riyadh"
-  },
-  {
-    "filename": "مضلات سيارات..jpg",
-    "image": "/newphoto/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA..jpg",
-    "description": "مظلات سيارات",
-    "alt": "تركيب مظلات سيارات في الرياض — مظلات سيارات",
     "type": "مظلات سيارات",
     "slug": "mazallat-sayarat-riyadh"
   },
@@ -409,30 +337,6 @@ export const newPhotoGallery: (GalleryImage & { slug: string; filename: string }
     "slug": "mazallat-sayarat-riyadh"
   },
   {
-    "filename": "مضلات سيارت...jpg",
-    "image": "/newphoto/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D8%B3%D9%8A%D8%A7%D8%B1%D8%AA...jpg",
-    "description": "مظلات سيارت",
-    "alt": "تركيب مظلات سيارت في الرياض — مظلات سيارات",
-    "type": "مظلات سيارات",
-    "slug": "mazallat-sayarat-riyadh"
-  },
-  {
-    "filename": "مضلات سيارت..jpg",
-    "image": "/newphoto/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D8%B3%D9%8A%D8%A7%D8%B1%D8%AA..jpg",
-    "description": "مظلات سيارت",
-    "alt": "تركيب مظلات سيارت في الرياض — مظلات سيارات",
-    "type": "مظلات سيارات",
-    "slug": "mazallat-sayarat-riyadh"
-  },
-  {
-    "filename": "مضلات سيارت.jpg",
-    "image": "/newphoto/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D8%B3%D9%8A%D8%A7%D8%B1%D8%AA.jpg",
-    "description": "مظلات سيارت",
-    "alt": "تركيب مظلات سيارت في الرياض — مظلات سيارات",
-    "type": "مظلات سيارات",
-    "slug": "mazallat-sayarat-riyadh"
-  },
-  {
     "filename": "مضلات سيارت2.jpg",
     "image": "/newphoto/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D8%B3%D9%8A%D8%A7%D8%B1%D8%AA2.jpg",
     "description": "مظلات سيارت2",
@@ -443,14 +347,6 @@ export const newPhotoGallery: (GalleryImage & { slug: string; filename: string }
   {
     "filename": "مضلات كلادينج .jpg",
     "image": "/newphoto/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D9%83%D9%84%D8%A7%D8%AF%D9%8A%D9%86%D8%AC%20.jpg",
-    "description": "مظلات كلادينج",
-    "alt": "تركيب مظلات كلادينج في الرياض — مظلات كلادينج",
-    "type": "مظلات كلادينج",
-    "slug": "mazallat-shad-inshai-riyadh"
-  },
-  {
-    "filename": "مضلات كلادينج.jpg",
-    "image": "/newphoto/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D9%83%D9%84%D8%A7%D8%AF%D9%8A%D9%86%D8%AC.jpg",
     "description": "مظلات كلادينج",
     "alt": "تركيب مظلات كلادينج في الرياض — مظلات كلادينج",
     "type": "مظلات كلادينج",
@@ -499,22 +395,6 @@ export const newPhotoGallery: (GalleryImage & { slug: string; filename: string }
   {
     "filename": "مضلات ممرات .jpg",
     "image": "/newphoto/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D9%85%D9%85%D8%B1%D8%A7%D8%AA%20.jpg",
-    "description": "مظلات ممرات",
-    "alt": "تركيب مظلات ممرات في الرياض — مظلات ممرات",
-    "type": "مظلات ممرات",
-    "slug": "mazallat-maqousa-riyadh"
-  },
-  {
-    "filename": "مضلات ممرات..jpg",
-    "image": "/newphoto/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D9%85%D9%85%D8%B1%D8%A7%D8%AA..jpg",
-    "description": "مظلات ممرات",
-    "alt": "تركيب مظلات ممرات في الرياض — مظلات ممرات",
-    "type": "مظلات ممرات",
-    "slug": "mazallat-maqousa-riyadh"
-  },
-  {
-    "filename": "مضلات ممرات.jpg",
-    "image": "/newphoto/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D9%85%D9%85%D8%B1%D8%A7%D8%AA.jpg",
     "description": "مظلات ممرات",
     "alt": "تركيب مظلات ممرات في الرياض — مظلات ممرات",
     "type": "مظلات ممرات",
@@ -575,30 +455,6 @@ export const newPhotoGallery: (GalleryImage & { slug: string; filename: string }
     "alt": "تركيب مظلات هرميه مسجد في الرياض — مظلات هرمية",
     "type": "مظلات هرمية",
     "slug": "mazallat-haramiya-riyadh"
-  },
-  {
-    "filename": "مضلات هرميه.jpg",
-    "image": "/newphoto/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D9%87%D8%B1%D9%85%D9%8A%D9%87.jpg",
-    "description": "مظلات هرميه",
-    "alt": "تركيب مظلات هرميه في الرياض — مظلات هرمية",
-    "type": "مظلات هرمية",
-    "slug": "mazallat-haramiya-riyadh"
-  },
-  {
-    "filename": "مضلان سيارت.jpg",
-    "image": "/newphoto/%D9%85%D8%B6%D9%84%D8%A7%D9%86%20%D8%B3%D9%8A%D8%A7%D8%B1%D8%AA.jpg",
-    "description": "مظلات سيارت",
-    "alt": "تركيب مظلات سيارت في الرياض — مظلات سيارات",
-    "type": "مظلات سيارات",
-    "slug": "mazallat-sayarat-riyadh"
-  },
-  {
-    "filename": "مضلان مقوسه .jpg",
-    "image": "/newphoto/%D9%85%D8%B6%D9%84%D8%A7%D9%86%20%D9%85%D9%82%D9%88%D8%B3%D9%87%20.jpg",
-    "description": "مظلات مقوسه",
-    "alt": "تركيب مظلات مقوسه في الرياض — مظلات مقوسة",
-    "type": "مظلات مقوسة",
-    "slug": "mazallat-maqousa-riyadh"
   },
   {
     "filename": "هناجر مستودعات.jpg",

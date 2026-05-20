@@ -164,14 +164,6 @@ export const imgGallery: (GalleryImage & { slug: string; filename: string })[] =
     "slug": "jalsat-borjolat-riyadh"
   },
   {
-    "filename": "4f748b5d36a9c23e1cdc889b85bed03e-1.jpg",
-    "image": "/img/4f748b5d36a9c23e1cdc889b85bed03e-1.jpg",
-    "description": "4f748b5d36a9c23e1cdc889b85bed03e 1",
-    "alt": "تركيب 4f748b5d36a9c23e1cdc889b85bed03e 1 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "qaramid-riyadh"
-  },
-  {
     "filename": "4f748b5d36a9c23e1cdc889b85bed03e.webp",
     "image": "/img/4f748b5d36a9c23e1cdc889b85bed03e.webp",
     "description": "4f748b5d36a9c23e1cdc889b85bed03e",
@@ -186,14 +178,6 @@ export const imgGallery: (GalleryImage & { slug: string; filename: string })[] =
     "alt": "تركيب 534421610377254 في الرياض — أعمالنا",
     "type": "أعمالنا",
     "slug": "mazallat-mutaharrika-riyadh"
-  },
-  {
-    "filename": "5606899d7b1f3244cd0c6904badee081-Copy.jpg",
-    "image": "/img/5606899d7b1f3244cd0c6904badee081-Copy.jpg",
-    "description": "5606899d7b1f3244cd0c6904badee081 Copy",
-    "alt": "تركيب 5606899d7b1f3244cd0c6904badee081 Copy في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "mazallat-maqousa-riyadh"
   },
   {
     "filename": "5606899d7b1f3244cd0c6904badee081.webp",
@@ -226,14 +210,6 @@ export const imgGallery: (GalleryImage & { slug: string; filename: string })[] =
     "alt": "تركيب 630011604896466 1 في الرياض — أعمالنا",
     "type": "أعمالنا",
     "slug": "mazallat-mutaharrika-riyadh"
-  },
-  {
-    "filename": "63fd064350626-450px-1.jpg",
-    "image": "/img/63fd064350626-450px-1.jpg",
-    "description": "63fd064350626 450px 1",
-    "alt": "تركيب 63fd064350626 450px 1 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "tansiq-hadaiq-riyadh"
   },
   {
     "filename": "63fd064350626-450px.webp",
@@ -316,14 +292,6 @@ export const imgGallery: (GalleryImage & { slug: string; filename: string })[] =
     "slug": "mazallat-mutaharrika-riyadh"
   },
   {
-    "filename": "91f5425588a1a54759af9203fd9f52c4-1.jpg",
-    "image": "/img/91f5425588a1a54759af9203fd9f52c4-1.jpg",
-    "description": "91f5425588a1a54759af9203fd9f52c4 1",
-    "alt": "تركيب 91f5425588a1a54759af9203fd9f52c4 1 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "ghoraf-sandwich-panel-riyadh"
-  },
-  {
     "filename": "91f5425588a1a54759af9203fd9f52c4.webp",
     "image": "/img/91f5425588a1a54759af9203fd9f52c4.webp",
     "description": "91f5425588a1a54759af9203fd9f52c4",
@@ -362,14 +330,6 @@ export const imgGallery: (GalleryImage & { slug: string; filename: string })[] =
     "alt": "تركيب 988c9bc6a8f796da2a8ce387cfd7774c في الرياض — أعمالنا",
     "type": "أعمالنا",
     "slug": "ghoraf-sandwich-panel-riyadh"
-  },
-  {
-    "filename": "998a371d8809b333b020033db220b4e7-Copy.jpg",
-    "image": "/img/998a371d8809b333b020033db220b4e7-Copy.jpg",
-    "description": "998a371d8809b333b020033db220b4e7 Copy",
-    "alt": "تركيب 998a371d8809b333b020033db220b4e7 Copy في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "buyut-sha3r-riyadh"
   },
   {
     "filename": "999251593963955.webp",
@@ -660,30 +620,6 @@ export const imgGallery: (GalleryImage & { slug: string; filename: string })[] =
     "slug": "jalsat-borjolat-riyadh"
   },
   {
-    "filename": "WhatsApp-Image-2024-02-13-at-11.58.59-AM-1-1.webp",
-    "image": "/img/WhatsApp-Image-2024-02-13-at-11.58.59-AM-1-1.webp",
-    "description": "WhatsApp Image 2024 02 13 at 11 58 59 AM 1 1",
-    "alt": "تركيب WhatsApp Image 2024 02 13 at 11 58 59 AM 1 1 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "tansiq-hadaiq-riyadh"
-  },
-  {
-    "filename": "WhatsApp-Image-2024-02-13-at-11.58.59-AM-1-1024x1024.webp",
-    "image": "/img/WhatsApp-Image-2024-02-13-at-11.58.59-AM-1-1024x1024.webp",
-    "description": "WhatsApp Image 2024 02 13 at 11 58 59 AM 1 1024x1024",
-    "alt": "تركيب WhatsApp Image 2024 02 13 at 11 58 59 AM 1 1024x1024 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "mazallat-shad-inshai-riyadh"
-  },
-  {
-    "filename": "WhatsApp-Image-2024-02-13-at-11.58.59-AM-1-768x768.webp",
-    "image": "/img/WhatsApp-Image-2024-02-13-at-11.58.59-AM-1-768x768.webp",
-    "description": "WhatsApp Image 2024 02 13 at 11 58 59 AM 1 768x768",
-    "alt": "تركيب WhatsApp Image 2024 02 13 at 11 58 59 AM 1 768x768 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "ghoraf-sandwich-panel-riyadh"
-  },
-  {
     "filename": "WhatsApp-Image-2024-02-13-at-11.58.59-AM-1.webp",
     "image": "/img/WhatsApp-Image-2024-02-13-at-11.58.59-AM-1.webp",
     "description": "WhatsApp Image 2024 02 13 at 11 58 59 AM 1",
@@ -852,14 +788,6 @@ export const imgGallery: (GalleryImage & { slug: string; filename: string })[] =
     "slug": "ghoraf-sandwich-panel-riyadh"
   },
   {
-    "filename": "images-1.jpeg",
-    "image": "/img/images-1.jpeg",
-    "description": "images 1",
-    "alt": "تركيب images 1 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "mazallat-haramiya-riyadh"
-  },
-  {
     "filename": "images.webp",
     "image": "/img/images.webp",
     "description": "images",
@@ -948,46 +876,6 @@ export const imgGallery: (GalleryImage & { slug: string; filename: string })[] =
     "slug": "mazallat-masabi-riyadh"
   },
   {
-    "filename": "ابو-تركي-1024x1024.webp",
-    "image": "/img/%D8%A7%D8%A8%D9%88-%D8%AA%D8%B1%D9%83%D9%8A-1024x1024.webp",
-    "description": "ابو تركي 1024x1024",
-    "alt": "تركيب ابو تركي 1024x1024 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "jalsat-borjolat-riyadh"
-  },
-  {
-    "filename": "ابو-تركي-768x768.webp",
-    "image": "/img/%D8%A7%D8%A8%D9%88-%D8%AA%D8%B1%D9%83%D9%8A-768x768.webp",
-    "description": "ابو تركي 768x768",
-    "alt": "تركيب ابو تركي 768x768 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "ghoraf-sandwich-panel-riyadh"
-  },
-  {
-    "filename": "ابو-تركي.webp",
-    "image": "/img/%D8%A7%D8%A8%D9%88-%D8%AA%D8%B1%D9%83%D9%8A.webp",
-    "description": "ابو تركي",
-    "alt": "تركيب ابو تركي في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "mazallat-sayarat-riyadh"
-  },
-  {
-    "filename": "ابو-مشاري.webp",
-    "image": "/img/%D8%A7%D8%A8%D9%88-%D9%85%D8%B4%D8%A7%D8%B1%D9%8A.webp",
-    "description": "ابو مشاري",
-    "alt": "تركيب ابو مشاري في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "mazallat-madaris-riyadh"
-  },
-  {
-    "filename": "اريج-الزهراني2.webp",
-    "image": "/img/%D8%A7%D8%B1%D9%8A%D8%AC-%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D9%86%D9%8A2.webp",
-    "description": "اريج الزهراني2",
-    "alt": "تركيب اريج الزهراني2 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "qaramid-riyadh"
-  },
-  {
     "filename": "بيوت-شعر.webp",
     "image": "/img/%D8%A8%D9%8A%D9%88%D8%AA-%D8%B4%D8%B9%D8%B1.webp",
     "description": "بيوت شعر",
@@ -1002,46 +890,6 @@ export const imgGallery: (GalleryImage & { slug: string; filename: string })[] =
     "alt": "تركيب تركيب سندويش بنل في الرياض — أعمالنا",
     "type": "أعمالنا",
     "slug": "asatih-sandwich-panel-riyadh"
-  },
-  {
-    "filename": "تم-تعديل-مؤسسة-كيس-لتضيم-المعارض-والمؤتمؤات.webp",
-    "image": "/img/%D8%AA%D9%85-%D8%AA%D8%B9%D8%AF%D9%8A%D9%84-%D9%85%D8%A4%D8%B3%D8%B3%D8%A9-%D9%83%D9%8A%D8%B3-%D9%84%D8%AA%D8%B6%D9%8A%D9%85-%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D8%B1%D8%B6-%D9%88%D8%A7%D9%84%D9%85%D8%A4%D8%AA%D9%85%D8%A4%D8%A7%D8%AA.webp",
-    "description": "تم تعديل مؤسسة كيس لتضيم المعارض والمؤتمؤات",
-    "alt": "تركيب تم تعديل مؤسسة كيس لتضيم المعارض والمؤتمؤات في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "mazallat-mutaharrika-riyadh"
-  },
-  {
-    "filename": "خالد-الوصابي-1024x1024.webp",
-    "image": "/img/%D8%AE%D8%A7%D9%84%D8%AF-%D8%A7%D9%84%D9%88%D8%B5%D8%A7%D8%A8%D9%8A-1024x1024.webp",
-    "description": "خالد الوصابي 1024x1024",
-    "alt": "تركيب خالد الوصابي 1024x1024 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "mazallat-madaris-riyadh"
-  },
-  {
-    "filename": "خالد-الوصابي-1536x1536.webp",
-    "image": "/img/%D8%AE%D8%A7%D9%84%D8%AF-%D8%A7%D9%84%D9%88%D8%B5%D8%A7%D8%A8%D9%8A-1536x1536.webp",
-    "description": "خالد الوصابي 1536x1536",
-    "alt": "تركيب خالد الوصابي 1536x1536 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "jalsat-borjolat-riyadh"
-  },
-  {
-    "filename": "خالد-الوصابي-768x768.webp",
-    "image": "/img/%D8%AE%D8%A7%D9%84%D8%AF-%D8%A7%D9%84%D9%88%D8%B5%D8%A7%D8%A8%D9%8A-768x768.webp",
-    "description": "خالد الوصابي 768x768",
-    "alt": "تركيب خالد الوصابي 768x768 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "mazallat-madaris-riyadh"
-  },
-  {
-    "filename": "خالد-الوصابي.webp",
-    "image": "/img/%D8%AE%D8%A7%D9%84%D8%AF-%D8%A7%D9%84%D9%88%D8%B5%D8%A7%D8%A8%D9%8A.webp",
-    "description": "خالد الوصابي",
-    "alt": "تركيب خالد الوصابي في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "mazallat-maqousa-riyadh"
   },
   {
     "filename": "ساندوتش-بانل-_29011850_-__-400x284-1.webp",
@@ -1108,34 +956,10 @@ export const imgGallery: (GalleryImage & { slug: string; filename: string })[] =
     "slug": "asatih-sandwich-panel-riyadh"
   },
   {
-    "filename": "سلمئ-سعود2.webp",
-    "image": "/img/%D8%B3%D9%84%D9%85%D8%A6-%D8%B3%D8%B9%D9%88%D8%AF2.webp",
-    "description": "سلمئ سعود2",
-    "alt": "تركيب سلمئ سعود2 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "mazallat-sayarat-riyadh"
-  },
-  {
-    "filename": "سواتر-الرياض-3-199x300.jpg",
-    "image": "/img/%D8%B3%D9%88%D8%A7%D8%AA%D8%B1-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6-3-199x300.jpg",
-    "description": "سواتر الرياض 3 199x300",
-    "alt": "تركيب سواتر الرياض 3 199x300 في الرياض — سواتر",
-    "type": "سواتر",
-    "slug": "sawatr-hadid-riyadh"
-  },
-  {
     "filename": "سواتر-الرياض-3-680x1024.jpg",
     "image": "/img/%D8%B3%D9%88%D8%A7%D8%AA%D8%B1-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6-3-680x1024.jpg",
     "description": "سواتر الرياض 3 680x1024",
     "alt": "تركيب سواتر الرياض 3 680x1024 في الرياض — سواتر",
-    "type": "سواتر",
-    "slug": "sawatr-hadid-riyadh"
-  },
-  {
-    "filename": "سواتر-الرياض-3.jpg",
-    "image": "/img/%D8%B3%D9%88%D8%A7%D8%AA%D8%B1-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6-3.jpg",
-    "description": "سواتر الرياض 3",
-    "alt": "تركيب سواتر الرياض 3 في الرياض — سواتر",
     "type": "سواتر",
     "slug": "sawatr-hadid-riyadh"
   },
@@ -1156,26 +980,10 @@ export const imgGallery: (GalleryImage & { slug: string; filename: string })[] =
     "slug": "sawatr-hadid-riyadh"
   },
   {
-    "filename": "سواتر-الرياض4-225x300.jpg",
-    "image": "/img/%D8%B3%D9%88%D8%A7%D8%AA%D8%B1-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B64-225x300.jpg",
-    "description": "سواتر الرياض4 225x300",
-    "alt": "تركيب سواتر الرياض4 225x300 في الرياض — سواتر",
-    "type": "سواتر",
-    "slug": "sawatr-hadid-riyadh"
-  },
-  {
     "filename": "سواتر-الرياض4-768x1024.jpg",
     "image": "/img/%D8%B3%D9%88%D8%A7%D8%AA%D8%B1-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B64-768x1024.jpg",
     "description": "سواتر الرياض4 768x1024",
     "alt": "تركيب سواتر الرياض4 768x1024 في الرياض — سواتر",
-    "type": "سواتر",
-    "slug": "sawatr-hadid-riyadh"
-  },
-  {
-    "filename": "سواتر-الرياض4.jpg",
-    "image": "/img/%D8%B3%D9%88%D8%A7%D8%AA%D8%B1-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B64.jpg",
-    "description": "سواتر الرياض4",
-    "alt": "تركيب سواتر الرياض4 في الرياض — سواتر",
     "type": "سواتر",
     "slug": "sawatr-hadid-riyadh"
   },
@@ -1410,14 +1218,6 @@ export const imgGallery: (GalleryImage & { slug: string; filename: string })[] =
     "alt": "تركيب صورة واتساب بتاريخ 1446 08 04 في 02 34 51_564b3946 في الرياض — أعمالنا",
     "type": "أعمالنا",
     "slug": "mazallat-shad-inshai-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-1446-08-04-في-02.34.51_ed12e12f-Copy.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-1446-08-04-%D9%81%D9%8A-02.34.51_ed12e12f-Copy.jpg",
-    "description": "صورة واتساب بتاريخ 1446 08 04 في 02 34 51_ed12e12f Copy",
-    "alt": "تركيب صورة واتساب بتاريخ 1446 08 04 في 02 34 51_ed12e12f Copy في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "mazallat-sayarat-riyadh"
   },
   {
     "filename": "صورة-واتساب-بتاريخ-1446-08-04-في-02.34.52_414e092d.jpg",
@@ -1674,14 +1474,6 @@ export const imgGallery: (GalleryImage & { slug: string; filename: string })[] =
     "alt": "تركيب صورة واتساب بتاريخ 2024 04 16 في 19 34 30_92cefc9f 768x768 في الرياض — أعمالنا",
     "type": "أعمالنا",
     "slug": "mazallat-sayarat-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2024-04-16-في-19.34.30_92cefc9f.webp",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2024-04-16-%D9%81%D9%8A-19.34.30_92cefc9f.webp",
-    "description": "صورة واتساب بتاريخ 2024 04 16 في 19 34 30_92cefc9f",
-    "alt": "تركيب صورة واتساب بتاريخ 2024 04 16 في 19 34 30_92cefc9f في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "sawatr-qumash-riyadh"
   },
   {
     "filename": "صورة-واتساب-بتاريخ-2024-04-16-في-19.34.34_1098a1c2.jpg",
@@ -1948,36 +1740,12 @@ export const imgGallery: (GalleryImage & { slug: string; filename: string })[] =
     "slug": "hanajer-w-mastoudat-riyadh"
   },
   {
-    "filename": "صورة-واتساب-بتاريخ-2024-06-10-في-21.02.10_16f9c920-1.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2024-06-10-%D9%81%D9%8A-21.02.10_16f9c920-1.jpg",
-    "description": "صورة واتساب بتاريخ 2024 06 10 في 21 02 10_16f9c920 1",
-    "alt": "تركيب صورة واتساب بتاريخ 2024 06 10 في 21 02 10_16f9c920 1 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "jalsat-borjolat-riyadh"
-  },
-  {
     "filename": "صورة-واتساب-بتاريخ-2024-06-10-في-21.02.10_16f9c920.jpg",
     "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2024-06-10-%D9%81%D9%8A-21.02.10_16f9c920.jpg",
     "description": "صورة واتساب بتاريخ 2024 06 10 في 21 02 10_16f9c920",
     "alt": "تركيب صورة واتساب بتاريخ 2024 06 10 في 21 02 10_16f9c920 في الرياض — أعمالنا",
     "type": "أعمالنا",
     "slug": "mazallat-shad-inshai-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2024-06-10-في-21.02.10_686c9da8-1.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2024-06-10-%D9%81%D9%8A-21.02.10_686c9da8-1.jpg",
-    "description": "صورة واتساب بتاريخ 2024 06 10 في 21 02 10_686c9da8 1",
-    "alt": "تركيب صورة واتساب بتاريخ 2024 06 10 في 21 02 10_686c9da8 1 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "tansiq-hadaiq-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2024-06-10-في-21.02.10_686c9da8.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2024-06-10-%D9%81%D9%8A-21.02.10_686c9da8.jpg",
-    "description": "صورة واتساب بتاريخ 2024 06 10 في 21 02 10_686c9da8",
-    "alt": "تركيب صورة واتساب بتاريخ 2024 06 10 في 21 02 10_686c9da8 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "tansiq-hadaiq-riyadh"
   },
   {
     "filename": "صورة-واتساب-بتاريخ-2024-06-10-في-21.02.10_dd60bffb.jpg",
@@ -2132,14 +1900,6 @@ export const imgGallery: (GalleryImage & { slug: string; filename: string })[] =
     "slug": "tansiq-hadaiq-riyadh"
   },
   {
-    "filename": "صورة-واتساب-بتاريخ-2024-06-18-في-21.14.34_3125e08c-Copy.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2024-06-18-%D9%81%D9%8A-21.14.34_3125e08c-Copy.jpg",
-    "description": "صورة واتساب بتاريخ 2024 06 18 في 21 14 34_3125e08c Copy",
-    "alt": "تركيب صورة واتساب بتاريخ 2024 06 18 في 21 14 34_3125e08c Copy في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "mazallat-mutaharrika-riyadh"
-  },
-  {
     "filename": "صورة-واتساب-بتاريخ-2024-06-18-في-21.14.34_3125e08c.jpg",
     "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2024-06-18-%D9%81%D9%8A-21.14.34_3125e08c.jpg",
     "description": "صورة واتساب بتاريخ 2024 06 18 في 21 14 34_3125e08c",
@@ -2244,14 +2004,6 @@ export const imgGallery: (GalleryImage & { slug: string; filename: string })[] =
     "slug": "sawatr-qumash-riyadh"
   },
   {
-    "filename": "صورة-واتساب-بتاريخ-2024-11-10-في-15.58.41_b7030758.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2024-11-10-%D9%81%D9%8A-15.58.41_b7030758.jpg",
-    "description": "صورة واتساب بتاريخ 2024 11 10 في 15 58 41_b7030758",
-    "alt": "تركيب صورة واتساب بتاريخ 2024 11 10 في 15 58 41_b7030758 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "sawatr-hadid-riyadh"
-  },
-  {
     "filename": "صورة-واتساب-بتاريخ-2024-11-10-في-15.58.42_3f6cb311.jpg",
     "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2024-11-10-%D9%81%D9%8A-15.58.42_3f6cb311.jpg",
     "description": "صورة واتساب بتاريخ 2024 11 10 في 15 58 42_3f6cb311",
@@ -2290,14 +2042,6 @@ export const imgGallery: (GalleryImage & { slug: string; filename: string })[] =
     "alt": "تركيب صورة واتساب بتاريخ 2024 11 10 في 16 02 43_e32ef4d4 في الرياض — أعمالنا",
     "type": "أعمالنا",
     "slug": "mazallat-sayarat-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2024-11-10-في-16.02.44_2587e85f.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2024-11-10-%D9%81%D9%8A-16.02.44_2587e85f.jpg",
-    "description": "صورة واتساب بتاريخ 2024 11 10 في 16 02 44_2587e85f",
-    "alt": "تركيب صورة واتساب بتاريخ 2024 11 10 في 16 02 44_2587e85f في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "asatih-sandwich-panel-riyadh"
   },
   {
     "filename": "صورة-واتساب-بتاريخ-2024-11-10-في-16.02.44_327b8574.jpg",
@@ -2348,14 +2092,6 @@ export const imgGallery: (GalleryImage & { slug: string; filename: string })[] =
     "slug": "sawatr-qumash-riyadh"
   },
   {
-    "filename": "صورة-واتساب-بتاريخ-2024-11-10-في-16.02.50_5884161f.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2024-11-10-%D9%81%D9%8A-16.02.50_5884161f.jpg",
-    "description": "صورة واتساب بتاريخ 2024 11 10 في 16 02 50_5884161f",
-    "alt": "تركيب صورة واتساب بتاريخ 2024 11 10 في 16 02 50_5884161f في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "tansiq-hadaiq-riyadh"
-  },
-  {
     "filename": "صورة-واتساب-بتاريخ-2024-11-10-في-16.02.50_62107f69.jpg",
     "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2024-11-10-%D9%81%D9%8A-16.02.50_62107f69.jpg",
     "description": "صورة واتساب بتاريخ 2024 11 10 في 16 02 50_62107f69",
@@ -2404,14 +2140,6 @@ export const imgGallery: (GalleryImage & { slug: string; filename: string })[] =
     "slug": "sawatr-qumash-riyadh"
   },
   {
-    "filename": "صورة-واتساب-بتاريخ-2024-11-10-في-16.06.44_df6915390.webp",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2024-11-10-%D9%81%D9%8A-16.06.44_df6915390.webp",
-    "description": "صورة واتساب بتاريخ 2024 11 10 في 16 06 44_df6915390",
-    "alt": "تركيب صورة واتساب بتاريخ 2024 11 10 في 16 06 44_df6915390 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "hanajer-w-mastoudat-riyadh"
-  },
-  {
     "filename": "صورة-واتساب-بتاريخ-2024-11-10-في-16.06.44_ef7ddc5f.jpg",
     "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2024-11-10-%D9%81%D9%8A-16.06.44_ef7ddc5f.jpg",
     "description": "صورة واتساب بتاريخ 2024 11 10 في 16 06 44_ef7ddc5f",
@@ -2426,14 +2154,6 @@ export const imgGallery: (GalleryImage & { slug: string; filename: string })[] =
     "alt": "تركيب صورة واتساب بتاريخ 2024 11 10 في 16 06 45_7df49d65 في الرياض — أعمالنا",
     "type": "أعمالنا",
     "slug": "tansiq-hadaiq-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2024-11-10-في-16.06.45_c65113d7-Copy.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2024-11-10-%D9%81%D9%8A-16.06.45_c65113d7-Copy.jpg",
-    "description": "صورة واتساب بتاريخ 2024 11 10 في 16 06 45_c65113d7 Copy",
-    "alt": "تركيب صورة واتساب بتاريخ 2024 11 10 في 16 06 45_c65113d7 Copy في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "ghoraf-sandwich-panel-riyadh"
   },
   {
     "filename": "صورة-واتساب-بتاريخ-2024-11-10-في-16.06.46_7cc27288.jpg",
@@ -2580,84 +2300,12 @@ export const imgGallery: (GalleryImage & { slug: string; filename: string })[] =
     "slug": "mazallat-sayarat-riyadh"
   },
   {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-10-في-20.27.37_05af3bff-768x768.webp",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-10-%D9%81%D9%8A-20.27.37_05af3bff-768x768.webp",
-    "description": "صورة واتساب بتاريخ 2025 08 10 في 20 27 37_05af3bff 768x768",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 10 في 20 27 37_05af3bff 768x768 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "mazallat-masabi-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-10-في-20.27.37_05af3bff.webp",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-10-%D9%81%D9%8A-20.27.37_05af3bff.webp",
-    "description": "صورة واتساب بتاريخ 2025 08 10 في 20 27 37_05af3bff",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 10 في 20 27 37_05af3bff في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "mazallat-madaris-riyadh"
-  },
-  {
     "filename": "صورة-واتساب-بتاريخ-2025-08-10-في-20.27.44_c328ed7a-768x768.webp",
     "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-10-%D9%81%D9%8A-20.27.44_c328ed7a-768x768.webp",
     "description": "صورة واتساب بتاريخ 2025 08 10 في 20 27 44_c328ed7a 768x768",
     "alt": "تركيب صورة واتساب بتاريخ 2025 08 10 في 20 27 44_c328ed7a 768x768 في الرياض — أعمالنا",
     "type": "أعمالنا",
     "slug": "mazallat-sayarat-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-10-في-20.27.44_c328ed7a.webp",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-10-%D9%81%D9%8A-20.27.44_c328ed7a.webp",
-    "description": "صورة واتساب بتاريخ 2025 08 10 في 20 27 44_c328ed7a",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 10 في 20 27 44_c328ed7a في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "ghoraf-sandwich-panel-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-10-في-20.28.54_e84f54ea.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-10-%D9%81%D9%8A-20.28.54_e84f54ea.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 10 في 20 28 54_e84f54ea",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 10 في 20 28 54_e84f54ea في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "mazallat-shad-inshai-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-18-في-19.22.14_014f008b.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-18-%D9%81%D9%8A-19.22.14_014f008b.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 18 في 19 22 14_014f008b",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 18 في 19 22 14_014f008b في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "tansiq-hadaiq-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-18-في-19.22.14_6ab2312c.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-18-%D9%81%D9%8A-19.22.14_6ab2312c.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 18 في 19 22 14_6ab2312c",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 18 في 19 22 14_6ab2312c في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "mazallat-madaris-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-18-في-19.22.14_8765a669-1.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-18-%D9%81%D9%8A-19.22.14_8765a669-1.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 18 في 19 22 14_8765a669 1",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 18 في 19 22 14_8765a669 1 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "mazallat-shad-inshai-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-18-في-19.22.14_8765a669-1024x1024.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-18-%D9%81%D9%8A-19.22.14_8765a669-1024x1024.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 18 في 19 22 14_8765a669 1024x1024",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 18 في 19 22 14_8765a669 1024x1024 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "mazallat-maqousa-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-18-في-19.22.14_8765a669-768x768.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-18-%D9%81%D9%8A-19.22.14_8765a669-768x768.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 18 في 19 22 14_8765a669 768x768",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 18 في 19 22 14_8765a669 768x768 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "mazallat-haramiya-riyadh"
   },
   {
     "filename": "صورة-واتساب-بتاريخ-2025-08-18-في-19.22.14_8765a669.jpg",
@@ -2668,436 +2316,12 @@ export const imgGallery: (GalleryImage & { slug: string; filename: string })[] =
     "slug": "qaramid-riyadh"
   },
   {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-18-في-19.22.14_ae646325.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-18-%D9%81%D9%8A-19.22.14_ae646325.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 18 في 19 22 14_ae646325",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 18 في 19 22 14_ae646325 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "sawatr-qumash-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-18-في-19.22.15_0c3be1b1.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-18-%D9%81%D9%8A-19.22.15_0c3be1b1.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 18 في 19 22 15_0c3be1b1",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 18 في 19 22 15_0c3be1b1 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "buyut-sha3r-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-18-في-19.22.15_0ed2a705.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-18-%D9%81%D9%8A-19.22.15_0ed2a705.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 18 في 19 22 15_0ed2a705",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 18 في 19 22 15_0ed2a705 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "mazallat-haramiya-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-18-في-19.22.15_3efd015b.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-18-%D9%81%D9%8A-19.22.15_3efd015b.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 18 في 19 22 15_3efd015b",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 18 في 19 22 15_3efd015b في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "sawatr-laser-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-18-في-19.22.15_467396e0.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-18-%D9%81%D9%8A-19.22.15_467396e0.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 18 في 19 22 15_467396e0",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 18 في 19 22 15_467396e0 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "mazallat-masabi-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-18-في-19.22.16_4184aadb.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-18-%D9%81%D9%8A-19.22.16_4184aadb.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 18 في 19 22 16_4184aadb",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 18 في 19 22 16_4184aadb في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "mazallat-maqousa-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-18-في-19.22.16_95e6e9bf.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-18-%D9%81%D9%8A-19.22.16_95e6e9bf.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 18 في 19 22 16_95e6e9bf",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 18 في 19 22 16_95e6e9bf في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "sawatr-plastic-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-18-في-19.22.16_acb63de5.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-18-%D9%81%D9%8A-19.22.16_acb63de5.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 18 في 19 22 16_acb63de5",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 18 في 19 22 16_acb63de5 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "tansiq-hadaiq-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-18-في-19.22.16_bc0f2af0.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-18-%D9%81%D9%8A-19.22.16_bc0f2af0.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 18 في 19 22 16_bc0f2af0",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 18 في 19 22 16_bc0f2af0 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "sawatr-qumash-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-18-في-19.22.17_07cf3719.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-18-%D9%81%D9%8A-19.22.17_07cf3719.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 18 في 19 22 17_07cf3719",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 18 في 19 22 17_07cf3719 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "hanajer-w-mastoudat-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-18-في-19.22.17_1219909c.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-18-%D9%81%D9%8A-19.22.17_1219909c.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 18 في 19 22 17_1219909c",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 18 في 19 22 17_1219909c في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "mazallat-sayarat-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-18-في-19.22.17_167e3fb4.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-18-%D9%81%D9%8A-19.22.17_167e3fb4.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 18 في 19 22 17_167e3fb4",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 18 في 19 22 17_167e3fb4 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "sawatr-plastic-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-18-في-19.22.17_95a50f2e.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-18-%D9%81%D9%8A-19.22.17_95a50f2e.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 18 في 19 22 17_95a50f2e",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 18 في 19 22 17_95a50f2e في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "mazallat-mutaharrika-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-18-في-19.22.18_70438a92.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-18-%D9%81%D9%8A-19.22.18_70438a92.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 18 في 19 22 18_70438a92",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 18 في 19 22 18_70438a92 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "mazallat-mutaharrika-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-18-في-19.22.18_ccf63f81.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-18-%D9%81%D9%8A-19.22.18_ccf63f81.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 18 في 19 22 18_ccf63f81",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 18 في 19 22 18_ccf63f81 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "jalsat-borjolat-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-18-في-19.22.18_e07a2e64.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-18-%D9%81%D9%8A-19.22.18_e07a2e64.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 18 في 19 22 18_e07a2e64",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 18 في 19 22 18_e07a2e64 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "mazallat-shad-inshai-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-18-في-19.22.19_1f346007.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-18-%D9%81%D9%8A-19.22.19_1f346007.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 18 في 19 22 19_1f346007",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 18 في 19 22 19_1f346007 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "mazallat-mutaharrika-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-18-في-19.22.19_3044baee.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-18-%D9%81%D9%8A-19.22.19_3044baee.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 18 في 19 22 19_3044baee",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 18 في 19 22 19_3044baee في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "hanajer-w-mastoudat-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-18-في-19.22.19_45bb98cb.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-18-%D9%81%D9%8A-19.22.19_45bb98cb.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 18 في 19 22 19_45bb98cb",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 18 في 19 22 19_45bb98cb في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "jalsat-borjolat-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-18-في-19.22.19_95e9a4ee.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-18-%D9%81%D9%8A-19.22.19_95e9a4ee.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 18 في 19 22 19_95e9a4ee",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 18 في 19 22 19_95e9a4ee في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "ghoraf-sandwich-panel-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-18-في-19.22.20_6dbca032.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-18-%D9%81%D9%8A-19.22.20_6dbca032.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 18 في 19 22 20_6dbca032",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 18 في 19 22 20_6dbca032 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "qaramid-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-18-في-19.22.21_353ab6f9.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-18-%D9%81%D9%8A-19.22.21_353ab6f9.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 18 في 19 22 21_353ab6f9",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 18 في 19 22 21_353ab6f9 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "mazallat-haramiya-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-18-في-19.22.21_8c870426.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-18-%D9%81%D9%8A-19.22.21_8c870426.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 18 في 19 22 21_8c870426",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 18 في 19 22 21_8c870426 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "buyut-sha3r-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-18-في-19.22.21_8dcbc5c6.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-18-%D9%81%D9%8A-19.22.21_8dcbc5c6.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 18 في 19 22 21_8dcbc5c6",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 18 في 19 22 21_8dcbc5c6 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "mazallat-mutaharrika-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-18-في-19.22.21_c6336e9a.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-18-%D9%81%D9%8A-19.22.21_c6336e9a.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 18 في 19 22 21_c6336e9a",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 18 في 19 22 21_c6336e9a في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "jalsat-borjolat-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-18-في-19.22.21_e795afdb.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-18-%D9%81%D9%8A-19.22.21_e795afdb.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 18 في 19 22 21_e795afdb",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 18 في 19 22 21_e795afdb في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "mazallat-sayarat-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-18-في-19.22.22_56e48772.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-18-%D9%81%D9%8A-19.22.22_56e48772.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 18 في 19 22 22_56e48772",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 18 في 19 22 22_56e48772 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "mazallat-sayarat-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-18-في-19.22.22_6e745d13.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-18-%D9%81%D9%8A-19.22.22_6e745d13.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 18 في 19 22 22_6e745d13",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 18 في 19 22 22_6e745d13 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "ghoraf-sandwich-panel-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-18-في-19.22.22_8173e196.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-18-%D9%81%D9%8A-19.22.22_8173e196.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 18 في 19 22 22_8173e196",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 18 في 19 22 22_8173e196 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "mazallat-sayarat-riyadh"
-  },
-  {
     "filename": "صورة-واتساب-بتاريخ-2025-08-21-في-19.02.09_0af17a22-768x768.webp",
     "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-21-%D9%81%D9%8A-19.02.09_0af17a22-768x768.webp",
     "description": "صورة واتساب بتاريخ 2025 08 21 في 19 02 09_0af17a22 768x768",
     "alt": "تركيب صورة واتساب بتاريخ 2025 08 21 في 19 02 09_0af17a22 768x768 في الرياض — أعمالنا",
     "type": "أعمالنا",
     "slug": "jalsat-borjolat-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-21-في-19.02.09_0af17a22.webp",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-21-%D9%81%D9%8A-19.02.09_0af17a22.webp",
-    "description": "صورة واتساب بتاريخ 2025 08 21 في 19 02 09_0af17a22",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 21 في 19 02 09_0af17a22 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "mazallat-haramiya-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-23-في-18.06.21_824f844e.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-23-%D9%81%D9%8A-18.06.21_824f844e.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 23 في 18 06 21_824f844e",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 23 في 18 06 21_824f844e في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "sawatr-qumash-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-23-في-18.06.21_84f1ef1f-1-1024x1024.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-23-%D9%81%D9%8A-18.06.21_84f1ef1f-1-1024x1024.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 23 في 18 06 21_84f1ef1f 1 1024x1024",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 23 في 18 06 21_84f1ef1f 1 1024x1024 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "mazallat-sayarat-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-23-في-18.06.21_84f1ef1f-1-768x768.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-23-%D9%81%D9%8A-18.06.21_84f1ef1f-1-768x768.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 23 في 18 06 21_84f1ef1f 1 768x768",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 23 في 18 06 21_84f1ef1f 1 768x768 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "mazallat-haramiya-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-23-في-18.06.21_84f1ef1f-1.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-23-%D9%81%D9%8A-18.06.21_84f1ef1f-1.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 23 في 18 06 21_84f1ef1f 1",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 23 في 18 06 21_84f1ef1f 1 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "jalsat-borjolat-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-23-في-18.06.21_84f1ef1f.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-23-%D9%81%D9%8A-18.06.21_84f1ef1f.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 23 في 18 06 21_84f1ef1f",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 23 في 18 06 21_84f1ef1f في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "ghoraf-sandwich-panel-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-23-في-18.06.22_8e704dc0.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-23-%D9%81%D9%8A-18.06.22_8e704dc0.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 23 في 18 06 22_8e704dc0",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 23 في 18 06 22_8e704dc0 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "tansiq-hadaiq-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-23-في-18.06.22_c70b2517.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-23-%D9%81%D9%8A-18.06.22_c70b2517.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 23 في 18 06 22_c70b2517",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 23 في 18 06 22_c70b2517 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "mazallat-sayarat-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-23-في-18.06.22_cbff21d9.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-23-%D9%81%D9%8A-18.06.22_cbff21d9.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 23 في 18 06 22_cbff21d9",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 23 في 18 06 22_cbff21d9 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "mazallat-maqousa-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-23-في-18.06.22_d7ac0312.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-23-%D9%81%D9%8A-18.06.22_d7ac0312.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 23 في 18 06 22_d7ac0312",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 23 في 18 06 22_d7ac0312 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "sawatr-laser-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-23-في-18.06.23_0685a619.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-23-%D9%81%D9%8A-18.06.23_0685a619.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 23 في 18 06 23_0685a619",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 23 في 18 06 23_0685a619 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "hanajer-w-mastoudat-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-23-في-18.06.23_1559b6d9.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-23-%D9%81%D9%8A-18.06.23_1559b6d9.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 23 في 18 06 23_1559b6d9",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 23 في 18 06 23_1559b6d9 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "ghoraf-sandwich-panel-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-23-في-18.06.23_ab06d370.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-23-%D9%81%D9%8A-18.06.23_ab06d370.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 23 في 18 06 23_ab06d370",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 23 في 18 06 23_ab06d370 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "jalsat-borjolat-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-23-في-18.06.23_ea5411f1.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-23-%D9%81%D9%8A-18.06.23_ea5411f1.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 23 في 18 06 23_ea5411f1",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 23 في 18 06 23_ea5411f1 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "hanajer-w-mastoudat-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-23-في-18.06.24_1f196f8a.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-23-%D9%81%D9%8A-18.06.24_1f196f8a.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 23 في 18 06 24_1f196f8a",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 23 في 18 06 24_1f196f8a في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "mazallat-madaris-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-23-في-18.06.24_4d3930ff.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-23-%D9%81%D9%8A-18.06.24_4d3930ff.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 23 في 18 06 24_4d3930ff",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 23 في 18 06 24_4d3930ff في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "hanajer-w-mastoudat-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-23-في-18.06.24_918d7698.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-23-%D9%81%D9%8A-18.06.24_918d7698.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 23 في 18 06 24_918d7698",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 23 في 18 06 24_918d7698 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "qaramid-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-23-في-18.06.25_af1949cf.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-23-%D9%81%D9%8A-18.06.25_af1949cf.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 23 في 18 06 25_af1949cf",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 23 في 18 06 25_af1949cf في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "mazallat-mutaharrika-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-23-في-18.06.28_84fc6a6e.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-23-%D9%81%D9%8A-18.06.28_84fc6a6e.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 23 في 18 06 28_84fc6a6e",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 23 في 18 06 28_84fc6a6e في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "mazallat-haramiya-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-23-في-18.06.28_d96178f8.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-23-%D9%81%D9%8A-18.06.28_d96178f8.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 23 في 18 06 28_d96178f8",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 23 في 18 06 28_d96178f8 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "mazallat-haramiya-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-23-في-18.06.29_0fc2ea8d.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-23-%D9%81%D9%8A-18.06.29_0fc2ea8d.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 23 في 18 06 29_0fc2ea8d",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 23 في 18 06 29_0fc2ea8d في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "sawatr-qumash-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-23-في-18.06.29_44e3b3b8.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-23-%D9%81%D9%8A-18.06.29_44e3b3b8.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 23 في 18 06 29_44e3b3b8",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 23 في 18 06 29_44e3b3b8 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "buyut-sha3r-riyadh"
-  },
-  {
-    "filename": "صورة-واتساب-بتاريخ-2025-08-23-في-18.06.29_5fe67f5a.jpg",
-    "image": "/img/%D8%B5%D9%88%D8%B1%D8%A9-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-2025-08-23-%D9%81%D9%8A-18.06.29_5fe67f5a.jpg",
-    "description": "صورة واتساب بتاريخ 2025 08 23 في 18 06 29_5fe67f5a",
-    "alt": "تركيب صورة واتساب بتاريخ 2025 08 23 في 18 06 29_5fe67f5a في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "sawatr-hadid-riyadh"
-  },
-  {
-    "filename": "قراميد-1.png",
-    "image": "/img/%D9%82%D8%B1%D8%A7%D9%85%D9%8A%D8%AF-1.png",
-    "description": "قرميد 1",
-    "alt": "تركيب قرميد 1 في الرياض — قرميد",
-    "type": "قرميد",
-    "slug": "qaramid-riyadh"
   },
   {
     "filename": "قراميد.webp",
@@ -3116,34 +2340,10 @@ export const imgGallery: (GalleryImage & { slug: string; filename: string })[] =
     "slug": "sawatr-qumash-riyadh"
   },
   {
-    "filename": "مؤسسة-كيس-لتضيم-المعارض-والمؤتمؤات.webp",
-    "image": "/img/%D9%85%D8%A4%D8%B3%D8%B3%D8%A9-%D9%83%D9%8A%D8%B3-%D9%84%D8%AA%D8%B6%D9%8A%D9%85-%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D8%B1%D8%B6-%D9%88%D8%A7%D9%84%D9%85%D8%A4%D8%AA%D9%85%D8%A4%D8%A7%D8%AA.webp",
-    "description": "مؤسسة كيس لتضيم المعارض والمؤتمؤات",
-    "alt": "تركيب مؤسسة كيس لتضيم المعارض والمؤتمؤات في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "mazallat-masabi-riyadh"
-  },
-  {
     "filename": "مظلات-الرياض-211-1024x1024.webp",
     "image": "/img/%D9%85%D8%B8%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6-211-1024x1024.webp",
     "description": "مظلات الرياض 211 1024x1024",
     "alt": "تركيب مظلات الرياض 211 1024x1024 في الرياض — مظلات",
-    "type": "مظلات",
-    "slug": "mazallat-sayarat-riyadh"
-  },
-  {
-    "filename": "مظلات-الرياض-211-768x768.webp",
-    "image": "/img/%D9%85%D8%B8%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6-211-768x768.webp",
-    "description": "مظلات الرياض 211 768x768",
-    "alt": "تركيب مظلات الرياض 211 768x768 في الرياض — مظلات",
-    "type": "مظلات",
-    "slug": "mazallat-sayarat-riyadh"
-  },
-  {
-    "filename": "مظلات-الرياض-211.webp",
-    "image": "/img/%D9%85%D8%B8%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6-211.webp",
-    "description": "مظلات الرياض 211",
-    "alt": "تركيب مظلات الرياض 211 في الرياض — مظلات",
     "type": "مظلات",
     "slug": "mazallat-sayarat-riyadh"
   },
@@ -3160,14 +2360,6 @@ export const imgGallery: (GalleryImage & { slug: string; filename: string })[] =
     "image": "/img/%D9%85%D8%B8%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6645-288x300.webp",
     "description": "مظلات الرياض645 288x300",
     "alt": "تركيب مظلات الرياض645 288x300 في الرياض — مظلات",
-    "type": "مظلات",
-    "slug": "mazallat-sayarat-riyadh"
-  },
-  {
-    "filename": "مظلات-الرياض645.webp",
-    "image": "/img/%D9%85%D8%B8%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6645.webp",
-    "description": "مظلات الرياض645",
-    "alt": "تركيب مظلات الرياض645 في الرياض — مظلات",
     "type": "مظلات",
     "slug": "mazallat-sayarat-riyadh"
   },
@@ -3244,14 +2436,6 @@ export const imgGallery: (GalleryImage & { slug: string; filename: string })[] =
     "slug": "mazallat-masabi-riyadh"
   },
   {
-    "filename": "مظلات-هرمية-1.jpg",
-    "image": "/img/%D9%85%D8%B8%D9%84%D8%A7%D8%AA-%D9%87%D8%B1%D9%85%D9%8A%D8%A9-1.jpg",
-    "description": "مظلات هرمية 1",
-    "alt": "تركيب مظلات هرمية 1 في الرياض — مظلات هرمية",
-    "type": "مظلات هرمية",
-    "slug": "mazallat-haramiya-riyadh"
-  },
-  {
     "filename": "مظلات-هرمية-أو-مخروطية-500x400-1.jpg",
     "image": "/img/%D9%85%D8%B8%D9%84%D8%A7%D8%AA-%D9%87%D8%B1%D9%85%D9%8A%D8%A9-%D8%A3%D9%88-%D9%85%D8%AE%D8%B1%D9%88%D8%B7%D9%8A%D8%A9-500x400-1.jpg",
     "description": "مظلات هرمية أو مخروطية 500x400 1",
@@ -3322,14 +2506,6 @@ export const imgGallery: (GalleryImage & { slug: string; filename: string })[] =
     "alt": "تركيب مظلات56 في الرياض — مظلات",
     "type": "مظلات",
     "slug": "mazallat-sayarat-riyadh"
-  },
-  {
-    "filename": "نورة-الرشيدي2.webp",
-    "image": "/img/%D9%86%D9%88%D8%B1%D8%A9-%D8%A7%D9%84%D8%B1%D8%B4%D9%8A%D8%AF%D9%8A2.webp",
-    "description": "نورة الرشيدي2",
-    "alt": "تركيب نورة الرشيدي2 في الرياض — أعمالنا",
-    "type": "أعمالنا",
-    "slug": "asatih-sandwich-panel-riyadh"
   }
 ];
 

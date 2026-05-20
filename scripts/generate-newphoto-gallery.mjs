@@ -8,8 +8,12 @@ import {
   parseType,
 } from './gallery-mapping.mjs';
 
+import { dedupeFilenames } from './gallery-dedupe.mjs';
+
 const dir = path.join(process.cwd(), 'public', 'newphoto');
-const files = fs.readdirSync(dir).filter((f) => /\.(jpg|jpeg|png|webp)$/i.test(f)).sort();
+const allFiles = fs.readdirSync(dir).filter((f) => /\.(jpg|jpeg|png|webp)$/i.test(f));
+const files = dedupeFilenames(allFiles);
+console.log(`newphoto: ${allFiles.length} on disk → ${files.length} after dedupe`);
 
 const items = files.map((filename) => {
   const base = filename.replace(/\.[^.]+$/, '');

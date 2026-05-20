@@ -7,22 +7,16 @@ import {
   normalize,
   parseType,
 } from './gallery-mapping.mjs';
+import { dedupeFilenames } from './gallery-dedupe.mjs';
 
 const IMG_DIR = path.join(process.cwd(), 'public', 'img');
-const THUMB_RE =
-  /-(?:32x32|150x150|180x180|192x192|296x300|300x112|300x300)\.(webp|jpg|jpeg|png)$/i;
 
-function shouldSkip(filename) {
-  if (THUMB_RE.test(filename)) return true;
-  if (/^cropped-/i.test(filename)) return true;
-  return false;
-}
-
-const files = fs
+const allFiles = fs
   .readdirSync(IMG_DIR)
-  .filter((f) => /\.(jpg|jpeg|png|webp|gif)$/i.test(f))
-  .filter((f) => !shouldSkip(f))
-  .sort();
+  .filter((f) => /\.(jpg|jpeg|png|webp|gif)$/i.test(f));
+const files = dedupeFilenames(allFiles);
+const skipped = allFiles.length - files.length;
+console.log(`img: ${allFiles.length} on disk → ${files.length} after dedupe (skipped ${skipped})`);
 
 const SERVICE_SLUGS = [
   'mazallat-sayarat-riyadh',

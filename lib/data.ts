@@ -350,7 +350,7 @@ export const services = [
       "ضمان على الهيكل والتركيب مع مراجعة دورية",
       "تصاميم عصرية ومخصصة حسب احتياجات العميل",
     ],
-    image: "/img/صورة-واتساب-بتاريخ-2025-08-21-في-19.02.09_0af17a22-300x300.webp",
+    image: "/img/IMG-20241015-WA0125.webp",
     slug: "mazallat-shad-inshai-riyadh",
     priority: 1,
     regions: ["شرق الرياض", "جنوب الرياض"],
