@@ -88,6 +88,13 @@ export default function Header() {
               <span className="absolute -bottom-1 right-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full" />
             </Link>
             <Link
+              href="/gallery"
+              className="text-foreground hover:text-primary transition-colors font-medium relative group"
+            >
+              معرض الأعمال
+              <span className="absolute -bottom-1 right-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full" />
+            </Link>
+            <Link
               href="#contact"
               className="text-foreground hover:text-primary transition-colors font-medium relative group"
             >
@@ -190,6 +197,13 @@ export default function Header() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 آراء العملاء
+              </Link>
+              <Link
+                href="/gallery"
+                className="text-foreground hover:text-primary transition-colors font-medium py-3 px-4 rounded-lg hover:bg-muted"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                معرض الأعمال
               </Link>
               <Link
                 href="#contact"

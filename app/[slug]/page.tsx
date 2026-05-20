@@ -4,6 +4,7 @@ import { services, companyInfo } from '@/lib/data';
 import Image from 'next/image';
 import ContactButton from '@/components/Contact';
 import GalleryLightbox from '@/components/GalleryLightbox';
+import { mergeServiceGallery } from '@/lib/gallery';
 
 export async function generateStaticParams() {
   const slugs = services.map((service) => ({ slug: service.slug }));
@@ -27,6 +28,10 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
 
   // Find the service
   const service = services.find((s) => s.slug === slug);
+
+  const galleryImages = service
+    ? mergeServiceGallery(service.slug, service.gallery ?? [])
+    : [];
 
   // If service not found, show error
   if (!service) {
@@ -158,7 +163,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
         </section>
 
         {/* Gallery Section */}
-        {service.gallery && service.gallery.length > 0 && (
+        {galleryImages.length > 0 && (
           <section className="py-16 bg-gradient-desert">
             <div className="container mx-auto px-4">
               <div className="max-w-6xl mx-auto">
@@ -169,7 +174,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
                   مجموعة من أعمالنا المميزة في مجال {service.title}
                 </p>
 
-                <GalleryLightbox images={service.gallery} title={service.title} />
+                <GalleryLightbox images={galleryImages} title={service.title} />
               </div>
             </div>
           </section>

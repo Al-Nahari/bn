@@ -7,6 +7,7 @@ interface GalleryImage {
   image: string;
   description: string;
   alt: string;
+  type?: string;
 }
 
 interface GalleryLightboxProps {
@@ -52,8 +53,13 @@ export default function GalleryLightbox({ images, title }: GalleryLightboxProps)
               className="object-cover group-hover:scale-110 transition-transform duration-300"
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
-            <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
-              <p className="text-white p-4 text-sm">{img.description}</p>
+            <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-stretch justify-end gap-1 p-4">
+              {img.type && (
+                <span className="self-start rounded-full bg-coffee-medium/90 px-2 py-0.5 text-xs font-medium text-white">
+                  {img.type}
+                </span>
+              )}
+              <p className="text-white text-sm font-medium">{img.description}</p>
             </div>
           </div>
         ))}
@@ -104,6 +110,11 @@ export default function GalleryLightbox({ images, title }: GalleryLightboxProps)
 
             {/* Image Info */}
             <div className="text-white mt-4 text-center">
+              {images[selectedIndex].type && (
+                <p className="text-sm text-coffee-medium font-medium mb-1">
+                  {images[selectedIndex].type}
+                </p>
+              )}
               <p className="text-lg font-semibold mb-2">
                 {images[selectedIndex].description}
               </p>
