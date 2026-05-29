@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import { Noto_Sans_Arabic } from 'next/font/google';
 import { companyInfo } from '@/lib/data';
 import JsonLd from '@/components/JsonLd';
@@ -40,6 +41,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ar" dir="rtl" className={notoArabic.variable}>
+      <head>
+        <Script
+          src="https://analytics.ahrefs.com/analytics.js"
+          data-key="II/GkLP/+KLeAbY+8lLp0w"
+          async
+          strategy="afterInteractive"
+        />
+      </head>
       <body className="bg-background text-foreground antialiased font-sans pb-28 md:pb-8">
         <JsonLd data={localBusinessSchema()} />
         {children}
