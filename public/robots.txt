@@ -4,4 +4,4 @@ Allow: /
 Disallow: /api/
 Disallow: /admin/
 
-Sitemap: https://sawatr-riyad-sa.com/sitemap.xml
+Sitemap: https://mazalat-riyadh.com/sitemap.xml
