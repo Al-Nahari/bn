@@ -1,8 +1,3 @@
-/**
- * Client-side services summary (trimmed for performance)
- * Contains only fields needed for client components (Services, Footer)
- * Excludes heavy fields: fullDescription, gallery
- */
 
 export const services = [
   {
@@ -18,7 +13,7 @@ export const services = [
       "خيارات متعددة: ثابتة، متحركة، مقوسة، هرمية",
       "تركيب احترافي مع ضمان شامل",
     ],
-    image: "/img/IMG-20241015-WA0134.webp",
+    image: "/newphoto/مضلات سيارات .jpg",
     slug: "mazallat-sayarat-riyadh",
   },
   {
@@ -34,7 +29,7 @@ export const services = [
       "مناسبة لجميع المساحات",
       "تركيب محترف مع ضمان على النظام الميكانيكي",
     ],
-    image: "/img/5606899d7b1f3244cd0c6904badee081.webp",
+    image: "/img/مضلات متحرك.jpg",
     slug: "mazallat-mutaharrika-riyadh",
   },
   {
@@ -50,7 +45,7 @@ export const services = [
       "خامات عالية الجودة",
       "تركيب احترافي مع ضمان",
     ],
-    image: "/img/mzlat-makhruti.jpg",
+    image: "/img/مضلات هرميه الرياض.jpg",
     slug: "mazallat-haramiya-riyadh",
   },
   {
@@ -66,7 +61,7 @@ export const services = [
       "سهولة الصيانة والتنظيف",
       "ضمان على الهيكل والتركيب",
     ],
-    image: "/img/صورة-واتساب-بتاريخ-2025-08-21-في-19.02.09_0af17a22-300x300.webp",
+    image: "/img/مضلات شد انشائي الرياض.jpg",
     slug: "mazallat-shad-inshai-riyadh",
   },
   {
@@ -82,7 +77,7 @@ export const services = [
       "خامات عالية الجودة",
       "تركيب احترافي مع ضمان",
     ],
-    image: "/img/صورة-واتساب-بتاريخ-2024-04-15-في-21.10.32_2203df25.webp",
+    image: "/img/مضلات مقوسه الرياض.jpg",
     slug: "mazallat-maqousa-riyadh",
   },
   {
@@ -98,7 +93,7 @@ export const services = [
       "سهولة الصيانة والتنظيف",
       "ضمان على التركيب والمواد",
     ],
-    image: "/img/a817afc4a52cbb4c75125762001cb225.jpg",
+    image: "/img/مضلات مدارس الرياض.jpg",
     slug: "mazallat-madaris-riyadh",
   },
   {
@@ -114,7 +109,7 @@ export const services = [
       "تصميمات جمالية تزيد من جمال المسابح",
       "سهولة التنظيف والصيانة",
     ],
-    image: "/img/swim11.webp",
+    image: "/img/مضلات مسابح جميله.jpg",
     slug: "mazallat-masabi-riyadh",
   },
   {
@@ -130,7 +125,7 @@ export const services = [
       "متانة طويلة الأمد",
       "تركيب محكم مع ضمان",
     ],
-    image: "/img/4f748b5d36a9c23e1cdc889b85bed03e.webp",
+    image: "/newphoto/سواتر حديد.jpg",
     slug: "sawatr-hadid-riyadh",
   },
   {
@@ -146,7 +141,7 @@ export const services = [
       "سهولة التركيب",
       "ضمان على الجودة والتصميم",
     ],
-    image: "/img/63fd064350626-450px-1.jpg",
+    image: "/img/سواتر ليزر حمايه.jpg",
     slug: "sawatr-laser-riyadh",
   },
   {
@@ -162,7 +157,7 @@ export const services = [
       "تصاميم وألوان متعددة",
       "سهولة التنظيف والصيانة",
     ],
-    image: "/img/3a6939e156d88e4c7849338419798a7a.jpg",
+    image: "/img/سواتر قماش.jpg",
     slug: "sawatr-qumash-riyadh",
   },
   {
@@ -178,7 +173,7 @@ export const services = [
       "تكلفة مناسبة",
       "تركيب سريع وسهل",
     ],
-    image: "/img/170.jpg",
+    image: "/img/سواتر بلاستيك.jpg",
     slug: "sawatr-plastic-riyadh",
   },
   {
@@ -194,7 +189,7 @@ export const services = [
       "مناسبة للحدائق والشرفات",
       "تركيب احترافي مع ضمان",
     ],
-    image: "/img/مظلات-الرياض-211-768x768.webp",
+    image: "/newphoto/جلسات خارجيه.jpg",
     slug: "jalsat-borjolat-riyadh",
   },
   {
@@ -210,7 +205,7 @@ export const services = [
       "صيانة دورية",
       "استشارات تصميم مجانية",
     ],
-    image: "/img/صورة-واتساب-بتاريخ-2024-04-16-في-19.34.40_e1ad3737.jpg",
+    image: "/img/تنسيق حدائيق.jpg",
     slug: "tansiq-hadaiq-riyadh",
   },
   {
@@ -226,7 +221,7 @@ export const services = [
       "مناسبة للاستخدامات السكنية والتجارية",
       "متانة عالية وصيانة سهلة",
     ],
-    image: "/img/صورة-واتساب-بتاريخ-2024-06-10-في-21.02.10_16f9c920.jpg",
+    image: "/img/سندوش بنل الرياض.jpg",
     slug: "ghoraf-sandwich-panel-riyadh",
   },
   {
@@ -242,7 +237,7 @@ export const services = [
       "سهولة التركيب",
       "خيارات ألوان متعددة",
     ],
-    image: "/img/صورة-واتساب-بتاريخ-2024-11-10-في-16.02.46_f575775d.jpg",
+    image: "/img/قرميد الرياض..jpg",
     slug: "qaramid-riyadh",
   },
   {
@@ -258,7 +253,7 @@ export const services = [
       "أبواب وأقفال آمنة",
       "تركيب سريع وضمان",
     ],
-    image: "/img/صورة-واتساب-بتاريخ-2024-05-19-في-00.16.31_5c027df0.jpg",
+    image: "/img/هناجر الرياض.jpg",
     slug: "hanajer-w-mastoudat-riyadh",
   },
   {
@@ -274,7 +269,7 @@ export const services = [
       "إمكانية التخصيص حسب الطلب",
       "ضمان شامل على التركيب والمواد",
     ],
-    image: "/img/بيوت-شعر.webp",
+    image: "/img/بيوت شعر الرياض بشكل جميل.jpg",
     slug: "buyut-sha3r-riyadh",
   },
   {
@@ -290,7 +285,7 @@ export const services = [
       "مناسبة للاستخدامات السكنية والتجارية",
       "متانة عالية وصيانة سهلة",
     ],
-    image: "/img/صورة-واتساب-بتاريخ-2024-11-10-في-16.06.45_7df49d65.jpg",
+    image: "/img/سندوش بنل الرياض1.jpg",
     slug: "asatih-sandwich-panel-riyadh",
   },
 ];
