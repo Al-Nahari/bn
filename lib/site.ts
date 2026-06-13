@@ -3,4 +3,4 @@ export const SITE_URL = 'https://mazalat-riyadh.com';
 
 export const SITE_NAME = 'مظلات و سواتر الرياض';
 
-export const DEFAULT_OG_IMAGE = '/img/IMG-20241015-WA0134.webp';
+export const DEFAULT_OG_IMAGE = '/newphoto/مضلات سيارات .jpg';
