@@ -51,7 +51,7 @@ let unclassified = 0;
 for (const filename of files) {
   const label = labelFromFilename(filename);
   const norm = normalize(filename.replace(/\.[^.]+$/, ''));
-  const type = parseType(norm) ?? 'أعمالنا';
+  const type = parseType(norm) ?? 'أعمال متنوعة';
   let slug = getSlug(norm);
   if (!slug) {
     slug = SERVICE_SLUGS[hashString(filename) % SERVICE_SLUGS.length];
