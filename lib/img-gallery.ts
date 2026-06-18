@@ -183,8 +183,8 @@ export const imgGallery: (GalleryImage & { slug: string; filename: string })[] =
     "filename": "خيام الرياض.jpg",
     "image": "/img/خيام الرياض.jpg",
     "description": "خيام الرياض",
-    "alt": "تركيب خيام الرياض في الرياض — أعمالنا",
-    "type": "أعمالنا",
+    "alt": "تركيب خيام الرياض في الرياض — أعمال متنوعة",
+    "type": "أعمال متنوعة",
     "slug": "mazallat-haramiya-riyadh"
   },
   {
