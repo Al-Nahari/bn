@@ -1,880 +1,141 @@
-// Auto-generated from public/img — optimized with SEO enhancements
+// Auto-generated from public folder — optimized with SEO enhancements
 
 import type { GalleryImage } from './gallery-types';
 
 export const imgGallery: (GalleryImage & { slug: string; filename: string })[] = [
-  {
-    "filename": "project-01.jpg",
-    "image": "/img/project-01.jpg",
-    "description": "مشروع متخصصة في الرياض - 01",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 01",
-    "type": "أعمال متنوعة",
-    "slug": "jalsat-borjolat-riyadh"
-  },
-  {
-    "filename": "project-02.jpg",
-    "image": "/img/project-02.jpg",
-    "description": "مشروع متخصصة في الرياض - 02",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 02",
-    "type": "سواتر بديل الخشب",
-    "slug": "sawatr-plastic-riyadh"
-  },
-  {
-    "filename": "project-03.jpg",
-    "image": "/img/project-03.jpg",
-    "description": "مشروع متخصصة في الرياض - 03",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 03",
-    "type": "برجولات وجلسات",
-    "slug": "jalsat-borjolat-riyadh"
-  },
-  {
-    "filename": "project-04.jpg",
-    "image": "/img/project-04.jpg",
-    "description": "مشروع متخصصة في الرياض - 04",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 04",
-    "type": "برجولات وجلسات",
-    "slug": "jalsat-borjolat-riyadh"
-  },
-  {
-    "filename": "project-05.jpg",
-    "image": "/img/project-05.jpg",
-    "description": "مشروع متخصصة في الرياض - 05",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 05",
-    "type": "برجولات وجلسات",
-    "slug": "jalsat-borjolat-riyadh"
-  },
-  {
-    "filename": "project-06.jpg",
-    "image": "/img/project-06.jpg",
-    "description": "مشروع متخصصة في الرياض - 06",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 06",
-    "type": "برجولات وجلسات",
-    "slug": "jalsat-borjolat-riyadh"
-  },
-  {
-    "filename": "project-07.jpg",
-    "image": "/img/project-07.jpg",
-    "description": "مشروع متخصصة في الرياض - 07",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 07",
-    "type": "برجولات وجلسات",
-    "slug": "jalsat-borjolat-riyadh"
-  },
-  {
-    "filename": "project-08.jpg",
-    "image": "/img/project-08.jpg",
-    "description": "مشروع متخصصة في الرياض - 08",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 08",
-    "type": "بيوت شعر",
-    "slug": "buyut-sha3r-riyadh"
-  },
-  {
-    "filename": "project-09.jpg",
-    "image": "/img/project-09.jpg",
-    "description": "مشروع متخصصة في الرياض - 09",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 09",
-    "type": "بيوت شعر",
-    "slug": "buyut-sha3r-riyadh"
-  },
-  {
-    "filename": "project-10.jpg",
-    "image": "/img/project-10.jpg",
-    "description": "مشروع متخصصة في الرياض - 10",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 10",
-    "type": "بيوت شعر",
-    "slug": "buyut-sha3r-riyadh"
-  },
-  {
-    "filename": "project-11.jpg",
-    "image": "/img/project-11.jpg",
-    "description": "مشروع متخصصة في الرياض - 11",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 11",
-    "type": "بيوت شعر",
-    "slug": "buyut-sha3r-riyadh"
-  },
-  {
-    "filename": "project-12.jpg",
-    "image": "/img/project-12.jpg",
-    "description": "مشروع متخصصة في الرياض - 12",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 12",
-    "type": "بيوت شعر",
-    "slug": "buyut-sha3r-riyadh"
-  },
-  {
-    "filename": "project-13.jpg",
-    "image": "/img/project-13.jpg",
-    "description": "مشروع متخصصة في الرياض - 13",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 13",
-    "type": "بيوت شعر",
-    "slug": "buyut-sha3r-riyadh"
-  },
-  {
-    "filename": "project-14.jpg",
-    "image": "/img/project-14.jpg",
-    "description": "مشروع متخصصة في الرياض - 14",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 14",
-    "type": "بيوت شعر",
-    "slug": "buyut-sha3r-riyadh"
-  },
-  {
-    "filename": "project-15.jpg",
-    "image": "/img/project-15.jpg",
-    "description": "مشروع متخصصة في الرياض - 15",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 15",
-    "type": "بيوت شعر",
-    "slug": "buyut-sha3r-riyadh"
-  },
-  {
-    "filename": "project-16.jpg",
-    "image": "/img/project-16.jpg",
-    "description": "مشروع متخصصة في الرياض - 16",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 16",
-    "type": "جلسات خارجية",
-    "slug": "jalsat-borjolat-riyadh"
-  },
-  {
-    "filename": "project-17.jpg",
-    "image": "/img/project-17.jpg",
-    "description": "مشروع متخصصة في الرياض - 17",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 17",
-    "type": "تنسيق حدائق",
-    "slug": "tansiq-hadaiq-riyadh"
-  },
-  {
-    "filename": "project-18.jpg",
-    "image": "/img/project-18.jpg",
-    "description": "مشروع متخصصة في الرياض - 18",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 18",
-    "type": "تنسيق حدائق",
-    "slug": "tansiq-hadaiq-riyadh"
-  },
-  {
-    "filename": "project-19.jpg",
-    "image": "/img/project-19.jpg",
-    "description": "مشروع متخصصة في الرياض - 19",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 19",
-    "type": "تنسيق حدائق",
-    "slug": "tansiq-hadaiq-riyadh"
-  },
-  {
-    "filename": "project-20.jpg",
-    "image": "/img/project-20.jpg",
-    "description": "مشروع متخصصة في الرياض - 20",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 20",
-    "type": "تنسيق حدائق",
-    "slug": "tansiq-hadaiq-riyadh"
-  },
-  {
-    "filename": "project-21.jpg",
-    "image": "/img/project-21.jpg",
-    "description": "مشروع متخصصة في الرياض - 21",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 21",
-    "type": "تنسيق حدائق",
-    "slug": "tansiq-hadaiq-riyadh"
-  },
-  {
-    "filename": "project-22.jpg",
-    "image": "/img/project-22.jpg",
-    "description": "مشروع متخصصة في الرياض - 22",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 22",
-    "type": "جلسات خارجية",
-    "slug": "jalsat-borjolat-riyadh"
-  },
-  {
-    "filename": "project-23.jpg",
-    "image": "/img/project-23.jpg",
-    "description": "مشروع متخصصة في الرياض - 23",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 23",
-    "type": "أعمالنا",
-    "slug": "mazallat-haramiya-riyadh"
-  },
-  {
-    "filename": "project-24.jpg",
-    "image": "/img/project-24.jpg",
-    "description": "مشروع متخصصة في الرياض - 24",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 24",
-    "type": "ساندويش بنل",
-    "slug": "asatih-sandwich-panel-riyadh"
-  },
-  {
-    "filename": "project-25.jpg",
-    "image": "/img/project-25.jpg",
-    "description": "مشروع متخصصة في الرياض - 25",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 25",
-    "type": "ساندويش بنل",
-    "slug": "ghoraf-sandwich-panel-riyadh"
-  },
-  {
-    "filename": "project-26.jpg",
-    "image": "/img/project-26.jpg",
-    "description": "مشروع متخصصة في الرياض - 26",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 26",
-    "type": "ساندويش بنل",
-    "slug": "asatih-sandwich-panel-riyadh"
-  },
-  {
-    "filename": "project-27.jpg",
-    "image": "/img/project-27.jpg",
-    "description": "مشروع متخصصة في الرياض - 27",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 27",
-    "type": "ساندويش بنل",
-    "slug": "asatih-sandwich-panel-riyadh"
-  },
-  {
-    "filename": "project-28.jpg",
-    "image": "/img/project-28.jpg",
-    "description": "مشروع متخصصة في الرياض - 28",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 28",
-    "type": "ساندويش بنل",
-    "slug": "asatih-sandwich-panel-riyadh"
-  },
-  {
-    "filename": "project-29.jpg",
-    "image": "/img/project-29.jpg",
-    "description": "مشروع متخصصة في الرياض - 29",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 29",
-    "type": "ساندويش بنل",
-    "slug": "asatih-sandwich-panel-riyadh"
-  },
-  {
-    "filename": "project-30.jpg",
-    "image": "/img/project-30.jpg",
-    "description": "مشروع متخصصة في الرياض - 30",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 30",
-    "type": "ساندويش بنل",
-    "slug": "asatih-sandwich-panel-riyadh"
-  },
-  {
-    "filename": "project-31.jpg",
-    "image": "/img/project-31.jpg",
-    "description": "مشروع متخصصة في الرياض - 31",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 31",
-    "type": "ساندويش بنل",
-    "slug": "asatih-sandwich-panel-riyadh"
-  },
-  {
-    "filename": "project-32.jpg",
-    "image": "/img/project-32.jpg",
-    "description": "مشروع متخصصة في الرياض - 32",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 32",
-    "type": "ساندويش بنل",
-    "slug": "asatih-sandwich-panel-riyadh"
-  },
-  {
-    "filename": "project-33.jpg",
-    "image": "/img/project-33.jpg",
-    "description": "مشروع متخصصة في الرياض - 33",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 33",
-    "type": "ساندويش بنل",
-    "slug": "asatih-sandwich-panel-riyadh"
-  },
-  {
-    "filename": "project-34.jpg",
-    "image": "/img/project-34.jpg",
-    "description": "مشروع متخصصة في الرياض - 34",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 34",
-    "type": "ساندويش بنل",
-    "slug": "asatih-sandwich-panel-riyadh"
-  },
-  {
-    "filename": "project-35.jpg",
-    "image": "/img/project-35.jpg",
-    "description": "مشروع متخصصة في الرياض - 35",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 35",
-    "type": "ساندويش بنل",
-    "slug": "asatih-sandwich-panel-riyadh"
-  },
-  {
-    "filename": "project-36.jpg",
-    "image": "/img/project-36.jpg",
-    "description": "مشروع متخصصة في الرياض - 36",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 36",
-    "type": "سواتر بديل الخشب",
-    "slug": "sawatr-plastic-riyadh"
-  },
-  {
-    "filename": "project-37.jpg",
-    "image": "/img/project-37.jpg",
-    "description": "مشروع متخصصة في الرياض - 37",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 37",
-    "type": "سواتر بلاستيك",
-    "slug": "sawatr-plastic-riyadh"
-  },
-  {
-    "filename": "project-38.jpg",
-    "image": "/img/project-38.jpg",
-    "description": "مشروع متخصصة في الرياض - 38",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 38",
-    "type": "سواتر بلاستيك",
-    "slug": "sawatr-plastic-riyadh"
-  },
-  {
-    "filename": "project-39.jpg",
-    "image": "/img/project-39.jpg",
-    "description": "مشروع متخصصة في الرياض - 39",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 39",
-    "type": "سواتر بلاستيك",
-    "slug": "sawatr-plastic-riyadh"
-  },
-  {
-    "filename": "project-40.jpg",
-    "image": "/img/project-40.jpg",
-    "description": "مشروع متخصصة في الرياض - 40",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 40",
-    "type": "سواتر بلاستيك",
-    "slug": "sawatr-plastic-riyadh"
-  },
-  {
-    "filename": "project-41.jpg",
-    "image": "/img/project-41.jpg",
-    "description": "مشروع متخصصة في الرياض - 41",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 41",
-    "type": "سواتر",
-    "slug": "sawatr-qumash-riyadh"
-  },
-  {
-    "filename": "project-42.jpg",
-    "image": "/img/project-42.jpg",
-    "description": "مشروع متخصصة في الرياض - 42",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 42",
-    "type": "سواتر",
-    "slug": "sawatr-qumash-riyadh"
-  },
-  {
-    "filename": "project-43.jpg",
-    "image": "/img/project-43.jpg",
-    "description": "مشروع متخصصة في الرياض - 43",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 43",
-    "type": "سواتر",
-    "slug": "sawatr-qumash-riyadh"
-  },
-  {
-    "filename": "project-44.jpg",
-    "image": "/img/project-44.jpg",
-    "description": "مشروع متخصصة في الرياض - 44",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 44",
-    "type": "سواتر",
-    "slug": "sawatr-qumash-riyadh"
-  },
-  {
-    "filename": "project-45.jpg",
-    "image": "/img/project-45.jpg",
-    "description": "مشروع متخصصة في الرياض - 45",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 45",
-    "type": "سواتر",
-    "slug": "sawatr-qumash-riyadh"
-  },
-  {
-    "filename": "project-46.jpg",
-    "image": "/img/project-46.jpg",
-    "description": "مشروع متخصصة في الرياض - 46",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 46",
-    "type": "سواتر",
-    "slug": "sawatr-qumash-riyadh"
-  },
-  {
-    "filename": "project-47.jpg",
-    "image": "/img/project-47.jpg",
-    "description": "مشروع متخصصة في الرياض - 47",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 47",
-    "type": "سواتر",
-    "slug": "sawatr-qumash-riyadh"
-  },
-  {
-    "filename": "project-48.jpg",
-    "image": "/img/project-48.jpg",
-    "description": "مشروع متخصصة في الرياض - 48",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 48",
-    "type": "سواتر",
-    "slug": "sawatr-hadid-riyadh"
-  },
-  {
-    "filename": "project-49.jpg",
-    "image": "/img/project-49.jpg",
-    "description": "مشروع متخصصة في الرياض - 49",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 49",
-    "type": "سواتر ليزر",
-    "slug": "sawatr-laser-riyadh"
-  },
-  {
-    "filename": "project-50.jpg",
-    "image": "/img/project-50.jpg",
-    "description": "مشروع متخصصة في الرياض - 50",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 50",
-    "type": "سواتر ليزر",
-    "slug": "sawatr-laser-riyadh"
-  },
-  {
-    "filename": "project-51.jpg",
-    "image": "/img/project-51.jpg",
-    "description": "مشروع متخصصة في الرياض - 51",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 51",
-    "type": "سواتر ليزر",
-    "slug": "sawatr-laser-riyadh"
-  },
-  {
-    "filename": "project-52.jpg",
-    "image": "/img/project-52.jpg",
-    "description": "مشروع متخصصة في الرياض - 52",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 52",
-    "type": "سواتر ليزر",
-    "slug": "sawatr-laser-riyadh"
-  },
-  {
-    "filename": "project-53.jpg",
-    "image": "/img/project-53.jpg",
-    "description": "مشروع متخصصة في الرياض - 53",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 53",
-    "type": "سواتر ليزر",
-    "slug": "sawatr-laser-riyadh"
-  },
-  {
-    "filename": "project-54.jpg",
-    "image": "/img/project-54.jpg",
-    "description": "مشروع متخصصة في الرياض - 54",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 54",
-    "type": "قرميد",
-    "slug": "qaramid-riyadh"
-  },
-  {
-    "filename": "project-55.jpg",
-    "image": "/img/project-55.jpg",
-    "description": "مشروع متخصصة في الرياض - 55",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 55",
-    "type": "قرميد",
-    "slug": "qaramid-riyadh"
-  },
-  {
-    "filename": "project-56.jpg",
-    "image": "/img/project-56.jpg",
-    "description": "مشروع متخصصة في الرياض - 56",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 56",
-    "type": "قرميد",
-    "slug": "qaramid-riyadh"
-  },
-  {
-    "filename": "project-57.jpg",
-    "image": "/img/project-57.jpg",
-    "description": "مشروع متخصصة في الرياض - 57",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 57",
-    "type": "قرميد",
-    "slug": "qaramid-riyadh"
-  },
-  {
-    "filename": "project-58.jpg",
-    "image": "/img/project-58.jpg",
-    "description": "مشروع متخصصة في الرياض - 58",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 58",
-    "type": "قرميد",
-    "slug": "qaramid-riyadh"
-  },
-  {
-    "filename": "project-59.jpg",
-    "image": "/img/project-59.jpg",
-    "description": "مشروع متخصصة في الرياض - 59",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 59",
-    "type": "قرميد",
-    "slug": "qaramid-riyadh"
-  },
-  {
-    "filename": "project-60.jpg",
-    "image": "/img/project-60.jpg",
-    "description": "مشروع متخصصة في الرياض - 60",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 60",
-    "type": "هناجر ومستودعات",
-    "slug": "hanajer-w-mastoudat-riyadh"
-  },
-  {
-    "filename": "project-61.jpg",
-    "image": "/img/project-61.jpg",
-    "description": "مشروع متخصصة في الرياض - 61",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 61",
-    "type": "هناجر ومستودعات",
-    "slug": "hanajer-w-mastoudat-riyadh"
-  },
-  {
-    "filename": "project-62.jpg",
-    "image": "/img/project-62.jpg",
-    "description": "مشروع متخصصة في الرياض - 62",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 62",
-    "type": "هناجر ومستودعات",
-    "slug": "hanajer-w-mastoudat-riyadh"
-  },
-  {
-    "filename": "project-63.jpg",
-    "image": "/img/project-63.jpg",
-    "description": "مشروع متخصصة في الرياض - 63",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 63",
-    "type": "هناجر ومستودعات",
-    "slug": "hanajer-w-mastoudat-riyadh"
-  },
-  {
-    "filename": "project-64.jpg",
-    "image": "/img/project-64.jpg",
-    "description": "مشروع متخصصة في الرياض - 64",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 64",
-    "type": "مظلات مسابح",
-    "slug": "mazallat-masabi-riyadh"
-  },
-  {
-    "filename": "project-65.jpg",
-    "image": "/img/project-65.jpg",
-    "description": "مشروع متخصصة في الرياض - 65",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 65",
-    "type": "مظلات شد إنشائي",
-    "slug": "mazallat-shad-inshai-riyadh"
-  },
-  {
-    "filename": "project-66.jpg",
-    "image": "/img/project-66.jpg",
-    "description": "مشروع متخصصة في الرياض - 66",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 66",
-    "type": "مظلات شد إنشائي",
-    "slug": "mazallat-shad-inshai-riyadh"
-  },
-  {
-    "filename": "project-67.jpg",
-    "image": "/img/project-67.jpg",
-    "description": "مشروع متخصصة في الرياض - 67",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 67",
-    "type": "مظلات شد إنشائي",
-    "slug": "mazallat-shad-inshai-riyadh"
-  },
-  {
-    "filename": "project-68.jpg",
-    "image": "/img/project-68.jpg",
-    "description": "مشروع متخصصة في الرياض - 68",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 68",
-    "type": "مظلات مدارس",
-    "slug": "mazallat-madaris-riyadh"
-  },
-  {
-    "filename": "project-69.jpg",
-    "image": "/img/project-69.jpg",
-    "description": "مشروع متخصصة في الرياض - 69",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 69",
-    "type": "مظلات شد إنشائي",
-    "slug": "mazallat-shad-inshai-riyadh"
-  },
-  {
-    "filename": "project-70.jpg",
-    "image": "/img/project-70.jpg",
-    "description": "مشروع متخصصة في الرياض - 70",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 70",
-    "type": "مظلات شد إنشائي",
-    "slug": "mazallat-shad-inshai-riyadh"
-  },
-  {
-    "filename": "project-71.jpg",
-    "image": "/img/project-71.jpg",
-    "description": "مشروع متخصصة في الرياض - 71",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 71",
-    "type": "مظلات شد إنشائي",
-    "slug": "mazallat-shad-inshai-riyadh"
-  },
-  {
-    "filename": "project-72.jpg",
-    "image": "/img/project-72.jpg",
-    "description": "مشروع متخصصة في الرياض - 72",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 72",
-    "type": "مظلات شد إنشائي",
-    "slug": "mazallat-shad-inshai-riyadh"
-  },
-  {
-    "filename": "project-73.jpg",
-    "image": "/img/project-73.jpg",
-    "description": "مشروع متخصصة في الرياض - 73",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 73",
-    "type": "مظلات شد إنشائي",
-    "slug": "mazallat-shad-inshai-riyadh"
-  },
-  {
-    "filename": "project-74.jpg",
-    "image": "/img/project-74.jpg",
-    "description": "مشروع متخصصة في الرياض - 74",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 74",
-    "type": "مظلات متحركة",
-    "slug": "mazallat-mutaharrika-riyadh"
-  },
-  {
-    "filename": "project-75.jpg",
-    "image": "/img/project-75.jpg",
-    "description": "مشروع متخصصة في الرياض - 75",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 75",
-    "type": "مظلات متحركة",
-    "slug": "mazallat-mutaharrika-riyadh"
-  },
-  {
-    "filename": "project-76.jpg",
-    "image": "/img/project-76.jpg",
-    "description": "مشروع متخصصة في الرياض - 76",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 76",
-    "type": "مظلات متحركة",
-    "slug": "mazallat-mutaharrika-riyadh"
-  },
-  {
-    "filename": "project-77.jpg",
-    "image": "/img/project-77.jpg",
-    "description": "مشروع متخصصة في الرياض - 77",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 77",
-    "type": "مظلات متحركة",
-    "slug": "mazallat-mutaharrika-riyadh"
-  },
-  {
-    "filename": "project-78.jpg",
-    "image": "/img/project-78.jpg",
-    "description": "مشروع متخصصة في الرياض - 78",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 78",
-    "type": "مظلات متحركة",
-    "slug": "mazallat-mutaharrika-riyadh"
-  },
-  {
-    "filename": "project-79.jpg",
-    "image": "/img/project-79.jpg",
-    "description": "مشروع متخصصة في الرياض - 79",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 79",
-    "type": "مظلات متحركة",
-    "slug": "mazallat-mutaharrika-riyadh"
-  },
-  {
-    "filename": "project-80.jpg",
-    "image": "/img/project-80.jpg",
-    "description": "مشروع متخصصة في الرياض - 80",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 80",
-    "type": "مظلات مدارس",
-    "slug": "mazallat-madaris-riyadh"
-  },
-  {
-    "filename": "project-81.jpg",
-    "image": "/img/project-81.jpg",
-    "description": "مشروع متخصصة في الرياض - 81",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 81",
-    "type": "مظلات مدارس",
-    "slug": "mazallat-madaris-riyadh"
-  },
-  {
-    "filename": "project-82.jpg",
-    "image": "/img/project-82.jpg",
-    "description": "مشروع متخصصة في الرياض - 82",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 82",
-    "type": "مظلات مدارس",
-    "slug": "mazallat-madaris-riyadh"
-  },
-  {
-    "filename": "project-83.jpg",
-    "image": "/img/project-83.jpg",
-    "description": "مشروع متخصصة في الرياض - 83",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 83",
-    "type": "مظلات مسابح",
-    "slug": "mazallat-masabi-riyadh"
-  },
-  {
-    "filename": "project-84.jpg",
-    "image": "/img/project-84.jpg",
-    "description": "مشروع متخصصة في الرياض - 84",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 84",
-    "type": "مظلات مسابح",
-    "slug": "mazallat-masabi-riyadh"
-  },
-  {
-    "filename": "project-85.jpg",
-    "image": "/img/project-85.jpg",
-    "description": "مشروع متخصصة في الرياض - 85",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 85",
-    "type": "مظلات مسابح",
-    "slug": "mazallat-masabi-riyadh"
-  },
-  {
-    "filename": "project-86.jpg",
-    "image": "/img/project-86.jpg",
-    "description": "مشروع متخصصة في الرياض - 86",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 86",
-    "type": "مظلات مسابح",
-    "slug": "mazallat-masabi-riyadh"
-  },
-  {
-    "filename": "project-87.jpg",
-    "image": "/img/project-87.jpg",
-    "description": "مشروع متخصصة في الرياض - 87",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 87",
-    "type": "مظلات مسابح",
-    "slug": "mazallat-masabi-riyadh"
-  },
-  {
-    "filename": "project-88.jpg",
-    "image": "/img/project-88.jpg",
-    "description": "مشروع متخصصة في الرياض - 88",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 88",
-    "type": "مظلات مسابح",
-    "slug": "mazallat-masabi-riyadh"
-  },
-  {
-    "filename": "project-89.jpg",
-    "image": "/img/project-89.jpg",
-    "description": "مشروع متخصصة في الرياض - 89",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 89",
-    "type": "مظلات مسابح",
-    "slug": "mazallat-masabi-riyadh"
-  },
-  {
-    "filename": "project-90.jpg",
-    "image": "/img/project-90.jpg",
-    "description": "مشروع متخصصة في الرياض - 90",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 90",
-    "type": "مظلات مسابح",
-    "slug": "mazallat-masabi-riyadh"
-  },
-  {
-    "filename": "project-91.jpg",
-    "image": "/img/project-91.jpg",
-    "description": "مشروع متخصصة في الرياض - 91",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 91",
-    "type": "مظلات مقوسة",
-    "slug": "mazallat-maqousa-riyadh"
-  },
-  {
-    "filename": "project-92.jpg",
-    "image": "/img/project-92.jpg",
-    "description": "مشروع متخصصة في الرياض - 92",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 92",
-    "type": "مظلات مقوسة",
-    "slug": "mazallat-maqousa-riyadh"
-  },
-  {
-    "filename": "project-93.jpg",
-    "image": "/img/project-93.jpg",
-    "description": "مشروع متخصصة في الرياض - 93",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 93",
-    "type": "مظلات مقوسة",
-    "slug": "mazallat-maqousa-riyadh"
-  },
-  {
-    "filename": "project-94.jpg",
-    "image": "/img/project-94.jpg",
-    "description": "مشروع متخصصة في الرياض - 94",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 94",
-    "type": "مظلات مقوسة",
-    "slug": "mazallat-maqousa-riyadh"
-  },
-  {
-    "filename": "project-95.jpg",
-    "image": "/img/project-95.jpg",
-    "description": "مشروع متخصصة في الرياض - 95",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 95",
-    "type": "مظلات مقوسة",
-    "slug": "mazallat-maqousa-riyadh"
-  },
-  {
-    "filename": "project-96.jpg",
-    "image": "/img/project-96.jpg",
-    "description": "مشروع متخصصة في الرياض - 96",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 96",
-    "type": "مظلات مقوسة",
-    "slug": "mazallat-maqousa-riyadh"
-  },
-  {
-    "filename": "project-97.jpg",
-    "image": "/img/project-97.jpg",
-    "description": "مشروع متخصصة في الرياض - 97",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 97",
-    "type": "مظلات مقوسة",
-    "slug": "mazallat-maqousa-riyadh"
-  },
-  {
-    "filename": "project-98.jpg",
-    "image": "/img/project-98.jpg",
-    "description": "مشروع متخصصة في الرياض - 98",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 98",
-    "type": "مظلات مواقف",
-    "slug": "mazallat-sayarat-riyadh"
-  },
-  {
-    "filename": "project-99.jpg",
-    "image": "/img/project-99.jpg",
-    "description": "مشروع متخصصة في الرياض - 99",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 99",
-    "type": "مظلات هرمية",
-    "slug": "mazallat-haramiya-riyadh"
-  },
-  {
-    "filename": "project-100.jpg",
-    "image": "/img/project-100.jpg",
-    "description": "مشروع متخصصة في الرياض - 100",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 100",
-    "type": "مظلات هرمية",
-    "slug": "mazallat-haramiya-riyadh"
-  },
-  {
-    "filename": "project-101.jpg",
-    "image": "/img/project-101.jpg",
-    "description": "مشروع متخصصة في الرياض - 101",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 101",
-    "type": "مظلات هرمية",
-    "slug": "mazallat-haramiya-riyadh"
-  },
-  {
-    "filename": "project-102.jpg",
-    "image": "/img/project-102.jpg",
-    "description": "مشروع متخصصة في الرياض - 102",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 102",
-    "type": "مظلات هرمية",
-    "slug": "mazallat-haramiya-riyadh"
-  },
-  {
-    "filename": "project-103.jpg",
-    "image": "/img/project-103.jpg",
-    "description": "مشروع متخصصة في الرياض - 103",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 103",
-    "type": "مظلات هرمية",
-    "slug": "mazallat-haramiya-riyadh"
-  },
-  {
-    "filename": "project-104.jpg",
-    "image": "/img/project-104.jpg",
-    "description": "مشروع متخصصة في الرياض - 104",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 104",
-    "type": "مظلات هرمية",
-    "slug": "mazallat-haramiya-riyadh"
-  },
-  {
-    "filename": "project-105.jpg",
-    "image": "/img/project-105.jpg",
-    "description": "مشروع متخصصة في الرياض - 105",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 105",
-    "type": "مظلات هرمية",
-    "slug": "mazallat-haramiya-riyadh"
-  },
-  {
-    "filename": "project-106.jpg",
-    "image": "/img/project-106.jpg",
-    "description": "مشروع متخصصة في الرياض - 106",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 106",
-    "type": "مظلات هرمية",
-    "slug": "mazallat-haramiya-riyadh"
-  },
-  {
-    "filename": "project-107.jpg",
-    "image": "/img/project-107.jpg",
-    "description": "مشروع متخصصة في الرياض - 107",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 107",
-    "type": "هناجر ومستودعات",
-    "slug": "hanajer-w-mastoudat-riyadh"
-  },
-  {
-    "filename": "project-108.jpg",
-    "image": "/img/project-108.jpg",
-    "description": "مشروع متخصصة في الرياض - 108",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 108",
-    "type": "هناجر ومستودعات",
-    "slug": "hanajer-w-mastoudat-riyadh"
-  },
-  {
-    "filename": "project-109.jpg",
-    "image": "/img/project-109.jpg",
-    "description": "مشروع متخصصة في الرياض - 109",
-    "alt": "أعمال مظلات وسواتر احترافية بالرياض - صورة 109",
-    "type": "هناجر ومستودعات",
-    "slug": "hanajer-w-mastoudat-riyadh"
-  },
+  {"filename":"PicsArt_05-30-10.32.16.jpg","image":"/img/PicsArt_05-30-10.32.16.jpg","description":"PicsArt_05-30-10.32.16","alt":"PicsArt_05-30-10.32.16","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"برجوله الرياض بديل الخشب .jpg","image":"/img/%D8%A8%D8%B1%D8%AC%D9%88%D9%84%D9%87%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%20%D8%A8%D8%AF%D9%8A%D9%84%20%D8%A7%D9%84%D8%AE%D8%B4%D8%A8%20.jpg","description":"برجوله الرياض بديل الخشب ","alt":"برجوله الرياض بديل الخشب ","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"برجوله الرياض بشكل جميل..jpg","image":"/img/%D8%A8%D8%B1%D8%AC%D9%88%D9%84%D9%87%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%20%D8%A8%D8%B4%D9%83%D9%84%20%D8%AC%D9%85%D9%8A%D9%84..jpg","description":"برجوله الرياض بشكل جميل.","alt":"برجوله الرياض بشكل جميل.","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"برجوله الرياض تضليل.jpg","image":"/img/%D8%A8%D8%B1%D8%AC%D9%88%D9%84%D9%87%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%20%D8%AA%D8%B6%D9%84%D9%8A%D9%84.jpg","description":"برجوله الرياض تضليل","alt":"برجوله الرياض تضليل","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"برجوله جلسه خارجيه الرياض،.jpg","image":"/img/%D8%A8%D8%B1%D8%AC%D9%88%D9%84%D9%87%20%D8%AC%D9%84%D8%B3%D9%87%20%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D9%87%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D8%8C.jpg","description":"برجوله جلسه خارجيه الرياض،","alt":"برجوله جلسه خارجيه الرياض،","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"برجوله معا لكسان جلسه خارجيه الرياض..jpg","image":"/img/%D8%A8%D8%B1%D8%AC%D9%88%D9%84%D9%87%20%D9%85%D8%B9%D8%A7%20%D9%84%D9%83%D8%B3%D8%A7%D9%86%20%D8%AC%D9%84%D8%B3%D9%87%20%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D9%87%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6..jpg","description":"برجوله معا لكسان جلسه خارجيه الرياض.","alt":"برجوله معا لكسان جلسه خارجيه الرياض.","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"برجوله وتنسيق حدائيق الرياض.jpg","image":"/img/%D8%A8%D8%B1%D8%AC%D9%88%D9%84%D9%87%20%D9%88%D8%AA%D9%86%D8%B3%D9%8A%D9%82%20%D8%AD%D8%AF%D8%A7%D8%A6%D9%8A%D9%82%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6.jpg","description":"برجوله وتنسيق حدائيق الرياض","alt":"برجوله وتنسيق حدائيق الرياض","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"بيوت شعر الرياض ...jpg","image":"/img/%D8%A8%D9%8A%D9%88%D8%AA%20%D8%B4%D8%B9%D8%B1%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%20...jpg","description":"بيوت شعر الرياض ..","alt":"بيوت شعر الرياض ..","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"بيوت شعر الرياض ..jpg","image":"/img/%D8%A8%D9%8A%D9%88%D8%AA%20%D8%B4%D8%B9%D8%B1%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%20..jpg","description":"بيوت شعر الرياض .","alt":"بيوت شعر الرياض .","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"بيوت شعر الرياض 5.jpg","image":"/img/%D8%A8%D9%8A%D9%88%D8%AA%20%D8%B4%D8%B9%D8%B1%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%205.jpg","description":"بيوت شعر الرياض 5","alt":"بيوت شعر الرياض 5","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"بيوت شعر الرياض ^.jpg","image":"/img/%D8%A8%D9%8A%D9%88%D8%AA%20%D8%B4%D8%B9%D8%B1%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%20%5E.jpg","description":"بيوت شعر الرياض ^","alt":"بيوت شعر الرياض ^","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"بيوت شعر الرياض بشكل جميل..jpg","image":"/img/%D8%A8%D9%8A%D9%88%D8%AA%20%D8%B4%D8%B9%D8%B1%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%20%D8%A8%D8%B4%D9%83%D9%84%20%D8%AC%D9%85%D9%8A%D9%84..jpg","description":"بيوت شعر الرياض بشكل جميل.","alt":"بيوت شعر الرياض بشكل جميل.","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"بيوت شعر الرياض بشكل جميل.jpg","image":"/img/%D8%A8%D9%8A%D9%88%D8%AA%20%D8%B4%D8%B9%D8%B1%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%20%D8%A8%D8%B4%D9%83%D9%84%20%D8%AC%D9%85%D9%8A%D9%84.jpg","description":"بيوت شعر الرياض بشكل جميل","alt":"بيوت شعر الرياض بشكل جميل","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"بيوت شعر الرياض خارجيه.jpg","image":"/img/%D8%A8%D9%8A%D9%88%D8%AA%20%D8%B4%D8%B9%D8%B1%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%20%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D9%87.jpg","description":"بيوت شعر الرياض خارجيه","alt":"بيوت شعر الرياض خارجيه","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"بيوت شعر الرياض9.jpg","image":"/img/%D8%A8%D9%8A%D9%88%D8%AA%20%D8%B4%D8%B9%D8%B1%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B69.jpg","description":"بيوت شعر الرياض9","alt":"بيوت شعر الرياض9","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"بيوت شعر الرياض_ .jpg","image":"/img/%D8%A8%D9%8A%D9%88%D8%AA%20%D8%B4%D8%B9%D8%B1%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6_%20.jpg","description":"بيوت شعر الرياض_ ","alt":"بيوت شعر الرياض_ ","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"بيوت شعر الرياض،.jpg","image":"/img/%D8%A8%D9%8A%D9%88%D8%AA%20%D8%B4%D8%B9%D8%B1%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D8%8C.jpg","description":"بيوت شعر الرياض،","alt":"بيوت شعر الرياض،","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"تنسيق جلسات خارجيه الرياض..jpg","image":"/img/%D8%AA%D9%86%D8%B3%D9%8A%D9%82%20%D8%AC%D9%84%D8%B3%D8%A7%D8%AA%20%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D9%87%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6..jpg","description":"تنسيق جلسات خارجيه الرياض.","alt":"تنسيق جلسات خارجيه الرياض.","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"تنسيق حدائيق الرياض ..jpg","image":"/img/%D8%AA%D9%86%D8%B3%D9%8A%D9%82%20%D8%AD%D8%AF%D8%A7%D8%A6%D9%8A%D9%82%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%20..jpg","description":"تنسيق حدائيق الرياض .","alt":"تنسيق حدائيق الرياض .","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"تنسيق حدائيق الرياض'.jpg","image":"/img/%D8%AA%D9%86%D8%B3%D9%8A%D9%82%20%D8%AD%D8%AF%D8%A7%D8%A6%D9%8A%D9%82%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6'.jpg","description":"تنسيق حدائيق الرياض'","alt":"تنسيق حدائيق الرياض'","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"تنسيق حدائيق الرياض...jpg","image":"/img/%D8%AA%D9%86%D8%B3%D9%8A%D9%82%20%D8%AD%D8%AF%D8%A7%D8%A6%D9%8A%D9%82%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6...jpg","description":"تنسيق حدائيق الرياض..","alt":"تنسيق حدائيق الرياض..","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"تنسيق حدائيق الرياض..jpg","image":"/img/%D8%AA%D9%86%D8%B3%D9%8A%D9%82%20%D8%AD%D8%AF%D8%A7%D8%A6%D9%8A%D9%82%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6..jpg","description":"تنسيق حدائيق الرياض.","alt":"تنسيق حدائيق الرياض.","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"تنسيق حدائيق الرياض4.jpg","image":"/img/%D8%AA%D9%86%D8%B3%D9%8A%D9%82%20%D8%AD%D8%AF%D8%A7%D8%A6%D9%8A%D9%82%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B64.jpg","description":"تنسيق حدائيق الرياض4","alt":"تنسيق حدائيق الرياض4","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"تنسيق حدائيق الرياض؟.jpg","image":"/img/%D8%AA%D9%86%D8%B3%D9%8A%D9%82%20%D8%AD%D8%AF%D8%A7%D8%A6%D9%8A%D9%82%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D8%9F.jpg","description":"تنسيق حدائيق الرياض؟","alt":"تنسيق حدائيق الرياض؟","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"تنسيق حدائيق.jpg","image":"/img/%D8%AA%D9%86%D8%B3%D9%8A%D9%82%20%D8%AD%D8%AF%D8%A7%D8%A6%D9%8A%D9%82.jpg","description":"تنسيق حدائيق","alt":"تنسيق حدائيق","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"جلسات خارجيه الرياض. ..jpg","image":"/img/%D8%AC%D9%84%D8%B3%D8%A7%D8%AA%20%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D9%87%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6.%20..jpg","description":"جلسات خارجيه الرياض. .","alt":"جلسات خارجيه الرياض. .","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"جلسات خارجيه الرياض..jpg","image":"/img/%D8%AC%D9%84%D8%B3%D8%A7%D8%AA%20%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D9%87%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6..jpg","description":"جلسات خارجيه الرياض.","alt":"جلسات خارجيه الرياض.","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"خيام الرياض.jpg","image":"/img/%D8%AE%D9%8A%D8%A7%D9%85%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6.jpg","description":"خيام الرياض","alt":"خيام الرياض","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"سندوش بنل الرياض ،،.jpg","image":"/img/%D8%B3%D9%86%D8%AF%D9%88%D8%B4%20%D8%A8%D9%86%D9%84%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%20%D8%8C%D8%8C.jpg","description":"سندوش بنل الرياض ،،","alt":"سندوش بنل الرياض ،،","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"سندوش بنل الرياض غرف.jpg","image":"/img/%D8%B3%D9%86%D8%AF%D9%88%D8%B4%20%D8%A8%D9%86%D9%84%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%20%D8%BA%D8%B1%D9%81.jpg","description":"سندوش بنل الرياض غرف","alt":"سندوش بنل الرياض غرف","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"سندوش بنل الرياض#.jpg","image":"/img/%D8%B3%D9%86%D8%AF%D9%88%D8%B4%20%D8%A8%D9%86%D9%84%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6#.jpg","description":"سندوش بنل الرياض#","alt":"سندوش بنل الرياض#","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"سندوش بنل الرياض$.jpg","image":"/img/%D8%B3%D9%86%D8%AF%D9%88%D8%B4%20%D8%A8%D9%86%D9%84%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6$.jpg","description":"سندوش بنل الرياض$","alt":"سندوش بنل الرياض$","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"سندوش بنل الرياض&.jpg","image":"/img/%D8%B3%D9%86%D8%AF%D9%88%D8%B4%20%D8%A8%D9%86%D9%84%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6&.jpg","description":"سندوش بنل الرياض&","alt":"سندوش بنل الرياض&","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"سندوش بنل الرياض'.jpg","image":"/img/%D8%B3%D9%86%D8%AF%D9%88%D8%B4%20%D8%A8%D9%86%D9%84%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6'.jpg","description":"سندوش بنل الرياض'","alt":"سندوش بنل الرياض'","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"سندوش بنل الرياض...jpg","image":"/img/%D8%B3%D9%86%D8%AF%D9%88%D8%B4%20%D8%A8%D9%86%D9%84%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6...jpg","description":"سندوش بنل الرياض..","alt":"سندوش بنل الرياض..","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"سندوش بنل الرياض..jpg","image":"/img/%D8%B3%D9%86%D8%AF%D9%88%D8%B4%20%D8%A8%D9%86%D9%84%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6..jpg","description":"سندوش بنل الرياض.","alt":"سندوش بنل الرياض.","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"سندوش بنل الرياض.jpg","image":"/img/%D8%B3%D9%86%D8%AF%D9%88%D8%B4%20%D8%A8%D9%86%D9%84%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6.jpg","description":"سندوش بنل الرياض","alt":"سندوش بنل الرياض","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"سندوش بنل الرياض0.jpg","image":"/img/%D8%B3%D9%86%D8%AF%D9%88%D8%B4%20%D8%A8%D9%86%D9%84%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B60.jpg","description":"سندوش بنل الرياض0","alt":"سندوش بنل الرياض0","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"سندوش بنل الرياض1.jpg","image":"/img/%D8%B3%D9%86%D8%AF%D9%88%D8%B4%20%D8%A8%D9%86%D9%84%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B61.jpg","description":"سندوش بنل الرياض1","alt":"سندوش بنل الرياض1","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"سندوش بنل الرياض7.jpg","image":"/img/%D8%B3%D9%86%D8%AF%D9%88%D8%B4%20%D8%A8%D9%86%D9%84%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B67.jpg","description":"سندوش بنل الرياض7","alt":"سندوش بنل الرياض7","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"سندوش بنل الرياض8.jpg","image":"/img/%D8%B3%D9%86%D8%AF%D9%88%D8%B4%20%D8%A8%D9%86%D9%84%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B68.jpg","description":"سندوش بنل الرياض8","alt":"سندوش بنل الرياض8","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"سندوش بنل الرياض؟.jpg","image":"/img/%D8%B3%D9%86%D8%AF%D9%88%D8%B4%20%D8%A8%D9%86%D9%84%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D8%9F.jpg","description":"سندوش بنل الرياض؟","alt":"سندوش بنل الرياض؟","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"سواتر بديل الخشب....jpg","image":"/img/%D8%B3%D9%88%D8%A7%D8%AA%D8%B1%20%D8%A8%D8%AF%D9%8A%D9%84%20%D8%A7%D9%84%D8%AE%D8%B4%D8%A8....jpg","description":"سواتر بديل الخشب...","alt":"سواتر بديل الخشب...","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"سواتر بلاستيك حجب النضر.jpg","image":"/img/%D8%B3%D9%88%D8%A7%D8%AA%D8%B1%20%D8%A8%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D9%83%20%D8%AD%D8%AC%D8%A8%20%D8%A7%D9%84%D9%86%D8%B6%D8%B1.jpg","description":"سواتر بلاستيك حجب النضر","alt":"سواتر بلاستيك حجب النضر","type":"سواتر بلاستيك","slug":"sawatr-qumash-riyadh"},
+  {"filename":"سواتر بلاستيك.jpg","image":"/img/%D8%B3%D9%88%D8%A7%D8%AA%D8%B1%20%D8%A8%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D9%83.jpg","description":"سواتر بلاستيك","alt":"سواتر بلاستيك","type":"سواتر بلاستيك","slug":"sawatr-qumash-riyadh"},
+  {"filename":"سواتر بلاستيك12.jpg","image":"/img/%D8%B3%D9%88%D8%A7%D8%AA%D8%B1%20%D8%A8%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D9%8312.jpg","description":"سواتر بلاستيك12","alt":"سواتر بلاستيك12","type":"سواتر بلاستيك","slug":"sawatr-qumash-riyadh"},
+  {"filename":"سواتر بلاستيك١.jpg","image":"/img/%D8%B3%D9%88%D8%A7%D8%AA%D8%B1%20%D8%A8%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D9%83%D9%A1.jpg","description":"سواتر بلاستيك١","alt":"سواتر بلاستيك١","type":"سواتر بلاستيك","slug":"sawatr-qumash-riyadh"},
+  {"filename":"سواتر قماش  استراحات.jpg","image":"/img/%D8%B3%D9%88%D8%A7%D8%AA%D8%B1%20%D9%82%D9%85%D8%A7%D8%B4%20%20%D8%A7%D8%B3%D8%AA%D8%B1%D8%A7%D8%AD%D8%A7%D8%AA.jpg","description":"سواتر قماش  استراحات","alt":"سواتر قماش  استراحات","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"سواتر قماش ..jpg","image":"/img/%D8%B3%D9%88%D8%A7%D8%AA%D8%B1%20%D9%82%D9%85%D8%A7%D8%B4%20..jpg","description":"سواتر قماش .","alt":"سواتر قماش .","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"سواتر قماش .jpg","image":"/img/%D8%B3%D9%88%D8%A7%D8%AA%D8%B1%20%D9%82%D9%85%D8%A7%D8%B4%20.jpg","description":"سواتر قماش ","alt":"سواتر قماش ","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"سواتر قماش 0.jpg","image":"/img/%D8%B3%D9%88%D8%A7%D8%AA%D8%B1%20%D9%82%D9%85%D8%A7%D8%B4%200.jpg","description":"سواتر قماش 0","alt":"سواتر قماش 0","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"سواتر قماش 7.jpg","image":"/img/%D8%B3%D9%88%D8%A7%D8%AA%D8%B1%20%D9%82%D9%85%D8%A7%D8%B4%207.jpg","description":"سواتر قماش 7","alt":"سواتر قماش 7","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"سواتر قماش الرياض ،.jpg","image":"/img/%D8%B3%D9%88%D8%A7%D8%AA%D8%B1%20%D9%82%D9%85%D8%A7%D8%B4%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%20%D8%8C.jpg","description":"سواتر قماش الرياض ،","alt":"سواتر قماش الرياض ،","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"سواتر قماش الرياض؟.jpg","image":"/img/%D8%B3%D9%88%D8%A7%D8%AA%D8%B1%20%D9%82%D9%85%D8%A7%D8%B4%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D8%9F.jpg","description":"سواتر قماش الرياض؟","alt":"سواتر قماش الرياض؟","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"سواتر قماش جميله.jpg","image":"/img/%D8%B3%D9%88%D8%A7%D8%AA%D8%B1%20%D9%82%D9%85%D8%A7%D8%B4%20%D8%AC%D9%85%D9%8A%D9%84%D9%87.jpg","description":"سواتر قماش جميله","alt":"سواتر قماش جميله","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"سواتر قماش.jpg","image":"/img/%D8%B3%D9%88%D8%A7%D8%AA%D8%B1%20%D9%82%D9%85%D8%A7%D8%B4.jpg","description":"سواتر قماش","alt":"سواتر قماش","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"سواتر لكسان.jpg","image":"/img/%D8%B3%D9%88%D8%A7%D8%AA%D8%B1%20%D9%84%D9%83%D8%B3%D8%A7%D9%86.jpg","description":"سواتر لكسان","alt":"سواتر لكسان","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"سواتر ليزر حمايه خارجيه بشكل جميل.jpg","image":"/img/%D8%B3%D9%88%D8%A7%D8%AA%D8%B1%20%D9%84%D9%8A%D8%B2%D8%B1%20%D8%AD%D9%85%D8%A7%D9%8A%D9%87%20%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D9%87%20%D8%A8%D8%B4%D9%83%D9%84%20%D8%AC%D9%85%D9%8A%D9%84.jpg","description":"سواتر ليزر حمايه خارجيه بشكل جميل","alt":"سواتر ليزر حمايه خارجيه بشكل جميل","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"سواتر ليزر حمايه خارجيه..jpg","image":"/img/%D8%B3%D9%88%D8%A7%D8%AA%D8%B1%20%D9%84%D9%8A%D8%B2%D8%B1%20%D8%AD%D9%85%D8%A7%D9%8A%D9%87%20%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D9%87..jpg","description":"سواتر ليزر حمايه خارجيه.","alt":"سواتر ليزر حمايه خارجيه.","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"سواتر ليزر حمايه خارجيه.jpg","image":"/img/%D8%B3%D9%88%D8%A7%D8%AA%D8%B1%20%D9%84%D9%8A%D8%B2%D8%B1%20%D8%AD%D9%85%D8%A7%D9%8A%D9%87%20%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D9%87.jpg","description":"سواتر ليزر حمايه خارجيه","alt":"سواتر ليزر حمايه خارجيه","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"سواتر ليزر حمايه.jpg","image":"/img/%D8%B3%D9%88%D8%A7%D8%AA%D8%B1%20%D9%84%D9%8A%D8%B2%D8%B1%20%D8%AD%D9%85%D8%A7%D9%8A%D9%87.jpg","description":"سواتر ليزر حمايه","alt":"سواتر ليزر حمايه","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"سواتر ليزر معا لكسان.jpg","image":"/img/%D8%B3%D9%88%D8%A7%D8%AA%D8%B1%20%D9%84%D9%8A%D8%B2%D8%B1%20%D9%85%D8%B9%D8%A7%20%D9%84%D9%83%D8%B3%D8%A7%D9%86.jpg","description":"سواتر ليزر معا لكسان","alt":"سواتر ليزر معا لكسان","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"سواتر ليزر8.jpg","image":"/img/%D8%B3%D9%88%D8%A7%D8%AA%D8%B1%20%D9%84%D9%8A%D8%B2%D8%B18.jpg","description":"سواتر ليزر8","alt":"سواتر ليزر8","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"قراميد الرياض.jpg","image":"/img/%D9%82%D8%B1%D8%A7%D9%85%D9%8A%D8%AF%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6.jpg","description":"قراميد الرياض","alt":"قراميد الرياض","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"قرميد الرياض ..jpg","image":"/img/%D9%82%D8%B1%D9%85%D9%8A%D8%AF%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%20..jpg","description":"قرميد الرياض .","alt":"قرميد الرياض .","type":"أسطح ساندويش بنل","slug":"buyut-sha3r-riyadh"},
+  {"filename":"قرميد الرياض ،.jpg","image":"/img/%D9%82%D8%B1%D9%85%D9%8A%D8%AF%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%20%D8%8C.jpg","description":"قرميد الرياض ،","alt":"قرميد الرياض ،","type":"أسطح ساندويش بنل","slug":"buyut-sha3r-riyadh"},
+  {"filename":"قرميد الرياض شكل جميل.jpg","image":"/img/%D9%82%D8%B1%D9%85%D9%8A%D8%AF%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%20%D8%B4%D9%83%D9%84%20%D8%AC%D9%85%D9%8A%D9%84.jpg","description":"قرميد الرياض شكل جميل","alt":"قرميد الرياض شكل جميل","type":"أسطح ساندويش بنل","slug":"buyut-sha3r-riyadh"},
+  {"filename":"قرميد الرياض...jpg","image":"/img/%D9%82%D8%B1%D9%85%D9%8A%D8%AF%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6...jpg","description":"قرميد الرياض..","alt":"قرميد الرياض..","type":"أسطح ساندويش بنل","slug":"buyut-sha3r-riyadh"},
+  {"filename":"قرميد الرياض..jpg","image":"/img/%D9%82%D8%B1%D9%85%D9%8A%D8%AF%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6..jpg","description":"قرميد الرياض.","alt":"قرميد الرياض.","type":"أسطح ساندويش بنل","slug":"buyut-sha3r-riyadh"},
+  {"filename":"قرميد الرياض2.jpg","image":"/img/%D9%82%D8%B1%D9%85%D9%8A%D8%AF%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B62.jpg","description":"قرميد الرياض2","alt":"قرميد الرياض2","type":"أسطح ساندويش بنل","slug":"buyut-sha3r-riyadh"},
+  {"filename":"قرميد الرياض3.jpg","image":"/img/%D9%82%D8%B1%D9%85%D9%8A%D8%AF%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B63.jpg","description":"قرميد الرياض3","alt":"قرميد الرياض3","type":"أسطح ساندويش بنل","slug":"buyut-sha3r-riyadh"},
+  {"filename":"قرميد الرياض4.jpg","image":"/img/%D9%82%D8%B1%D9%85%D9%8A%D8%AF%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B64.jpg","description":"قرميد الرياض4","alt":"قرميد الرياض4","type":"أسطح ساندويش بنل","slug":"buyut-sha3r-riyadh"},
+  {"filename":"مستودعات ألرياض#.jpg","image":"/img/%D9%85%D8%B3%D8%AA%D9%88%D8%AF%D8%B9%D8%A7%D8%AA%20%D8%A3%D9%84%D8%B1%D9%8A%D8%A7%D8%B6#.jpg","description":"مستودعات ألرياض#","alt":"مستودعات ألرياض#","type":"غرف ساندويش بنل","slug":"tansiq-hadaiq-riyadh"},
+  {"filename":"مستودعات الرياض ..png","image":"/img/%D9%85%D8%B3%D8%AA%D9%88%D8%AF%D8%B9%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%20..png","description":"مستودعات الرياض .","alt":"مستودعات الرياض .","type":"غرف ساندويش بنل","slug":"tansiq-hadaiq-riyadh"},
+  {"filename":"مستودعات الرياض رعايه مواشي.jpg","image":"/img/%D9%85%D8%B3%D8%AA%D9%88%D8%AF%D8%B9%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%20%D8%B1%D8%B9%D8%A7%D9%8A%D9%87%20%D9%85%D9%88%D8%A7%D8%B4%D9%8A.jpg","description":"مستودعات الرياض رعايه مواشي","alt":"مستودعات الرياض رعايه مواشي","type":"غرف ساندويش بنل","slug":"tansiq-hadaiq-riyadh"},
+  {"filename":"مستودعات الرياض.....jpg","image":"/img/%D9%85%D8%B3%D8%AA%D9%88%D8%AF%D8%B9%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6.....jpg","description":"مستودعات الرياض....","alt":"مستودعات الرياض....","type":"غرف ساندويش بنل","slug":"tansiq-hadaiq-riyadh"},
+  {"filename":"مستودعات الرياض...jpg","image":"/img/%D9%85%D8%B3%D8%AA%D9%88%D8%AF%D8%B9%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6...jpg","description":"مستودعات الرياض..","alt":"مستودعات الرياض..","type":"غرف ساندويش بنل","slug":"tansiq-hadaiq-riyadh"},
+  {"filename":"مستودعات الرياض.jpg","image":"/img/%D9%85%D8%B3%D8%AA%D9%88%D8%AF%D8%B9%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6.jpg","description":"مستودعات الرياض","alt":"مستودعات الرياض","type":"غرف ساندويش بنل","slug":"tansiq-hadaiq-riyadh"},
+  {"filename":"مستودعات الرياض1.jpg","image":"/img/%D9%85%D8%B3%D8%AA%D9%88%D8%AF%D8%B9%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B61.jpg","description":"مستودعات الرياض1","alt":"مستودعات الرياض1","type":"غرف ساندويش بنل","slug":"tansiq-hadaiq-riyadh"},
+  {"filename":"مضلات تضليل قعدات مسابح.jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D8%AA%D8%B6%D9%84%D9%8A%D9%84%20%D9%82%D8%B9%D8%AF%D8%A7%D8%AA%20%D9%85%D8%B3%D8%A7%D8%A8%D8%AD.jpg","description":"مضلات تضليل قعدات مسابح","alt":"مضلات تضليل قعدات مسابح","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات شد انشائي الرياض !.jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D8%B4%D8%AF%20%D8%A7%D9%86%D8%B4%D8%A7%D8%A6%D9%8A%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%20!.jpg","description":"مضلات شد انشائي الرياض !","alt":"مضلات شد انشائي الرياض !","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات شد انشائي الرياض ....jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D8%B4%D8%AF%20%D8%A7%D9%86%D8%B4%D8%A7%D8%A6%D9%8A%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%20....jpg","description":"مضلات شد انشائي الرياض ...","alt":"مضلات شد انشائي الرياض ...","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات شد انشائي الرياض بشكل جميل ..jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D8%B4%D8%AF%20%D8%A7%D9%86%D8%B4%D8%A7%D8%A6%D9%8A%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%20%D8%A8%D8%B4%D9%83%D9%84%20%D8%AC%D9%85%D9%8A%D9%84%20..jpg","description":"مضلات شد انشائي الرياض بشكل جميل .","alt":"مضلات شد انشائي الرياض بشكل جميل .","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات شد انشائي الرياض بشكل جميل.jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D8%B4%D8%AF%20%D8%A7%D9%86%D8%B4%D8%A7%D8%A6%D9%8A%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%20%D8%A8%D8%B4%D9%83%D9%84%20%D8%AC%D9%85%D9%8A%D9%84.jpg","description":"مضلات شد انشائي الرياض بشكل جميل","alt":"مضلات شد انشائي الرياض بشكل جميل","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات شد انشائي الرياض مدارس .jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D8%B4%D8%AF%20%D8%A7%D9%86%D8%B4%D8%A7%D8%A6%D9%8A%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%20%D9%85%D8%AF%D8%A7%D8%B1%D8%B3%20.jpg","description":"مضلات شد انشائي الرياض مدارس ","alt":"مضلات شد انشائي الرياض مدارس ","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات شد انشائي الرياض#.jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D8%B4%D8%AF%20%D8%A7%D9%86%D8%B4%D8%A7%D8%A6%D9%8A%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6#.jpg","description":"مضلات شد انشائي الرياض#","alt":"مضلات شد انشائي الرياض#","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات شد انشائي الرياض'.jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D8%B4%D8%AF%20%D8%A7%D9%86%D8%B4%D8%A7%D8%A6%D9%8A%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6'.jpg","description":"مضلات شد انشائي الرياض'","alt":"مضلات شد انشائي الرياض'","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات شد انشائي الرياض...jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D8%B4%D8%AF%20%D8%A7%D9%86%D8%B4%D8%A7%D8%A6%D9%8A%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6...jpg","description":"مضلات شد انشائي الرياض..","alt":"مضلات شد انشائي الرياض..","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات شد انشائي الرياض..jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D8%B4%D8%AF%20%D8%A7%D9%86%D8%B4%D8%A7%D8%A6%D9%8A%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6..jpg","description":"مضلات شد انشائي الرياض.","alt":"مضلات شد انشائي الرياض.","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات شد انشائي الرياض.jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D8%B4%D8%AF%20%D8%A7%D9%86%D8%B4%D8%A7%D8%A6%D9%8A%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6.jpg","description":"مضلات شد انشائي الرياض","alt":"مضلات شد انشائي الرياض","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات شد انشائي الرياض0.jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D8%B4%D8%AF%20%D8%A7%D9%86%D8%B4%D8%A7%D8%A6%D9%8A%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B60.jpg","description":"مضلات شد انشائي الرياض0","alt":"مضلات شد انشائي الرياض0","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات شد انشائي الرياض2.jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D8%B4%D8%AF%20%D8%A7%D9%86%D8%B4%D8%A7%D8%A6%D9%8A%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B62.jpg","description":"مضلات شد انشائي الرياض2","alt":"مضلات شد انشائي الرياض2","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات شد انشائي الرياض^.jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D8%B4%D8%AF%20%D8%A7%D9%86%D8%B4%D8%A7%D8%A6%D9%8A%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%5E.jpg","description":"مضلات شد انشائي الرياض^","alt":"مضلات شد انشائي الرياض^","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات متحرك.jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D9%85%D8%AA%D8%AD%D8%B1%D9%83.jpg","description":"مضلات متحرك","alt":"مضلات متحرك","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات متحركه ...jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D9%85%D8%AA%D8%AD%D8%B1%D9%83%D9%87%20...jpg","description":"مضلات متحركه ..","alt":"مضلات متحركه ..","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات متحركه VPN.jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D9%85%D8%AA%D8%AD%D8%B1%D9%83%D9%87%20VPN.jpg","description":"مضلات متحركه VPN","alt":"مضلات متحركه VPN","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات متحركه الرياض..jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D9%85%D8%AA%D8%AD%D8%B1%D9%83%D9%87%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6..jpg","description":"مضلات متحركه الرياض.","alt":"مضلات متحركه الرياض.","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات متحركه الرياض1.jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D9%85%D8%AA%D8%AD%D8%B1%D9%83%D9%87%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B61.jpg","description":"مضلات متحركه الرياض1","alt":"مضلات متحركه الرياض1","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات متحركه9.jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D9%85%D8%AA%D8%AD%D8%B1%D9%83%D9%879.jpg","description":"مضلات متحركه9","alt":"مضلات متحركه9","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات مدارس الرياض.jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D9%85%D8%AF%D8%A7%D8%B1%D8%B3%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6.jpg","description":"مضلات مدارس الرياض","alt":"مضلات مدارس الرياض","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات مدارس بشكل جميل.jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D9%85%D8%AF%D8%A7%D8%B1%D8%B3%20%D8%A8%D8%B4%D9%83%D9%84%20%D8%AC%D9%85%D9%8A%D9%84.jpg","description":"مضلات مدارس بشكل جميل","alt":"مضلات مدارس بشكل جميل","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات مدارس بشكل رائغ.jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D9%85%D8%AF%D8%A7%D8%B1%D8%B3%20%D8%A8%D8%B4%D9%83%D9%84%20%D8%B1%D8%A7%D8%A6%D8%BA.jpg","description":"مضلات مدارس بشكل رائغ","alt":"مضلات مدارس بشكل رائغ","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات مسابح 2.jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D9%85%D8%B3%D8%A7%D8%A8%D8%AD%202.jpg","description":"مضلات مسابح 2","alt":"مضلات مسابح 2","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات مسابح الرياض2.jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D9%85%D8%B3%D8%A7%D8%A8%D8%AD%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B62.jpg","description":"مضلات مسابح الرياض2","alt":"مضلات مسابح الرياض2","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات مسابح جميله هرميه.jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D9%85%D8%B3%D8%A7%D8%A8%D8%AD%20%D8%AC%D9%85%D9%8A%D9%84%D9%87%20%D9%87%D8%B1%D9%85%D9%8A%D9%87.jpg","description":"مضلات مسابح جميله هرميه","alt":"مضلات مسابح جميله هرميه","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات مسابح جميله.jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D9%85%D8%B3%D8%A7%D8%A8%D8%AD%20%D8%AC%D9%85%D9%8A%D9%84%D9%87.jpg","description":"مضلات مسابح جميله","alt":"مضلات مسابح جميله","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات مسابح لكسان الرياض..jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D9%85%D8%B3%D8%A7%D8%A8%D8%AD%20%D9%84%D9%83%D8%B3%D8%A7%D9%86%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6..jpg","description":"مضلات مسابح لكسان الرياض.","alt":"مضلات مسابح لكسان الرياض.","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات مسابح لكسان بشكل جميل.jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D9%85%D8%B3%D8%A7%D8%A8%D8%AD%20%D9%84%D9%83%D8%B3%D8%A7%D9%86%20%D8%A8%D8%B4%D9%83%D9%84%20%D8%AC%D9%85%D9%8A%D9%84.jpg","description":"مضلات مسابح لكسان بشكل جميل","alt":"مضلات مسابح لكسان بشكل جميل","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات مسابح لكسان شكل رائع.jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D9%85%D8%B3%D8%A7%D8%A8%D8%AD%20%D9%84%D9%83%D8%B3%D8%A7%D9%86%20%D8%B4%D9%83%D9%84%20%D8%B1%D8%A7%D8%A6%D8%B9.jpg","description":"مضلات مسابح لكسان شكل رائع","alt":"مضلات مسابح لكسان شكل رائع","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات مسابح..jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D9%85%D8%B3%D8%A7%D8%A8%D8%AD..jpg","description":"مضلات مسابح.","alt":"مضلات مسابح.","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات مقوسه الرياض ،.jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D9%85%D9%82%D9%88%D8%B3%D9%87%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%20%D8%8C.jpg","description":"مضلات مقوسه الرياض ،","alt":"مضلات مقوسه الرياض ،","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات مقوسه الرياض جميله..jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D9%85%D9%82%D9%88%D8%B3%D9%87%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%20%D8%AC%D9%85%D9%8A%D9%84%D9%87..jpg","description":"مضلات مقوسه الرياض جميله.","alt":"مضلات مقوسه الرياض جميله.","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات مقوسه الرياض مواقف...jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D9%85%D9%82%D9%88%D8%B3%D9%87%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%20%D9%85%D9%88%D8%A7%D9%82%D9%81...jpg","description":"مضلات مقوسه الرياض مواقف..","alt":"مضلات مقوسه الرياض مواقف..","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات مقوسه الرياض مواقف..jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D9%85%D9%82%D9%88%D8%B3%D9%87%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%20%D9%85%D9%88%D8%A7%D9%82%D9%81..jpg","description":"مضلات مقوسه الرياض مواقف.","alt":"مضلات مقوسه الرياض مواقف.","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات مقوسه الرياض موقف عامه...jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D9%85%D9%82%D9%88%D8%B3%D9%87%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%20%D9%85%D9%88%D9%82%D9%81%20%D8%B9%D8%A7%D9%85%D9%87...jpg","description":"مضلات مقوسه الرياض موقف عامه..","alt":"مضلات مقوسه الرياض موقف عامه..","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات مقوسه الرياض موقف عامه،.jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D9%85%D9%82%D9%88%D8%B3%D9%87%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%20%D9%85%D9%88%D9%82%D9%81%20%D8%B9%D8%A7%D9%85%D9%87%D8%8C.jpg","description":"مضلات مقوسه الرياض موقف عامه،","alt":"مضلات مقوسه الرياض موقف عامه،","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات مقوسه الرياض...jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D9%85%D9%82%D9%88%D8%B3%D9%87%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6...jpg","description":"مضلات مقوسه الرياض..","alt":"مضلات مقوسه الرياض..","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات مقوسه الرياض.jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D9%85%D9%82%D9%88%D8%B3%D9%87%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6.jpg","description":"مضلات مقوسه الرياض","alt":"مضلات مقوسه الرياض","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات مقوسه مواقف الرياض.jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D9%85%D9%82%D9%88%D8%B3%D9%87%20%D9%85%D9%88%D8%A7%D9%82%D9%81%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6.jpg","description":"مضلات مقوسه مواقف الرياض","alt":"مضلات مقوسه مواقف الرياض","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات مواقف جميله.jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D9%85%D9%88%D8%A7%D9%82%D9%81%20%D8%AC%D9%85%D9%8A%D9%84%D9%87.jpg","description":"مضلات مواقف جميله","alt":"مضلات مواقف جميله","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات هرميه الرياض !.jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D9%87%D8%B1%D9%85%D9%8A%D9%87%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%20!.jpg","description":"مضلات هرميه الرياض !","alt":"مضلات هرميه الرياض !","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات هرميه الرياض 1.jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D9%87%D8%B1%D9%85%D9%8A%D9%87%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%201.jpg","description":"مضلات هرميه الرياض 1","alt":"مضلات هرميه الرياض 1","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات هرميه الرياض ب.jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D9%87%D8%B1%D9%85%D9%8A%D9%87%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%20%D8%A8.jpg","description":"مضلات هرميه الرياض ب","alt":"مضلات هرميه الرياض ب","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات هرميه الرياض بشكل جميل. ..jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D9%87%D8%B1%D9%85%D9%8A%D9%87%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%20%D8%A8%D8%B4%D9%83%D9%84%20%D8%AC%D9%85%D9%8A%D9%84.%20..jpg","description":"مضلات هرميه الرياض بشكل جميل. .","alt":"مضلات هرميه الرياض بشكل جميل. .","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات هرميه الرياض جميله.jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D9%87%D8%B1%D9%85%D9%8A%D9%87%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%20%D8%AC%D9%85%D9%8A%D9%84%D9%87.jpg","description":"مضلات هرميه الرياض جميله","alt":"مضلات هرميه الرياض جميله","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات هرميه الرياض..jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D9%87%D8%B1%D9%85%D9%8A%D9%87%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6..jpg","description":"مضلات هرميه الرياض.","alt":"مضلات هرميه الرياض.","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات هرميه الرياض.jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D9%87%D8%B1%D9%85%D9%8A%D9%87%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6.jpg","description":"مضلات هرميه الرياض","alt":"مضلات هرميه الرياض","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات هرميه الرياض.،.jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D9%87%D8%B1%D9%85%D9%8A%D9%87%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6.%D8%8C.jpg","description":"مضلات هرميه الرياض.،","alt":"مضلات هرميه الرياض.،","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"مضلات هرميه الرياض_.jpg","image":"/img/%D9%85%D8%B6%D9%84%D8%A7%D8%AA%20%D9%87%D8%B1%D9%85%D9%8A%D9%87%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6_.jpg","description":"مضلات هرميه الرياض_","alt":"مضلات هرميه الرياض_","type":"مظلات متحركة","slug":"mazallat-sayarat-riyadh"},
+  {"filename":"هناجر الرياض#.jpg","image":"/img/%D9%87%D9%86%D8%A7%D8%AC%D8%B1%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6#.jpg","description":"هناجر الرياض#","alt":"هناجر الرياض#","type":"غرف ساندويش بنل","slug":"tansiq-hadaiq-riyadh"},
+  {"filename":"هناجر الرياض...jpg","image":"/img/%D9%87%D9%86%D8%A7%D8%AC%D8%B1%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6...jpg","description":"هناجر الرياض..","alt":"هناجر الرياض..","type":"غرف ساندويش بنل","slug":"tansiq-hadaiq-riyadh"},
+  {"filename":"هناجر الرياض.jpg","image":"/img/%D9%87%D9%86%D8%A7%D8%AC%D8%B1%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6.jpg","description":"هناجر الرياض","alt":"هناجر الرياض","type":"غرف ساندويش بنل","slug":"tansiq-hadaiq-riyadh"},
+  {"filename":"هناجر الرياض2.jpg","image":"/img/%D9%87%D9%86%D8%A7%D8%AC%D8%B1%20%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B62.jpg","description":"هناجر الرياض2","alt":"هناجر الرياض2","type":"غرف ساندويش بنل","slug":"tansiq-hadaiq-riyadh"}
 ];
 
 export function getImgImagesBySlug(slug: string): GalleryImage[] {
