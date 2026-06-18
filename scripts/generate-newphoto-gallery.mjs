@@ -20,7 +20,7 @@ const items = files.map((filename) => {
   const label = normalize(base);
   const type = parseType(label) ?? 'أعمالنا';
   const slug = getSlug(label) ?? 'mazallat-sayarat-riyadh';
-  const image = `/newphoto/${encodeURIComponent(filename)}`;
+  const image = `/newphoto/${filename}`;
   const description = label.length > 3 ? label : type;
   return {
     filename,

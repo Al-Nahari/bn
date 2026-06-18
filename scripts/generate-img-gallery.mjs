@@ -58,7 +58,7 @@ for (const filename of files) {
     unclassified++;
   }
 
-  const image = `/img/${encodeURIComponent(filename)}`;
+  const image = `/img/${filename}`;
   const description = label;
 
   items.push({
