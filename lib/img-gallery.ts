@@ -1,6 +1,6 @@
 // Auto-generated from public/img — optimized with SEO enhancements
 
-import type { GalleryImage } from './gallery';
+import type { GalleryImage } from './gallery-types';
 
 export const imgGallery: (GalleryImage & { slug: string; filename: string })[] = [
   {

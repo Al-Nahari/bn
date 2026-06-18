@@ -1,12 +1,7 @@
+import type { GalleryImage } from './gallery-types';
+export type { GalleryImage } from './gallery-types';
 import { getAllImgImages, getImgImagesBySlug } from './img-gallery';
 import { getAllNewPhotoImages, getNewPhotoImagesBySlug } from './newphoto-gallery';
-
-export interface GalleryImage {
-  image: string;
-  description: string;
-  alt: string;
-  type?: string;
-}
 
 function imageKey(image: string): string {
   try {
