@@ -2,7 +2,7 @@
 
 import type { GalleryImage } from './gallery-types';
 
-export const imgGallery: (GalleryImage & { slug: string; filename: string })[] = [
+export const newPhotoGallery: (GalleryImage & { slug: string; filename: string })[] = [
   {
     "filename": "project-01.jpg",
     "image": "/img/project-01.jpg",
@@ -460,3 +460,18 @@ export const imgGallery: (GalleryImage & { slug: string; filename: string })[] =
     "slug": "hanajer-w-mastoudat-riyadh"
   },
 ];
+
+export function getNewPhotoImagesBySlug(slug: string): GalleryImage[] {
+  return newPhotoGallery
+    .filter((item) => item.slug === slug)
+    .map(({ image, description, alt, type }) => ({ image, description, alt, type }));
+}
+
+export function getAllNewPhotoImages(): GalleryImage[] {
+  return newPhotoGallery.map(({ image, description, alt, type }) => ({
+    image,
+    description,
+    alt,
+    type,
+  }));
+}

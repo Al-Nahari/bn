@@ -876,3 +876,18 @@ export const imgGallery: (GalleryImage & { slug: string; filename: string })[] =
     "slug": "hanajer-w-mastoudat-riyadh"
   },
 ];
+
+export function getImgImagesBySlug(slug: string): GalleryImage[] {
+  return imgGallery
+    .filter((item) => item.slug === slug)
+    .map(({ image, description, alt, type }) => ({ image, description, alt, type }));
+}
+
+export function getAllImgImages(): GalleryImage[] {
+  return imgGallery.map(({ image, description, alt, type }) => ({
+    image,
+    description,
+    alt,
+    type,
+  }));
+}
