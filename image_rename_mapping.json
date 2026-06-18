@@ -1,0 +1,670 @@
+{
+  "img": {
+    "PicsArt_05-30-10.32.16.jpg": {
+      "new": "project-01.jpg",
+      "slug": "jalsat-borjolat-riyadh"
+    },
+    "برجوله الرياض بديل الخشب .jpg": {
+      "new": "project-02.jpg",
+      "slug": "sawatr-plastic-riyadh"
+    },
+    "برجوله الرياض بشكل جميل..jpg": {
+      "new": "project-03.jpg",
+      "slug": "jalsat-borjolat-riyadh"
+    },
+    "برجوله الرياض تضليل.jpg": {
+      "new": "project-04.jpg",
+      "slug": "jalsat-borjolat-riyadh"
+    },
+    "برجوله جلسه خارجيه الرياض،.jpg": {
+      "new": "project-05.jpg",
+      "slug": "jalsat-borjolat-riyadh"
+    },
+    "برجوله معا لكسان جلسه خارجيه الرياض..jpg": {
+      "new": "project-06.jpg",
+      "slug": "jalsat-borjolat-riyadh"
+    },
+    "برجوله وتنسيق حدائيق الرياض.jpg": {
+      "new": "project-07.jpg",
+      "slug": "jalsat-borjolat-riyadh"
+    },
+    "بيوت شعر الرياض ...jpg": {
+      "new": "project-08.jpg",
+      "slug": "buyut-sha3r-riyadh"
+    },
+    "بيوت شعر الرياض 5.jpg": {
+      "new": "project-09.jpg",
+      "slug": "buyut-sha3r-riyadh"
+    },
+    "بيوت شعر الرياض ^.jpg": {
+      "new": "project-10.jpg",
+      "slug": "buyut-sha3r-riyadh"
+    },
+    "بيوت شعر الرياض بشكل جميل..jpg": {
+      "new": "project-11.jpg",
+      "slug": "buyut-sha3r-riyadh"
+    },
+    "بيوت شعر الرياض خارجيه.jpg": {
+      "new": "project-12.jpg",
+      "slug": "buyut-sha3r-riyadh"
+    },
+    "بيوت شعر الرياض9.jpg": {
+      "new": "project-13.jpg",
+      "slug": "buyut-sha3r-riyadh"
+    },
+    "بيوت شعر الرياض_ .jpg": {
+      "new": "project-14.jpg",
+      "slug": "buyut-sha3r-riyadh"
+    },
+    "بيوت شعر الرياض،.jpg": {
+      "new": "project-15.jpg",
+      "slug": "buyut-sha3r-riyadh"
+    },
+    "تنسيق جلسات خارجيه الرياض..jpg": {
+      "new": "project-16.jpg",
+      "slug": "jalsat-borjolat-riyadh"
+    },
+    "تنسيق حدائيق الرياض ..jpg": {
+      "new": "project-17.jpg",
+      "slug": "tansiq-hadaiq-riyadh"
+    },
+    "تنسيق حدائيق الرياض'.jpg": {
+      "new": "project-18.jpg",
+      "slug": "tansiq-hadaiq-riyadh"
+    },
+    "تنسيق حدائيق الرياض4.jpg": {
+      "new": "project-19.jpg",
+      "slug": "tansiq-hadaiq-riyadh"
+    },
+    "تنسيق حدائيق الرياض؟.jpg": {
+      "new": "project-20.jpg",
+      "slug": "tansiq-hadaiq-riyadh"
+    },
+    "تنسيق حدائيق.jpg": {
+      "new": "project-21.jpg",
+      "slug": "tansiq-hadaiq-riyadh"
+    },
+    "جلسات خارجيه الرياض. ..jpg": {
+      "new": "project-22.jpg",
+      "slug": "jalsat-borjolat-riyadh"
+    },
+    "خيام الرياض.jpg": {
+      "new": "project-23.jpg",
+      "slug": "mazallat-haramiya-riyadh"
+    },
+    "سندوش بنل الرياض ،،.jpg": {
+      "new": "project-24.jpg",
+      "slug": "asatih-sandwich-panel-riyadh"
+    },
+    "سندوش بنل الرياض غرف.jpg": {
+      "new": "project-25.jpg",
+      "slug": "ghoraf-sandwich-panel-riyadh"
+    },
+    "سندوش بنل الرياض#.jpg": {
+      "new": "project-26.jpg",
+      "slug": "asatih-sandwich-panel-riyadh"
+    },
+    "سندوش بنل الرياض$.jpg": {
+      "new": "project-27.jpg",
+      "slug": "asatih-sandwich-panel-riyadh"
+    },
+    "سندوش بنل الرياض&.jpg": {
+      "new": "project-28.jpg",
+      "slug": "asatih-sandwich-panel-riyadh"
+    },
+    "سندوش بنل الرياض'.jpg": {
+      "new": "project-29.jpg",
+      "slug": "asatih-sandwich-panel-riyadh"
+    },
+    "سندوش بنل الرياض...jpg": {
+      "new": "project-30.jpg",
+      "slug": "asatih-sandwich-panel-riyadh"
+    },
+    "سندوش بنل الرياض0.jpg": {
+      "new": "project-31.jpg",
+      "slug": "asatih-sandwich-panel-riyadh"
+    },
+    "سندوش بنل الرياض1.jpg": {
+      "new": "project-32.jpg",
+      "slug": "asatih-sandwich-panel-riyadh"
+    },
+    "سندوش بنل الرياض7.jpg": {
+      "new": "project-33.jpg",
+      "slug": "asatih-sandwich-panel-riyadh"
+    },
+    "سندوش بنل الرياض8.jpg": {
+      "new": "project-34.jpg",
+      "slug": "asatih-sandwich-panel-riyadh"
+    },
+    "سندوش بنل الرياض؟.jpg": {
+      "new": "project-35.jpg",
+      "slug": "asatih-sandwich-panel-riyadh"
+    },
+    "سواتر بديل الخشب....jpg": {
+      "new": "project-36.jpg",
+      "slug": "sawatr-plastic-riyadh"
+    },
+    "سواتر بلاستيك حجب النضر.jpg": {
+      "new": "project-37.jpg",
+      "slug": "sawatr-plastic-riyadh"
+    },
+    "سواتر بلاستيك.jpg": {
+      "new": "project-38.jpg",
+      "slug": "sawatr-plastic-riyadh"
+    },
+    "سواتر بلاستيك12.jpg": {
+      "new": "project-39.jpg",
+      "slug": "sawatr-plastic-riyadh"
+    },
+    "سواتر بلاستيك١.jpg": {
+      "new": "project-40.jpg",
+      "slug": "sawatr-plastic-riyadh"
+    },
+    "سواتر قماش  استراحات.jpg": {
+      "new": "project-41.jpg",
+      "slug": "sawatr-qumash-riyadh"
+    },
+    "سواتر قماش ..jpg": {
+      "new": "project-42.jpg",
+      "slug": "sawatr-qumash-riyadh"
+    },
+    "سواتر قماش 0.jpg": {
+      "new": "project-43.jpg",
+      "slug": "sawatr-qumash-riyadh"
+    },
+    "سواتر قماش 7.jpg": {
+      "new": "project-44.jpg",
+      "slug": "sawatr-qumash-riyadh"
+    },
+    "سواتر قماش الرياض ،.jpg": {
+      "new": "project-45.jpg",
+      "slug": "sawatr-qumash-riyadh"
+    },
+    "سواتر قماش الرياض؟.jpg": {
+      "new": "project-46.jpg",
+      "slug": "sawatr-qumash-riyadh"
+    },
+    "سواتر قماش جميله.jpg": {
+      "new": "project-47.jpg",
+      "slug": "sawatr-qumash-riyadh"
+    },
+    "سواتر لكسان.jpg": {
+      "new": "project-48.jpg",
+      "slug": "sawatr-hadid-riyadh"
+    },
+    "سواتر ليزر حمايه خارجيه بشكل جميل.jpg": {
+      "new": "project-49.jpg",
+      "slug": "sawatr-laser-riyadh"
+    },
+    "سواتر ليزر حمايه خارجيه..jpg": {
+      "new": "project-50.jpg",
+      "slug": "sawatr-laser-riyadh"
+    },
+    "سواتر ليزر حمايه.jpg": {
+      "new": "project-51.jpg",
+      "slug": "sawatr-laser-riyadh"
+    },
+    "سواتر ليزر معا لكسان.jpg": {
+      "new": "project-52.jpg",
+      "slug": "sawatr-laser-riyadh"
+    },
+    "سواتر ليزر8.jpg": {
+      "new": "project-53.jpg",
+      "slug": "sawatr-laser-riyadh"
+    },
+    "قراميد الرياض.jpg": {
+      "new": "project-54.jpg",
+      "slug": "qaramid-riyadh"
+    },
+    "قرميد الرياض ،.jpg": {
+      "new": "project-55.jpg",
+      "slug": "qaramid-riyadh"
+    },
+    "قرميد الرياض شكل جميل.jpg": {
+      "new": "project-56.jpg",
+      "slug": "qaramid-riyadh"
+    },
+    "قرميد الرياض2.jpg": {
+      "new": "project-57.jpg",
+      "slug": "qaramid-riyadh"
+    },
+    "قرميد الرياض3.jpg": {
+      "new": "project-58.jpg",
+      "slug": "qaramid-riyadh"
+    },
+    "قرميد الرياض4.jpg": {
+      "new": "project-59.jpg",
+      "slug": "qaramid-riyadh"
+    },
+    "مستودعات ألرياض#.jpg": {
+      "new": "project-60.jpg",
+      "slug": "hanajer-w-mastoudat-riyadh"
+    },
+    "مستودعات الرياض ..png": {
+      "new": "project-61.jpg",
+      "slug": "hanajer-w-mastoudat-riyadh"
+    },
+    "مستودعات الرياض رعايه مواشي.jpg": {
+      "new": "project-62.jpg",
+      "slug": "hanajer-w-mastoudat-riyadh"
+    },
+    "مستودعات الرياض1.jpg": {
+      "new": "project-63.jpg",
+      "slug": "hanajer-w-mastoudat-riyadh"
+    },
+    "مضلات تضليل قعدات مسابح.jpg": {
+      "new": "project-64.jpg",
+      "slug": "mazallat-masabi-riyadh"
+    },
+    "مضلات شد انشائي الرياض !.jpg": {
+      "new": "project-65.jpg",
+      "slug": "mazallat-shad-inshai-riyadh"
+    },
+    "مضلات شد انشائي الرياض ....jpg": {
+      "new": "project-66.jpg",
+      "slug": "mazallat-shad-inshai-riyadh"
+    },
+    "مضلات شد انشائي الرياض بشكل جميل ..jpg": {
+      "new": "project-67.jpg",
+      "slug": "mazallat-shad-inshai-riyadh"
+    },
+    "مضلات شد انشائي الرياض مدارس .jpg": {
+      "new": "project-68.jpg",
+      "slug": "mazallat-madaris-riyadh"
+    },
+    "مضلات شد انشائي الرياض#.jpg": {
+      "new": "project-69.jpg",
+      "slug": "mazallat-shad-inshai-riyadh"
+    },
+    "مضلات شد انشائي الرياض'.jpg": {
+      "new": "project-70.jpg",
+      "slug": "mazallat-shad-inshai-riyadh"
+    },
+    "مضلات شد انشائي الرياض0.jpg": {
+      "new": "project-71.jpg",
+      "slug": "mazallat-shad-inshai-riyadh"
+    },
+    "مضلات شد انشائي الرياض2.jpg": {
+      "new": "project-72.jpg",
+      "slug": "mazallat-shad-inshai-riyadh"
+    },
+    "مضلات شد انشائي الرياض^.jpg": {
+      "new": "project-73.jpg",
+      "slug": "mazallat-shad-inshai-riyadh"
+    },
+    "مضلات متحرك.jpg": {
+      "new": "project-74.jpg",
+      "slug": "mazallat-mutaharrika-riyadh"
+    },
+    "مضلات متحركه ...jpg": {
+      "new": "project-75.jpg",
+      "slug": "mazallat-mutaharrika-riyadh"
+    },
+    "مضلات متحركه VPN.jpg": {
+      "new": "project-76.jpg",
+      "slug": "mazallat-mutaharrika-riyadh"
+    },
+    "مضلات متحركه الرياض..jpg": {
+      "new": "project-77.jpg",
+      "slug": "mazallat-mutaharrika-riyadh"
+    },
+    "مضلات متحركه الرياض1.jpg": {
+      "new": "project-78.jpg",
+      "slug": "mazallat-mutaharrika-riyadh"
+    },
+    "مضلات متحركه9.jpg": {
+      "new": "project-79.jpg",
+      "slug": "mazallat-mutaharrika-riyadh"
+    },
+    "مضلات مدارس الرياض.jpg": {
+      "new": "project-80.jpg",
+      "slug": "mazallat-madaris-riyadh"
+    },
+    "مضلات مدارس بشكل جميل.jpg": {
+      "new": "project-81.jpg",
+      "slug": "mazallat-madaris-riyadh"
+    },
+    "مضلات مدارس بشكل رائغ.jpg": {
+      "new": "project-82.jpg",
+      "slug": "mazallat-madaris-riyadh"
+    },
+    "مضلات مسابح 2.jpg": {
+      "new": "project-83.jpg",
+      "slug": "mazallat-masabi-riyadh"
+    },
+    "مضلات مسابح الرياض2.jpg": {
+      "new": "project-84.jpg",
+      "slug": "mazallat-masabi-riyadh"
+    },
+    "مضلات مسابح جميله هرميه.jpg": {
+      "new": "project-85.jpg",
+      "slug": "mazallat-masabi-riyadh"
+    },
+    "مضلات مسابح جميله.jpg": {
+      "new": "project-86.jpg",
+      "slug": "mazallat-masabi-riyadh"
+    },
+    "مضلات مسابح لكسان الرياض..jpg": {
+      "new": "project-87.jpg",
+      "slug": "mazallat-masabi-riyadh"
+    },
+    "مضلات مسابح لكسان بشكل جميل.jpg": {
+      "new": "project-88.jpg",
+      "slug": "mazallat-masabi-riyadh"
+    },
+    "مضلات مسابح لكسان شكل رائع.jpg": {
+      "new": "project-89.jpg",
+      "slug": "mazallat-masabi-riyadh"
+    },
+    "مضلات مسابح..jpg": {
+      "new": "project-90.jpg",
+      "slug": "mazallat-masabi-riyadh"
+    },
+    "مضلات مقوسه الرياض ،.jpg": {
+      "new": "project-91.jpg",
+      "slug": "mazallat-maqousa-riyadh"
+    },
+    "مضلات مقوسه الرياض جميله..jpg": {
+      "new": "project-92.jpg",
+      "slug": "mazallat-maqousa-riyadh"
+    },
+    "مضلات مقوسه الرياض مواقف...jpg": {
+      "new": "project-93.jpg",
+      "slug": "mazallat-maqousa-riyadh"
+    },
+    "مضلات مقوسه الرياض موقف عامه...jpg": {
+      "new": "project-94.jpg",
+      "slug": "mazallat-maqousa-riyadh"
+    },
+    "مضلات مقوسه الرياض موقف عامه،.jpg": {
+      "new": "project-95.jpg",
+      "slug": "mazallat-maqousa-riyadh"
+    },
+    "مضلات مقوسه الرياض...jpg": {
+      "new": "project-96.jpg",
+      "slug": "mazallat-maqousa-riyadh"
+    },
+    "مضلات مقوسه مواقف الرياض.jpg": {
+      "new": "project-97.jpg",
+      "slug": "mazallat-maqousa-riyadh"
+    },
+    "مضلات مواقف جميله.jpg": {
+      "new": "project-98.jpg",
+      "slug": "mazallat-sayarat-riyadh"
+    },
+    "مضلات هرميه الرياض !.jpg": {
+      "new": "project-99.jpg",
+      "slug": "mazallat-haramiya-riyadh"
+    },
+    "مضلات هرميه الرياض 1.jpg": {
+      "new": "project-100.jpg",
+      "slug": "mazallat-haramiya-riyadh"
+    },
+    "مضلات هرميه الرياض ب.jpg": {
+      "new": "project-101.jpg",
+      "slug": "mazallat-haramiya-riyadh"
+    },
+    "مضلات هرميه الرياض بشكل جميل. ..jpg": {
+      "new": "project-102.jpg",
+      "slug": "mazallat-haramiya-riyadh"
+    },
+    "مضلات هرميه الرياض جميله.jpg": {
+      "new": "project-103.jpg",
+      "slug": "mazallat-haramiya-riyadh"
+    },
+    "مضلات هرميه الرياض..jpg": {
+      "new": "project-104.jpg",
+      "slug": "mazallat-haramiya-riyadh"
+    },
+    "مضلات هرميه الرياض.،.jpg": {
+      "new": "project-105.jpg",
+      "slug": "mazallat-haramiya-riyadh"
+    },
+    "مضلات هرميه الرياض_.jpg": {
+      "new": "project-106.jpg",
+      "slug": "mazallat-haramiya-riyadh"
+    },
+    "هناجر الرياض#.jpg": {
+      "new": "project-107.jpg",
+      "slug": "hanajer-w-mastoudat-riyadh"
+    },
+    "هناجر الرياض...jpg": {
+      "new": "project-108.jpg",
+      "slug": "hanajer-w-mastoudat-riyadh"
+    },
+    "هناجر الرياض2.jpg": {
+      "new": "project-109.jpg",
+      "slug": "hanajer-w-mastoudat-riyadh"
+    }
+  },
+  "newphoto": {
+    "PicsArt_05-10-03.20.51.jpg": {
+      "new": "project-01.jpg",
+      "slug": "jalsat-borjolat-riyadh"
+    },
+    "PicsArt_05-10-03.31.21.jpg": {
+      "new": "project-02.jpg",
+      "slug": "jalsat-borjolat-riyadh"
+    },
+    "PicsArt_05-10-03.31.51.jpg": {
+      "new": "project-03.jpg",
+      "slug": "jalsat-borjolat-riyadh"
+    },
+    "PicsArt_05-10-03.34.13.jpg": {
+      "new": "project-04.jpg",
+      "slug": "jalsat-borjolat-riyadh"
+    },
+    "PicsArt_05-10-03.37.11.jpg": {
+      "new": "project-05.jpg",
+      "slug": "jalsat-borjolat-riyadh"
+    },
+    "PicsArt_05-10-03.38.10.jpg": {
+      "new": "project-06.jpg",
+      "slug": "jalsat-borjolat-riyadh"
+    },
+    "برجولات جلسات خارجيه.jpg": {
+      "new": "project-07.jpg",
+      "slug": "jalsat-borjolat-riyadh"
+    },
+    "برجولان جلسات خارجيه.jpg": {
+      "new": "project-08.jpg",
+      "slug": "jalsat-borjolat-riyadh"
+    },
+    "برجوله جلسات خارجيه بتنسيق حدائق جميل.jpg": {
+      "new": "project-09.jpg",
+      "slug": "jalsat-borjolat-riyadh"
+    },
+    "تضليل ممرات....jpg": {
+      "new": "project-10.jpg",
+      "slug": "mazallat-maqousa-riyadh"
+    },
+    "تنسيق جلسات حدائق.jpg": {
+      "new": "project-11.jpg",
+      "slug": "jalsat-borjolat-riyadh"
+    },
+    "تنسيق جلسات خارجيه بحدائق.jpg": {
+      "new": "project-12.jpg",
+      "slug": "jalsat-borjolat-riyadh"
+    },
+    "تنسيق حدايق.jpg": {
+      "new": "project-13.jpg",
+      "slug": "tansiq-hadaiq-riyadh"
+    },
+    "جلاسات خارجيه بتصميم جميل.jpg": {
+      "new": "project-14.jpg",
+      "slug": "mazallat-sayarat-riyadh"
+    },
+    "جلسات .jpg": {
+      "new": "project-15.jpg",
+      "slug": "jalsat-borjolat-riyadh"
+    },
+    "جلسات خارجه برجولاتت.jpg": {
+      "new": "project-16.jpg",
+      "slug": "jalsat-borjolat-riyadh"
+    },
+    "جلسات خارجيه برجولات بتنسيق جميل.jpg": {
+      "new": "project-17.jpg",
+      "slug": "jalsat-borjolat-riyadh"
+    },
+    "جلسات خارجيه برجولات بتنسيق حدائق.jpg": {
+      "new": "project-18.jpg",
+      "slug": "jalsat-borjolat-riyadh"
+    },
+    "جلسات خارجيه برجوله وتنسيق1.jpg": {
+      "new": "project-19.jpg",
+      "slug": "jalsat-borjolat-riyadh"
+    },
+    "جلسات خارجيه على اسطح المنزل.jpg": {
+      "new": "project-20.jpg",
+      "slug": "asatih-sandwich-panel-riyadh"
+    },
+    "جلسات خارجيه.jpg": {
+      "new": "project-21.jpg",
+      "slug": "jalsat-borjolat-riyadh"
+    },
+    "جلسه خارجيه .jpg": {
+      "new": "project-22.jpg",
+      "slug": "jalsat-borjolat-riyadh"
+    },
+    "جلسه خارجيه برجولات.jpg": {
+      "new": "project-23.jpg",
+      "slug": "jalsat-borjolat-riyadh"
+    },
+    "ساتر حديد تغطيه كامله.jpg": {
+      "new": "project-24.jpg",
+      "slug": "sawatr-hadid-riyadh"
+    },
+    "سندوش بنل ملاحق.jpg": {
+      "new": "project-25.jpg",
+      "slug": "ghoraf-sandwich-panel-riyadh"
+    },
+    "سواتر .jpg": {
+      "new": "project-26.jpg",
+      "slug": "sawatr-hadid-riyadh"
+    },
+    "سواتر بديل الخشب.jpg": {
+      "new": "project-27.jpg",
+      "slug": "sawatr-plastic-riyadh"
+    },
+    "سواتر بلاستيكيه.jpg": {
+      "new": "project-28.jpg",
+      "slug": "sawatr-plastic-riyadh"
+    },
+    "سواتر حديد جميله.jpg": {
+      "new": "project-29.jpg",
+      "slug": "sawatr-hadid-riyadh"
+    },
+    "سواتر حديد.jpg": {
+      "new": "project-30.jpg",
+      "slug": "sawatr-hadid-riyadh"
+    },
+    "سواتر ليزر...jpg": {
+      "new": "project-31.jpg",
+      "slug": "sawatr-laser-riyadh"
+    },
+    "غرف خارجه سندوش بنل.jpg": {
+      "new": "project-32.jpg",
+      "slug": "ghoraf-sandwich-panel-riyadh"
+    },
+    "غرف سندوش بنل.jpg": {
+      "new": "project-33.jpg",
+      "slug": "ghoraf-sandwich-panel-riyadh"
+    },
+    "قرميد .jpg": {
+      "new": "project-34.jpg",
+      "slug": "qaramid-riyadh"
+    },
+    "مضلات ..jpg": {
+      "new": "project-35.jpg",
+      "slug": "mazallat-sayarat-riyadh"
+    },
+    "مضلات ساحات مدارس.jpg": {
+      "new": "project-36.jpg",
+      "slug": "mazallat-madaris-riyadh"
+    },
+    "مضلات سيارات ..jpg": {
+      "new": "project-37.jpg",
+      "slug": "mazallat-sayarat-riyadh"
+    },
+    "مضلات سيارات جميله..jpg": {
+      "new": "project-38.jpg",
+      "slug": "mazallat-sayarat-riyadh"
+    },
+    "مضلات سيارات،.jpg": {
+      "new": "project-39.jpg",
+      "slug": "mazallat-sayarat-riyadh"
+    },
+    "مضلات سيارت .jpg": {
+      "new": "project-40.jpg",
+      "slug": "mazallat-sayarat-riyadh"
+    },
+    "مضلات سيارت بتصميم جميل.jpg": {
+      "new": "project-41.jpg",
+      "slug": "mazallat-sayarat-riyadh"
+    },
+    "مضلات سيارت2.jpg": {
+      "new": "project-42.jpg",
+      "slug": "mazallat-sayarat-riyadh"
+    },
+    "مضلات كلادينج .jpg": {
+      "new": "project-43.jpg",
+      "slug": "mazallat-shad-inshai-riyadh"
+    },
+    "مضلات مدارس جميله.jpg": {
+      "new": "project-44.jpg",
+      "slug": "mazallat-madaris-riyadh"
+    },
+    "مضلات مدارس.jpg": {
+      "new": "project-45.jpg",
+      "slug": "mazallat-madaris-riyadh"
+    },
+    "مضلات مسابح لكسان.jpg": {
+      "new": "project-46.jpg",
+      "slug": "mazallat-masabi-riyadh"
+    },
+    "مضلات مقوسه ..jpg": {
+      "new": "project-47.jpg",
+      "slug": "mazallat-maqousa-riyadh"
+    },
+    "مضلات مقوسه مواقف.jpg": {
+      "new": "project-48.jpg",
+      "slug": "mazallat-maqousa-riyadh"
+    },
+    "مضلات ممرات .jpg": {
+      "new": "project-49.jpg",
+      "slug": "mazallat-maqousa-riyadh"
+    },
+    "مضلات مواقف سيارات.jpg": {
+      "new": "project-50.jpg",
+      "slug": "mazallat-sayarat-riyadh"
+    },
+    "مضلات مواقف سيارت.jpg": {
+      "new": "project-51.jpg",
+      "slug": "mazallat-sayarat-riyadh"
+    },
+    "مضلات مواقف.jpg": {
+      "new": "project-52.jpg",
+      "slug": "mazallat-sayarat-riyadh"
+    },
+    "مضلات هرميه .jpg": {
+      "new": "project-53.jpg",
+      "slug": "mazallat-haramiya-riyadh"
+    },
+    "مضلات هرميه حدائق.jpg": {
+      "new": "project-54.jpg",
+      "slug": "tansiq-hadaiq-riyadh"
+    },
+    "مضلات هرميه مباني عامه.jpg": {
+      "new": "project-55.jpg",
+      "slug": "mazallat-haramiya-riyadh"
+    },
+    "مضلات هرميه مسجد.jpg": {
+      "new": "project-56.jpg",
+      "slug": "mazallat-haramiya-riyadh"
+    },
+    "هناجر مستودعات.jpg": {
+      "new": "project-57.jpg",
+      "slug": "hanajer-w-mastoudat-riyadh"
+    }
+  }
+}
