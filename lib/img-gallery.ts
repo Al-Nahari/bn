@@ -476,8 +476,8 @@ export const imgGallery: (GalleryImage & { slug: string; filename: string })[] =
     "slug": "qaramid-riyadh"
   },
   {
-    "filename": "مستودعات ألرياض#.jpg",
-    "image": "/img/مستودعات ألرياض#.jpg",
+    "filename": "هناجر_الرياض.jpg",
+    "image": "/img/هناجر_الرياض.jpg",
     "description": "مستودعات ألرياض#",
     "alt": "تركيب مستودعات ألرياض# في الرياض — هناجر ومستودعات",
     "type": "هناجر ومستودعات",

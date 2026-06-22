@@ -815,7 +815,7 @@ export const services = [
    alt: "هنجر صناعي كبير"
  },
  {
-   image: "/img/مستودعات ألرياض#.jpg",
+   image: "/img/مستودعات_ألرياض.jpg",
    description: "مستودعات تجارية كبيرة الحجم",
    alt: "مستودع تجاري"
  },
