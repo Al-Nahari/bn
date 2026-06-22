@@ -145,7 +145,7 @@
   --color-earth-brown: var(--earth-brown);
   --color-road-gray: var(--road-gray);
   
-  --font-sans: var(--font-arabic), 'Noto Sans Arabic', system-ui, sans-serif;
+  --font-sans: 'Noto Sans Arabic', system-ui, sans-serif;
 }
 
 body {
