@@ -1,18 +1,14 @@
 import type { Metadata } from 'next';
 import Script from 'next/script';
-import { Noto_Sans_Arabic } from 'next/font/google';
+import '@fontsource/noto-sans-arabic/400.css';
+import '@fontsource/noto-sans-arabic/500.css';
+import '@fontsource/noto-sans-arabic/600.css';
+import '@fontsource/noto-sans-arabic/700.css';
 import { companyInfo } from '@/lib/data';
 import JsonLd from '@/components/JsonLd';
 import { buildPageMetadata, localBusinessSchema } from '@/lib/seo';
 import { SITE_URL } from '@/lib/site';
 import './globals.css';
-
-const notoArabic = Noto_Sans_Arabic({
-  subsets: ['arabic'],
-  weight: ['400', '500', '600', '700'],
-  display: 'swap',
-  variable: '--font-arabic',
-});
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -40,7 +36,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="ar" dir="rtl" className={notoArabic.variable}>
+    <html lang="ar" dir="rtl">
       <head>
         <Script
           src="https://analytics.ahrefs.com/analytics.js"
