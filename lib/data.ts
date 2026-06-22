@@ -815,11 +815,6 @@ export const services = [
    alt: "هنجر صناعي كبير"
  },
  {
-   image: "/img/مستودعات_ألرياض.jpg",
-   description: "مستودعات تجارية كبيرة الحجم",
-   alt: "مستودع تجاري"
- },
- {
    image: "/img/هناجر الرياض.jpg",
    description: "تصميم هناجر عملي وقوي",
    alt: "تصميم هنجر"
