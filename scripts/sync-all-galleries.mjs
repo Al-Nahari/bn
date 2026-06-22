@@ -3,7 +3,6 @@
  * node scripts/sync-all-galleries.mjs
  */
 import { execSync } from 'child_process';
-import path from 'path';
 
 const root = process.cwd();
 
