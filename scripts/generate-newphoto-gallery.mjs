@@ -3,7 +3,6 @@ import path from 'path';
 import {
   buildAlt,
   getSlug,
-  labelFromFilename,
   normalize,
   parseType,
 } from './gallery-mapping.mjs';
