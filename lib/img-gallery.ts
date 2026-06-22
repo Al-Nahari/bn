@@ -853,7 +853,7 @@ export const imgGallery: (GalleryImage & { slug: string; filename: string })[] =
   },
   {
     "filename": "هناجر الرياض#.jpg",
-    "image": "/img/مستودعات_ألرياض.jpg",
+    "image": "/img/مستودعات ألرياض.jpg",
     "description": "هناجر الرياض#",
     "alt": "تركيب هناجر الرياض# في الرياض — هناجر ومستودعات",
     "type": "هناجر ومستودعات",
