@@ -21,7 +21,7 @@ export const services = [
  "تركيب احترافي سريع مع ضمان 5 سنوات",
  "صيانة وإصلاح مجاني لمدة سنة واحدة",
  ],
- image: "/newphoto/مضلات سيارات .jpg",
+ image: "/newphoto/مضلات مقوسه مواقف.jpg",
  slug: "mazallat-sayarat-riyadh",
  priority: 1,
  regions: ["شمال الرياض", "جنوب الرياض", "شرق الرياض", "غرب الرياض", "وسط الرياض"],
@@ -1059,7 +1059,7 @@ export const companyInfo = {
  "شركة متخصصة في تركيب مظلات وسواتر في الرياض — مظلات سيارات، سواتر حديد وليزر، برجولات، ساندويش بنل. جودة عالية، أسعار منافسة، ضمان وتركيب احترافي.",
  phone: "0535214820",
  whatsapp: "966535214820",
- email: "nahari771735416@gmail.com",
+ email: "mazalat.riyadh.com@gmail.com",
  address: "الرياض، المملكة العربية السعودية",
  workingHours: "السبت - الخميس: 8 ص - 8 م",
  social: {
