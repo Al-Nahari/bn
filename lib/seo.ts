@@ -29,7 +29,10 @@ export function buildPageMetadata({
     title: { absolute: title },
     description,
     keywords: keywords.length > 0 ? keywords : undefined,
-    alternates: { canonical: url },
+    alternates: {
+      canonical: url,
+      languages: { 'ar-SA': url },
+    },
     openGraph: {
       type: 'website',
       locale: 'ar_SA',
@@ -51,40 +54,84 @@ export function buildPageMetadata({
       title,
       description,
       images: [imageUrl],
+      site: '@mazalat_riyadh',
     },
     robots: noIndex
       ? { index: false, follow: false }
-      : { index: true, follow: true },
+      : { index: true, follow: true, googleBot: { index: true, follow: true } },
   };
 }
 
+/** WebSite schema مع SearchAction لـ sitelinks search box */
+export function webSiteSchema() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    '@id': `${SITE_URL}/#website`,
+    name: SITE_NAME,
+    url: SITE_URL,
+    inLanguage: 'ar-SA',
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: `${SITE_URL}/gallery?q={search_term_string}`,
+      },
+      'query-input': 'required name=search_term_string',
+    },
+  };
+}
+
+/** LocalBusiness schema محسّن بإحداثيات الرياض */
 export function localBusinessSchema() {
   return {
     '@context': 'https://schema.org',
-    '@type': 'LocalBusiness',
+    '@type': ['LocalBusiness', 'HomeAndConstructionBusiness'],
     '@id': `${SITE_URL}/#organization`,
     name: companyInfo.name,
     description: companyInfo.seoDescription ?? companyInfo.tagline,
     url: SITE_URL,
     telephone: `+${companyInfo.whatsapp}`,
     email: companyInfo.email,
+    logo: {
+      '@type': 'ImageObject',
+      url: `${SITE_URL}/icon.png`,
+      width: 512,
+      height: 512,
+    },
+    image: absoluteUrl(DEFAULT_OG_IMAGE),
     address: {
       '@type': 'PostalAddress',
+      streetAddress: 'الرياض',
       addressLocality: 'الرياض',
       addressRegion: 'منطقة الرياض',
+      postalCode: '11564',
       addressCountry: 'SA',
     },
-    areaServed: {
-      '@type': 'City',
-      name: 'الرياض',
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: 24.7136,
+      longitude: 46.6753,
     },
+    hasMap: 'https://maps.google.com/?q=الرياض+المملكة+العربية+السعودية',
+    areaServed: [
+      { '@type': 'City', name: 'الرياض' },
+      { '@type': 'AdministrativeArea', name: 'منطقة الرياض' },
+    ],
     priceRange: '$$',
-    openingHoursSpecification: {
-      '@type': 'OpeningHoursSpecification',
-      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Saturday'],
-      opens: '08:00',
-      closes: '20:00',
-    },
+    currenciesAccepted: 'SAR',
+    paymentAccepted: 'Cash, Bank Transfer',
+    openingHoursSpecification: [
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Saturday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday'],
+        opens: '08:00',
+        closes: '20:00',
+      },
+    ],
+    sameAs: [
+      'https://mazalat-riyadh.com',
+    ],
   };
 }
 
@@ -105,7 +152,10 @@ export function serviceSchema({
     name,
     description,
     provider: { '@id': `${SITE_URL}/#organization` },
-    areaServed: 'الرياض',
+    areaServed: {
+      '@type': 'City',
+      name: 'الرياض',
+    },
     url: absoluteUrl(`/${slug}`),
     ...(image ? { image: absoluteUrl(image) } : {}),
   };
@@ -127,9 +177,7 @@ export function faqPageSchema(faq: FaqItem[]) {
   };
 }
 
-export function breadcrumbSchema(
-  items: { name: string; path: string }[]
-) {
+export function breadcrumbSchema(items: { name: string; path: string }[]) {
   return {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -160,7 +208,8 @@ export function collectionPageSchema({
     description,
     url: absoluteUrl(path),
     numberOfItems,
-    inLanguage: 'ar',
+    inLanguage: 'ar-SA',
+    publisher: { '@id': `${SITE_URL}/#organization` },
   };
 }
 
