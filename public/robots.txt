@@ -3,5 +3,16 @@ Allow: /
 
 Disallow: /api/
 Disallow: /admin/
+Disallow: /_next/static/
+
+# Allow important crawlers explicitly
+User-agent: Googlebot
+Allow: /
+Allow: /img/
+Allow: /newphoto/
+
+User-agent: Googlebot-Image
+Allow: /img/
+Allow: /newphoto/
 
 Sitemap: https://mazalat-riyadh.com/sitemap.xml
