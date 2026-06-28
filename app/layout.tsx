@@ -1,33 +1,29 @@
 import type { Metadata } from 'next';
 import Script from 'next/script';
 import '@fontsource/noto-sans-arabic/400.css';
-import '@fontsource/noto-sans-arabic/500.css';
-import '@fontsource/noto-sans-arabic/600.css';
 import '@fontsource/noto-sans-arabic/700.css';
 import { companyInfo } from '@/lib/data';
 import JsonLd from '@/components/JsonLd';
-import { buildPageMetadata, localBusinessSchema } from '@/lib/seo';
-import { SITE_URL } from '@/lib/site';
+import { localBusinessSchema, webSiteSchema } from '@/lib/seo';
+import { SITE_URL, SITE_NAME } from '@/lib/site';
 import './globals.css';
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  ...buildPageMetadata({
-    title: `${companyInfo.name} | تركيب مظلات وسواتر في الرياض`,
-    description: companyInfo.seoDescription,
-    path: '/',
-    keywords: [
-      'مظلات الرياض',
-      'سواتر الرياض',
-      'تركيب مظلات',
-      'تركيب سواتر',
-      'مظلات سيارات الرياض',
-      'سواتر حديد',
-      'سواتر ليزر',
-      'برجولات الرياض',
-      'ساندويش بنل الرياض',
-    ],
-  }),
+  title: {
+    default: `${companyInfo.name} | مظلات وسواتر الرياض`,
+    template: `%s | ${SITE_NAME}`,
+  },
+  description: companyInfo.seoDescription,
+  applicationName: SITE_NAME,
+  authors: [{ name: companyInfo.name, url: SITE_URL }],
+  generator: 'Next.js',
+  referrer: 'origin-when-cross-origin',
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, 'max-image-preview': 'large' },
+  },
 };
 
 export default function RootLayout({
@@ -38,15 +34,15 @@ export default function RootLayout({
   return (
     <html lang="ar" dir="rtl">
       <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <Script
           src="https://analytics.ahrefs.com/analytics.js"
           data-key="II/GkLP/+KLeAbY+8lLp0w"
-          async
           strategy="afterInteractive"
         />
       </head>
       <body className="bg-background text-foreground antialiased font-sans pb-28 md:pb-8">
-        <JsonLd data={localBusinessSchema()} />
+        <JsonLd data={[localBusinessSchema(), webSiteSchema()]} />
         {children}
       </body>
     </html>
