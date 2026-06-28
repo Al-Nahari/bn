@@ -63,6 +63,13 @@ export default async function Page({
     .filter(Boolean);
   const leadParagraph = summaryParagraphs[0] ?? service.description;
 
+  // Related services
+  const relatedServices = service.relatedServices
+    ? service.relatedServices
+        .map((id: string) => services.find((s) => s.id === id))
+        .filter(Boolean)
+    : [];
+
   const jsonLd = [
     serviceSchema({
       name: service.shortTitle ?? service.title,
@@ -80,8 +87,15 @@ export default async function Page({
   return (
     <>
       <JsonLd data={jsonLd} />
+      <a
+        href="#main-content"
+        className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:right-4 focus:z-[100] focus:bg-white focus:px-4 focus:py-2 focus:rounded focus:shadow-lg focus:text-primary focus:font-semibold"
+      >
+        انتقل إلى المحتوى الرئيسي
+      </a>
       <Header />
       <main className="pt-4" id="main-content">
+        {/* Hero Section */}
         <section className="bg-gradient-desert py-12 md:py-16">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
@@ -106,7 +120,7 @@ export default async function Page({
 
                   {service.regions && service.regions.length > 0 && (
                     <div className="flex flex-wrap gap-2 mb-8">
-                      {service.regions.map((region) => (
+                      {service.regions.map((region: string) => (
                         <span
                           key={region}
                           className="rounded-full bg-white/80 border border-coffee-medium/20 px-3 py-1 text-xs font-medium text-coffee-dark"
@@ -120,6 +134,7 @@ export default async function Page({
                   <div className="flex flex-col sm:flex-row gap-3">
                     <a
                       href={`tel:${companyInfo.phone}`}
+                      aria-label={`اتصل بنا لـ ${service.shortTitle}`}
                       className="inline-flex items-center justify-center gap-2 bg-gradient-primary text-white px-8 py-4 rounded-xl text-lg font-semibold hover:shadow-xl transition-all shadow-lg"
                     >
                       <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" aria-hidden>
@@ -131,6 +146,7 @@ export default async function Page({
                       href={`https://wa.me/${companyInfo.whatsapp}`}
                       target="_blank"
                       rel="noopener noreferrer"
+                      aria-label={`واتساب لاستفسار عن ${service.shortTitle}`}
                       className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-green-600 to-green-700 text-white px-8 py-4 rounded-xl text-lg font-semibold hover:shadow-xl transition-all shadow-lg"
                     >
                       واتساب
@@ -141,7 +157,7 @@ export default async function Page({
                 <div className="relative aspect-[4/3] lg:aspect-auto lg:h-[420px] rounded-2xl overflow-hidden shadow-2xl order-1 lg:order-2">
                   <Image
                     src={service.image}
-                    alt={`${service.shortTitle} — تركيب في الرياض`}
+                    alt={`${service.shortTitle} — تركيب احترافي في الرياض`}
                     fill
                     className="object-cover"
                     sizes="(max-width: 1024px) 100vw, 50vw"
@@ -154,11 +170,12 @@ export default async function Page({
           </div>
         </section>
 
+        {/* Description */}
         <section className="py-14 md:py-16 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto">
               <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
-                عن الخدمة
+                عن خدمة {service.shortTitle} في الرياض
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
                 {leadParagraph}
@@ -175,7 +192,7 @@ export default async function Page({
                     </span>
                   </summary>
                   <div className="mt-6 space-y-4 text-muted-foreground leading-relaxed">
-                    {summaryParagraphs.slice(1).map((paragraph, index) => (
+                    {summaryParagraphs.slice(1).map((paragraph: string, index: number) => (
                       <p key={index}>{paragraph}</p>
                     ))}
                   </div>
@@ -185,14 +202,15 @@ export default async function Page({
           </div>
         </section>
 
+        {/* Features */}
         <section className="py-14 md:py-16 bg-gradient-desert" aria-labelledby="features-heading">
           <div className="container mx-auto px-4">
             <div className="max-w-5xl mx-auto">
               <h2 id="features-heading" className="text-2xl md:text-3xl font-bold text-foreground mb-10 text-center">
-                مميزات الخدمة
+                مميزات {service.shortTitle}
               </h2>
               <ul className="grid sm:grid-cols-2 gap-5">
-                {service.features.map((feature, index) => (
+                {service.features.map((feature: string, index: number) => (
                   <li
                     key={index}
                     className="flex items-start gap-4 p-5 bg-white rounded-xl shadow-sm border border-coffee-medium/10"
@@ -210,16 +228,17 @@ export default async function Page({
           </div>
         </section>
 
+        {/* Gallery */}
         {galleryImages.length > 0 && (
           <section className="py-14 md:py-16 bg-white" aria-labelledby="gallery-heading">
             <div className="container mx-auto px-4">
               <div className="max-w-6xl mx-auto">
                 <div className="text-center mb-12">
                   <h2 id="gallery-heading" className="text-2xl md:text-3xl font-bold text-foreground mb-3">
-                    معرض أعمال {service.shortTitle}
+                    معرض أعمال {service.shortTitle} في الرياض
                   </h2>
                   <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-                    صور حقيقية من مشاريعنا — {galleryImages.length} عمل في الرياض
+                    صور حقيقية من مشاريعنا المنفذة — {galleryImages.length} مشروع في الرياض
                   </p>
                 </div>
                 <GalleryLightbox images={galleryImages} title={service.title} />
@@ -228,15 +247,16 @@ export default async function Page({
           </section>
         )}
 
+        {/* FAQ */}
         {service.faq && service.faq.length > 0 && (
           <section className="py-14 md:py-16 bg-gradient-desert" aria-labelledby="faq-heading">
             <div className="container mx-auto px-4">
               <div className="max-w-3xl mx-auto">
                 <h2 id="faq-heading" className="text-2xl md:text-3xl font-bold text-foreground mb-8 text-center">
-                  الأسئلة الشائعة
+                  الأسئلة الشائعة عن {service.shortTitle}
                 </h2>
                 <div className="space-y-3">
-                  {service.faq.map((item, index) => (
+                  {service.faq.map((item: { question: string; answer: string }, index: number) => (
                     <details
                       key={index}
                       className="group bg-white border border-coffee-medium/15 rounded-xl p-5 hover:border-coffee-medium/30 transition-colors"
@@ -258,10 +278,53 @@ export default async function Page({
           </section>
         )}
 
+        {/* Related Services */}
+        {relatedServices.length > 0 && (
+          <section className="py-14 md:py-16 bg-white" aria-labelledby="related-heading">
+            <div className="container mx-auto px-4">
+              <div className="max-w-5xl mx-auto">
+                <h2 id="related-heading" className="text-2xl md:text-3xl font-bold text-foreground mb-8 text-center">
+                  خدمات ذات صلة
+                </h2>
+                <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+                  {relatedServices.map((related: any) => (
+                    <Link
+                      key={related.id}
+                      href={`/${related.slug}`}
+                      className="group flex flex-col bg-gradient-desert rounded-2xl overflow-hidden border border-coffee-medium/15 hover:border-coffee-medium/40 hover:shadow-lg transition-all"
+                    >
+                      <div className="relative aspect-[16/9] overflow-hidden">
+                        <Image
+                          src={related.image}
+                          alt={`${related.shortTitle} في الرياض`}
+                          fill
+                          className="object-cover group-hover:scale-105 transition-transform duration-500"
+                          sizes="(max-width: 768px) 100vw, 33vw"
+                          quality={70}
+                        />
+                      </div>
+                      <div className="p-5">
+                        <h3 className="font-bold text-foreground mb-2 group-hover:text-coffee-medium transition-colors">
+                          {related.shortTitle}
+                        </h3>
+                        <p className="text-sm text-muted-foreground line-clamp-2">{related.description}</p>
+                        <span className="inline-block mt-3 text-sm font-semibold text-coffee-medium">
+                          اعرف المزيد ←
+                        </span>
+                      </div>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* CTA */}
         <section className="py-14 bg-coffee-espresso text-white">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
-              جاهزون لتركيب {service.shortTitle} في موقعك
+              جاهزون لتركيب {service.shortTitle} في موقعك بالرياض
             </h2>
             <p className="text-white/80 mb-8 max-w-xl mx-auto">
               معاينة مجانية وعرض سعر خلال 24 ساعة — اتصل أو راسلنا على الواتساب
