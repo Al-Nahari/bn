@@ -18,16 +18,22 @@ const Testimonials = dynamic(() => import('@/components/Testimonials'), {
 });
 
 export const metadata: Metadata = buildPageMetadata({
-  title: `${companyInfo.name} | مظلات وسواتر الرياض — تركيب احترافي`,
+  title: `${companyInfo.name} | مظلات وسواتر الرياض — تركيب احترافي بضمان`,
   description: companyInfo.seoDescription,
   path: '/',
   keywords: [
-    'مظلات وسواتر الرياض',
-    'شركة مظلات الرياض',
-    'سواتر حديد الرياض',
-    'مظلات سيارات',
+    'مظلات الرياض',
+    'سواتر الرياض',
+    'مظلات سيارات الرياض',
+    'تركيب مظلات',
     'تركيب سواتر',
+    'برجولات الرياض',
+    'هناجر الرياض',
+    'شركة مظلات الرياض',
     'أسعار مظلات الرياض',
+    'سواتر حديد الرياض',
+    'مظلات حدائق الرياض',
+    'مظلات مسابح الرياض',
   ],
 });
 
