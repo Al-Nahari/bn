@@ -181,22 +181,11 @@ export default async function Page({
                 {leadParagraph}
               </p>
               {summaryParagraphs.length > 1 && (
-                <details className="group rounded-2xl border border-coffee-medium/15 bg-muted/30 p-6">
-                  <summary className="cursor-pointer font-semibold text-foreground list-none flex items-center justify-between gap-4">
-                    <span>اقرأ التفاصيل الكاملة</span>
-                    <span
-                      className="text-coffee-medium transition-transform group-open:rotate-180"
-                      aria-hidden
-                    >
-                      ▼
-                    </span>
-                  </summary>
-                  <div className="mt-6 space-y-4 text-muted-foreground leading-relaxed">
-                    {summaryParagraphs.slice(1).map((paragraph: string, index: number) => (
-                      <p key={index}>{paragraph}</p>
-                    ))}
-                  </div>
-                </details>
+                <div className="space-y-4 text-muted-foreground leading-relaxed">
+                  {summaryParagraphs.slice(1).map((paragraph: string, index: number) => (
+                    <p key={index}>{paragraph}</p>
+                  ))}
+                </div>
               )}
             </div>
           </div>
