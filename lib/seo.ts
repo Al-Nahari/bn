@@ -100,20 +100,15 @@ export function localBusinessSchema() {
       height: 512,
     },
     image: absoluteUrl(DEFAULT_OG_IMAGE),
+    // Service-Area Business: لا يوجد مكتب استقبال فعلي، لذا لا نضع عنوان شارع دقيق
+    // (وضع عنوان وهمي يخالف إرشادات Google ويعرّض النطاق لخطر الرفض)
     address: {
       '@type': 'PostalAddress',
-      streetAddress: 'الرياض',
       addressLocality: 'الرياض',
       addressRegion: 'منطقة الرياض',
-      postalCode: '11564',
       addressCountry: 'SA',
     },
-    geo: {
-      '@type': 'GeoCoordinates',
-      latitude: 24.7136,
-      longitude: 46.6753,
-    },
-    hasMap: 'https://maps.google.com/?q=الرياض+المملكة+العربية+السعودية',
+    // نطاق تغطية الخدمة بدلاً من موقع ثابت — أدق تمثيلاً لعمل ميداني بالكامل
     areaServed: [
       { '@type': 'City', name: 'الرياض' },
       { '@type': 'AdministrativeArea', name: 'منطقة الرياض' },
@@ -210,6 +205,66 @@ export function collectionPageSchema({
     numberOfItems,
     inLanguage: 'ar-SA',
     publisher: { '@id': `${SITE_URL}/#organization` },
+  };
+}
+
+/** ImageGallery schema — لصفحات المعارض ومشاريع الأعمال */
+export function imageGallerySchema({
+  name,
+  description,
+  path,
+  images,
+}: {
+  name: string;
+  description: string;
+  path: string;
+  images: { url: string; caption: string }[];
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ImageGallery',
+    name,
+    description,
+    url: absoluteUrl(path),
+    inLanguage: 'ar-SA',
+    publisher: { '@id': `${SITE_URL}/#organization` },
+    associatedMedia: images.map((img) => ({
+      '@type': 'ImageObject',
+      contentUrl: absoluteUrl(img.url),
+      caption: img.caption,
+    })),
+  };
+}
+
+/** Article schema — لصفحات دراسة الحالة (مشاريع الأعمال) والمدونة مستقبلاً */
+export function articleSchema({
+  headline,
+  description,
+  path,
+  image,
+  datePublished,
+  dateModified,
+}: {
+  headline: string;
+  description: string;
+  path: string;
+  image: string;
+  datePublished: string;
+  dateModified?: string;
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline,
+    description,
+    image: [absoluteUrl(image)],
+    url: absoluteUrl(path),
+    inLanguage: 'ar-SA',
+    datePublished,
+    dateModified: dateModified ?? datePublished,
+    author: { '@id': `${SITE_URL}/#organization` },
+    publisher: { '@id': `${SITE_URL}/#organization` },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': absoluteUrl(path) },
   };
 }
 
