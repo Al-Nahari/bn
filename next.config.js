@@ -3,6 +3,8 @@ const nextConfig = {
   reactStrictMode: true,
   productionBrowserSourceMaps: false,
   staticPageGenerationTimeout: 120,
+  poweredByHeader: false, // إخفاء X-Powered-By لأسباب أمنية
+  compress: true,
 
   experimental: {
     optimizePackageImports: ['@fontsource/noto-sans-arabic'],
