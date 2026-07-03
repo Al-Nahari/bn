@@ -34,21 +34,26 @@ export default function RootLayout({
   return (
     <html lang="ar" dir="rtl">
       <head>
-        <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18284996022"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-18284996022');
-</script>
+ 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <Script
           src="https://analytics.ahrefs.com/analytics.js"
           data-key="II/GkLP/+KLeAbY+8lLp0w"
           strategy="afterInteractive"
         />
+          {/* Google Ads Tag */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-18284996022"
+          strategy="afterInteractive"
+        />
+        <Script id="google-ads" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-18284996022');
+          `}
+        </Script>
       </head>
       <body className="bg-background text-foreground antialiased font-sans pb-28 md:pb-8">
         <JsonLd data={[localBusinessSchema(), webSiteSchema()]} />
