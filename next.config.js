@@ -43,18 +43,32 @@ const nextConfig = {
             key: 'Permissions-Policy',
             value: 'camera=(), microphone=(), geolocation=()',
           },
-          {
-            key: 'Content-Security-Policy',
-            value: [
-              "default-src 'self'",
-              "script-src 'self' 'unsafe-inline' analytics.ahrefs.com",
-              "style-src 'self' 'unsafe-inline' fonts.googleapis.com",
-              "font-src 'self' fonts.gstatic.com data:",
-              "img-src 'self' data: blob: https:",
-              "connect-src 'self' analytics.ahrefs.com",
-              "frame-ancestors 'none'",
-            ].join('; '),
-          },
+         {
+  key: 'Content-Security-Policy',
+  value: [
+    "default-src 'self'",
+
+    "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com https://analytics.ahrefs.com",
+
+    "script-src-elem 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com https://analytics.ahrefs.com",
+
+    "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
+
+    "font-src 'self' https://fonts.gstatic.com data:",
+
+    "img-src 'self' data: blob: https://www.google-analytics.com https://www.googletagmanager.com https://www.googleadservices.com https://googleads.g.doubleclick.net https:",
+
+    "connect-src 'self' https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://analytics.ahrefs.com",
+
+    "frame-src https://www.googletagmanager.com",
+
+    "frame-ancestors 'none'",
+
+    "base-uri 'self'",
+
+    "form-action 'self'",
+  ].join('; '),
+},
         ],
       },
       {
