@@ -22,7 +22,11 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
-    googleBot: { index: true, follow: true, 'max-image-preview': 'large' },
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-image-preview': 'large',
+    },
   },
 };
 
@@ -34,18 +38,41 @@ export default function RootLayout({
   return (
     <html lang="ar" dir="rtl">
       <head>
- 
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
+
+        {/* Ahrefs Analytics */}
         <Script
           src="https://analytics.ahrefs.com/analytics.js"
           data-key="II/GkLP/+KLeAbY+8lLp0w"
           strategy="afterInteractive"
         />
-          {/* Google Ads Tag */}
+
+        {/* Google Tag Manager */}
+        <Script id="google-tag-manager" strategy="afterInteractive">
+          {`
+            (function(w,d,s,l,i){
+              w[l]=w[l]||[];
+              w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
+              var f=d.getElementsByTagName(s)[0],
+                  j=d.createElement(s),
+                  dl=l!='dataLayer' ? '&l='+l : '';
+              j.async=true;
+              j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+              f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-MM7B4XD3');
+          `}
+        </Script>
+
+        {/* Google Ads Tag */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-18284996022"
           strategy="afterInteractive"
         />
+
         <Script id="google-ads" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
@@ -55,8 +82,20 @@ export default function RootLayout({
           `}
         </Script>
       </head>
+
       <body className="bg-background text-foreground antialiased font-sans pb-28 md:pb-8">
+        {/* Google Tag Manager (noscript) */}
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-MM7B4XD3"
+            height="0"
+            width="0"
+            style={{ display: 'none', visibility: 'hidden' }}
+          />
+        </noscript>
+
         <JsonLd data={[localBusinessSchema(), webSiteSchema()]} />
+
         {children}
       </body>
     </html>
