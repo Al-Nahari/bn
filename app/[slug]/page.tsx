@@ -9,12 +9,26 @@ import Link from 'next/link';
 import ContactButton from '@/components/Contact';
 import GalleryLightbox from '@/components/GalleryLightbox';
 import { mergeServiceGallery } from '@/lib/gallery';
+import ComparisonTable from '@/components/ComparisonTable';
+import BaladyCompliance from '@/components/BaladyCompliance';
+import { getMaterialsForService } from '@/lib/materials';
 import {
   breadcrumbSchema,
   buildPageMetadata,
   faqPageSchema,
   serviceSchema,
 } from '@/lib/seo';
+
+/** الخدمات اللي فيها تركيب خارجي (مواقف/واجهات) وتحتاج توضيح الالتزام باشتراطات بلدي */
+const EXTERIOR_SERVICE_IDS = new Set([
+  'mazallat-sayarat-riyadh',
+  'mazallat-mutaharrika-riyadh',
+  'mazallat-haramiya-riyadh',
+  'mazallat-maqousa-riyadh',
+  'mazallat-madaris-riyadh',
+  'sawatr-hadid-riyadh',
+  'sawatr-laser-riyadh',
+]);
 
 export async function generateStaticParams() {
   return services.map((service) => ({ slug: service.slug }));
@@ -57,6 +71,8 @@ export default async function Page({
   }
 
   const galleryImages = mergeServiceGallery(service.slug, service.gallery ?? []);
+  const serviceMaterials = getMaterialsForService(service.id);
+  const isExteriorService = EXTERIOR_SERVICE_IDS.has(service.id);
   const summaryParagraphs = service.fullDescription
     .trim()
     .split(/\n\n+/)
@@ -227,6 +243,15 @@ export default async function Page({
             </div>
           </div>
         </section>
+
+        {/* Comparison Table */}
+        <ComparisonTable
+          materials={serviceMaterials}
+          title={`مقارنة الخامات المناسبة لـ ${service.shortTitle}`}
+        />
+
+        {/* Balady Compliance — للخدمات الخارجية فقط */}
+        {isExteriorService && <BaladyCompliance />}
 
         {/* Gallery */}
         {galleryImages.length > 0 && (
